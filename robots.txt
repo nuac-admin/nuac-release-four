@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /images/
+Disallow: /v2/
+Disallow: /v1committee/
+Disallow: /v1images/
+Disallow: /v1matches/
+Disallow: /v1news/
+Disallow: /v1styles/
+Disallow: /v1waters/
+Disallow: /v2images/
+Disallow: /v2matches/
+Disallow: /v2news/
+Disallow: /v2styles/
+Disallow: /v2waters/

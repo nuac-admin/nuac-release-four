@@ -1,0 +1,33 @@
+.navbar-custom{
+    color: $navColour;
+    padding: $navLogoPadding;
+}
+.navbar-text {
+    margin-top: ((($navbar-height - $line-height-computed) / 2) - $navLogoPadding);
+    margin-bottom: (($navbar-height - $line-height-computed) / 2);
+    // display: inline;
+}
+.icon-img{
+    height: $navLogoHeight;
+    width:  $navLogoHeight;
+}
+.navbar-fa-icon{
+    padding: (($navbarHeight - $navIconHeight) / 2);
+}
+/* This is to float the social icons to the right */
+.social-icons {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+}
+/* This is to hide icons on big screens */
+@media (min-width: $screen-sm) {
+    // .navbar>.container-fluid .navbar-brand {
+    //     margin-left: -19px;
+    // }
+    
+    .social-icons {
+      display:none !important;
+    } 
+}
+  

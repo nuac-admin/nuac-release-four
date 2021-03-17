@@ -1,0 +1,45 @@
+/* Enable google maps to refresh within tabs */
+.tab-content > .tab-pane {
+    display: block;
+    height:0;
+    overflow:hidden;
+}
+.tab-content > .active {
+    display: block;
+    height:auto;
+}
+.nav-tabs > li> a  {
+    margin-right:2px;
+    line-height:1.42857143;
+    border:1px solid transparent;
+    border-radius:4px 4px 0 0;
+    background-color:#eee;
+}
+// *[id]:before { 
+//     display: block; 
+//     content: " "; 
+//     margin-top: (-$navbarHeight * 2) - 10px; /* negative fixed header height */
+//     height: ($navbarHeight * 2) + 10px; /* fixed header height*/
+//     visibility: hidden; 
+// }
+/* enable anchors to display allowing for fixed header & button */
+// :target::before {
+//     content: "";
+//     display: block;
+//     height: ($navbarHeight * 2) + 10px; /* fixed header height*/
+//     margin: (-$navbarHeight * 2) - 10px 0 0; /* negative fixed header height */
+// }
+// .offset:before { 
+//     display: block; 
+//     content: " "; 
+//     height: 150px;      /* Give height of your fixed element */
+//     margin-top: -150px; /* Give negative margin of your fixed element */   
+//     visibility: hidden; 
+// }
+// div[id]:before {
+//     display: block;
+//     content:        "";
+//     height:         380px;   /* equal to the header height */
+//     margin-top:     -380px;  /* negative margin equal to the header height */
+//     visibility:     hidden;
+// }

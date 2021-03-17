@@ -1,0 +1,14 @@
+.fa-caret-down{
+  transition: transform 0ms ease-in;
+}
+.fa-caret-down.rotate-180{
+  transform: rotate(180deg);
+  transition: transform 0ms ease-in;
+}
+.fa-caret-up{
+  transition: transform 0ms ease-in;
+}
+.fa-caret-up.rotate-180{
+  transform: rotate(180deg);
+  transition: transform 0ms ease-in;
+}

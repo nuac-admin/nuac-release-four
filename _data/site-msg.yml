@@ -1,0 +1,4 @@
+site-msg-ind: true
+site-messages:
+  - msg-type: warning
+    msg-desc: <strong>NUAC facilities remain CLOSED until further notice,</strong> please see the relevant [news item](../news/news.html) for more information.

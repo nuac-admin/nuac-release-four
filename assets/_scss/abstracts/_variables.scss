@@ -1,0 +1,41 @@
+$navColour:             #003cff;//#eeeeee;
+// $navBgColour: #ffffff;
+
+$body-bg-colour:        #eeeeee;
+$tt-bg-colour:          darken($body-bg-colour,70%);
+$tt-txt-colour:         #fff;
+$index-bg-colour:       #fff;
+
+$thnail-bg-colour: darken($index-bg-colour, 1%); //lighten($colour-success,50%); //lighten(#b4dfb4, 9.5%); //lighten($green,28.5%);
+$thnail-txt-colour: #000; //$brand-primary;
+$label-txt-color: $thnail-txt-colour;
+$label-red-bg:  #d53e39;
+$label-red-bg-txt: #fff;
+
+$page-padding-bottom:   20px;
+
+$navbarHeight:          55px;
+$navLogoHeight:         45px;
+$navLogoPadding: (($navbarHeight - $navLogoHeight) / 2);
+$navIconHeight:         34px;
+
+$pageMinHeight:         800px;
+
+$hdr-colour:            #ffcc24; //#ffc300;
+
+$brand-primary-nuac:    #003cff;
+
+$thumbnail-override-bg: $brand-primary-nuac;
+$caption-weight:        bold;
+
+$section-bg-colour:     #ffffff;
+$section-pad-T-B:       10px;
+$section-pad-L-R:       16px;
+
+$direction-pad-T-B:     10px;
+
+$breakpoint-xs: 390px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;

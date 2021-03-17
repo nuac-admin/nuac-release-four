@@ -1,0 +1,215 @@
+
+venues:
+- {name: The Grove, folder: 'waters/', file: 'grove.html', source: 'grove.md'}
+- {name: Shallowbrook, folder: 'waters/', file: 'shallowbrook.html', source: 'shallowbrook.md'}
+- {name: River Yare, folder: 'waters/', file: 'yare.html', source : 'yare.md'}
+- {name: River Wensum, folder: 'waters/', file: 'wensum.html', source: 'wensum.md'}
+- {name: Hall Walk, folder: 'waters/', file: 'hallwalk.html', source: 'hallwalk.md'}
+- {name: Bridge Inn, folder: 'waters/', file: 'bridge.html', source: 'bridge.md'}
+- {name: Trinity Broads, folder: 'waters/', file: 'trinity.html', source: 'trinity.md'}
+- {name: Hickling Broad, folder: 'waters/', file: 'hickling.html', source: 'hickling.md'}
+- {name: River Bure, folder: 'waters/', file: 'bure.html', source: 'bure.md'}
+- {name: Snetterton Pits, folder: 'waters/', file: 'snetterton.html', source: 'snetterton.md'}
+- {name: Norwich & District AA, folder: 'waters/', file: 'ndaa.html', source: 'ndaa.md'}
+
+waters:
+  name: The Grove
+  folder: 'waters/'
+  file: 'grove.html'
+  source: 'grove.md'
+  open-img: grove-open-tile.jpg
+  closed-img: grove-closed-tile.jpg
+  labels:
+  - label-type: warning
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Display Car Permit
+  - label-type: info
+    label-tt-ind: true
+    label-tt-type: guest
+    label-desc: Guests
+  - label-type: info
+    label-tt-ind: true
+    label-tt-type: u16
+    label-desc: Children Allowed
+  name: River Yare
+  folder: 'waters/'
+  file: 'yare.html'
+  source: 'yare.md'
+  open-img: yare-open-tile.jpg
+  closed-img: yare-closed-tile.jpg
+  labels:
+  - label-type: warning
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Display Car Permit
+  - label-type: warning
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: No Guests
+  - label-type: info
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Day Ticket
+  - label-type: info
+    label-tt-ind: true
+    label-tt-type: u16
+    label-desc: Children Allowed
+  - label-type: info
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Open 16 Jun - 14 Mar
+  name: Hall Walk
+  folder: 'waters/'
+  file: 'hallwalk.html'
+  source: 'hallwalk.md'
+  open-img: hallwalk-open-tile.jpg
+  closed-img: hallwalk-closed-tile.jpg
+  labels:
+  - label-type: danger
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Booking
+  - label-type: warning
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Display Car Permit
+  - label-type: warning
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: No Guests
+  name: Bridge Inn
+  folder: 'waters/'
+  file: 'bridge.html'
+  source: 'bridge.md'
+  open-img: bridge-open-tile.jpg
+  closed-img: bridge-closed-tile.jpg
+  labels:
+  - label-type: danger
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Booking
+  - label-type: warning
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Display Car Permit
+  - label-type: warning
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: No Guests
+  - label-type: info
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Day Ticket
+  name: Trinity Broads
+  folder: 'waters/'
+  file: 'trinity.html'
+  source: 'trinity.md'
+  open-img: trinity-open-tile.jpg
+  closed-img: trinity-closed-tile.jpg
+  labels:
+  - label-type: danger
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Booking
+  - label-type: warning
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Display Car Permit
+  - label-type: info
+    label-tt-ind: true
+    label-tt-type: guest
+    label-desc: Guests
+  - label-type: info
+    label-tt-ind: true
+    label-tt-type: u16-boat
+    label-desc: Children Allowed
+  - label-type: info
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Boat Fishing
+  - label-type: info
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Open 16 Jun - 14 Mar
+  name: Hickling Broad
+  folder: 'waters/'
+  file: 'hickling.html'
+  source: 'hickling.md'
+  open-img: hickling-open-tile.jpg
+  closed-img: hickling-closed-tile.jpg
+  labels:
+  - label-type: danger
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Booking
+  - label-type: warning
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Display Car Permit
+  - label-type: info
+    label-tt-ind: true
+    label-tt-type: guest
+    label-desc: Guests
+  - label-type: info
+    label-tt-ind: true
+    label-tt-type: u16-boat
+    label-desc: Children Allowed
+  - label-type: info
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Boat Fishing
+  - label-type: info
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Open 16 Jun - 14 Mar
+  name: Snetterton Pits
+  folder: 'waters/'
+  file: 'snetterton.html'
+  source: 'snetterton.md'
+  open-img: snetterton-open-tile.jpg
+  closed-img: snetterton-closed-tile.jpg
+  labels:
+  - label-type: danger
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Booking
+  - label-type: warning
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Display Car Permit
+  - label-type: warning
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: No Guests
+  - label-type: info
+    label-tt-ind: true
+    label-tt-type: Charge
+    label-desc: Day Ticket
+  name: Norwich & District AA
+  folder: 'waters/'
+  file: 'ndaa.html'
+  source: 'ndaa.md'
+  open-img: ndaa-open-tile.jpg
+  closed-img: ndaa-closed-tile.jpg
+  labels:
+  - label-type: danger
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Booking
+  - label-type: warning
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Display Car Permit
+  - label-type: info
+    label-tt-ind: true
+    label-tt-type: guest
+    label-desc: Guests
+  - label-type: info
+    label-tt-ind: true
+    label-tt-type: u16-decoy
+    label-desc: Children Allowed
+  - label-type: info
+    label-tt-ind: false
+    label-tt-type: null
+    label-desc: Open 16 Jun - 14 Mar

@@ -1,0 +1,54 @@
+grove-open-ind: false
+grove-msg-ind: false
+grove-msg-box-type: warning
+grove-messages:
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)</strong>
+
+yare-open-ind: false
+yare-msg-ind: false
+yare-msg-box-type: warning
+yare-messages:
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)</strong>
+
+hw-open-ind: false
+hw-msg-ind: false
+hw-msg-box-type: warning
+hw-messages:
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)</strong>
+
+bif-open-ind: false
+bif-msg-ind: false
+bif-msg-box-type: warning
+bif-messages:
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)</strong>
+
+fib-open-ind: false
+fib-msg-ind: false
+fib-msg-box-type: warning
+fib-messages:
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)</strong>
+
+hib-open-ind: false
+hib-msg-ind: false
+hib-msg-box-type: warning
+hib-messages:
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)</strong>
+
+snp-open-ind: false
+snp-msg-ind: false
+snp-msg-box-type: warning
+snp-messages:
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)</strong>
+
+ndaa-open-ind: false
+ndaa-msg-ind: false
+ndaa-messages:
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)</strong>

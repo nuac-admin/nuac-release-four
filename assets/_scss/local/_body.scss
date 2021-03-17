@@ -1,0 +1,74 @@
+.body-theme{
+    background-color:   $body-bg-colour;
+    background-image:   -webkit-gradient(linear, left 0%, left 100%, from(#999), to(#000));
+    background-image:   -webkit-linear-gradient(top, #999, 0%, #000, 100%);
+    background-image:   -moz-linear-gradient(top, #999 0%, #000 100%);
+    background-image:   linear-gradient(to bottom, #999 0%, #000 100%);
+    padding-top:        $navbarHeight;
+    min-height:         $pageMinHeight;
+}
+
+.label {
+    display: inline-block;
+    font-size: 0.88em;
+    margin: 0.1em;
+
+    &-danger {
+        color: $label-red-bg-txt;
+    }
+
+}
+
+.tooltip .tooltiptext {
+    font-size: 0.8em;
+}
+
+// .thumbnail {
+//     // overflow: hidden;
+// }
+
+.bottom-spacer {
+    padding-bottom: 20px;
+}
+.bottom-spacer-2 {
+    padding-bottom: 2px;
+}
+.bottom-spacer-5 {
+    padding-bottom: 5px;
+}
+.top-spacer {
+    padding-top: 20px;
+}
+.top-spacer-5 {
+    padding-top: 5px;
+}
+
+.committee-listing .row {
+    
+    &:first-child {
+        // background-color: red;
+        font-weight: bold;
+    }
+
+    &:nth-child(2n) {
+        // color: $navbar-light-color;
+        background-color: $gray-lighter;
+      }
+
+}
+
+@media (max-width: $screen-sm-max) {
+    .name, .role, .contact {
+        padding-bottom: 0.5em;
+    }
+}
+
+@media (min-width: $screen-sm-min) {
+    .name, .role, .contact {
+        padding-bottom: 0;
+    }
+}
+
+.alert-danger .indicator {
+    margin-right: 0.5em; padding: 0.2em; color: black; background-color: yellow;
+}

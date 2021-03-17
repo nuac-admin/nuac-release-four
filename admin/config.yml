@@ -1,0 +1,55 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+# These lines should *not* be indented
+publish_mode: editorial_workflow
+media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
+# collections:
+#   - label: "Manage NDAA Information"
+#     name: "global"
+#     files:
+#       - label: "Cover Page"
+#         name: "cover"
+#         file: "_data/cover.yml"
+#         fields:
+#           - { label: "Cover Message Indicator", name: "cover-msg-ind", widget: "boolean" }
+#           - label: "Cover Messages"
+#             name: "cover-messages"
+#             widget: "list"
+#             fields:
+#               - {label: "Cover Message Type", name: "msg-type", widget: "select", options: ["warning", "info"]}
+#               - {label: "Cover Message Description", name: "cvr-msg", widget: "markdown", hint: "Add message detail"}
+#       - label: "Membership Info"
+#         name: "membership"
+#         file: "_data/membership.yml"
+#         fields:
+#           - { label: "Introduction", name: "intro-desc", widget: "markdown" }
+#           - { label: "Fee Message Indicator", name: "alert-msg-ind", widget: "boolean" }
+#           - label: "Fee Message"
+#             name: "alert-messages"
+#             widget: "list"
+#             fields:
+#               - {label: "Fee Message Type", name: "alert-type", widget: "select", options: ["warning", "info"]}
+#               - {label: "Fee Message Description", name: "alert-msg", widget: "markdown", hint: "Indicate latest Fee changes"}
+#           - label: "Fee Options"
+#             name: "options"
+#             widget: "list"
+#             fields:
+#               - {label: "Fee Option Description", name: "option-desc", widget: "markdown", hint: "Blank row = <p>&nbsp</p>"}              
+#       - label: "Stockists"
+#         name: "stockists"
+#         file: "_data/stockists.yml"
+#         fields:
+#           - label: "Stockists"
+#             name: "stockists"
+#             widget: "list"
+#             fields:
+#               - {label: "Name", name: "name", widget: "string", hint: "PW Angling"}
+#               - {label: "Address Line 1", name: "addr-1", widget: "string", hint: "57 Long John Hill"}
+#               - {label: "Address Line 2", name: "addr-2", widget: "string", default: "null", hint: "Norwich"}
+#               - {label: "Address Line 3", name: "addr-3", widget: "string", default: "null", required: false}
+#               - {label: "Address Line 4", name: "addr-4", widget: "string", default: "null", required: false}
+#               - {label: "Post Code", name: "postcode", widget: "string", pattern: ["[A-IK-PR-UWYZ]?[A-H,K-Y][0-9]?[0-9A-HJKMNP-Y][ ][0-9][ABD-HJLNP-UW-Z][ABD-HJLNP-UW-Z]", "Must be a valid UK Postcode"], hint: "NRnn nAX"}
+#               - {label: "Logo", name: "logo", widget: "hidden", default: "null"}
+#               - {label: "URL Type", name: "url-type", widget: "select", options: ["web", "fb"], hint: "select website or facebook"}
+#               - {label: "URL Reference", name: "url", widget: "string", hint: "Enter website or facebook https:// address"}

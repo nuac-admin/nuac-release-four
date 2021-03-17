@@ -1,0 +1,56 @@
+.non-header {
+    background-color:  $body-bg-colour;
+    padding-bottom:    $page-padding-bottom;
+    min-height:        $pageMinHeight;
+
+    ol {
+        margin: 0;
+        padding-inline-start: 3.25rem;
+       
+        & > li {
+            margin-top: 0;
+            margin-bottom:      0.6em;
+        }        
+    }
+    
+}
+
+.f-right {
+    float: right;
+}
+.pad-r-5{
+    padding-right: 5px;
+}
+
+#water-desc, #water-rules, #water-map, #image-gallery, #media-gallery, #water-booking, .NI-format, .info-format {
+    padding: $section-pad-T-B $section-pad-L-R;
+    background-color: $section-bg-colour;
+
+    h1, h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+// .NI-format>ul, ol {
+//         padding-inline-start: 1.75rem;
+//     }
+
+.tab-content-ndaa {
+    padding:    $direction-pad-T-B 0;
+}
+
+.nopadding {
+    padding: 0;
+    margin: 0;
+}
+
+.nopaddingR {
+    padding: 0px 0px 0px 15px;
+    margin: 0;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
