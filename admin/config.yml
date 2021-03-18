@@ -10,7 +10,7 @@ collections:
     name: "global"
     files:
       - label: "Common Water Messages"
-        name: "site messages"
+        name: "site-msg"
         file: "_data/site-msg.yml"
         fields:
           - { label: "Common Message Indicator", name: "msg-ind", widget: "boolean" }
@@ -22,7 +22,7 @@ collections:
               - {label: "Message Type", name: "msg-type", widget: "select", options: ["danger", "warning", "info"]}
               - {label: "Message Description", name: "msg-desc", widget: "markdown", hint: "Enter message to show on each Waters page"}
       - label: "Specific Messages Per Water"
-        name: "water messages"
+        name: "water-msg"
         file: "_data/water-msg.yml"
         fields:
           - { label: "Grove Open", name: "grove-open-ind", widget: "boolean" }
