@@ -1,5 +1,6 @@
-msg-ind: true
+msg-ind: false
 box-type: danger
 messages:
   - msg-type: danger
-    msg-desc: NUAC facilities remain **CLOSED until further notice**, please see the relevant [news item](../news/news.html) for more information.
+    msg-desc: NUAC facilities remain **CLOSED until further notice**, please see the
+      relevant [news item](../news/news.html) for more information.
