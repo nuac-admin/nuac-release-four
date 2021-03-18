@@ -24,6 +24,7 @@ collections:
       - label: "Specific Messages Per Water"
         name: "water messages"
         file: "_data/water-msg.yml"
+        fields:
           - { label: "Grove Open", name: "grove-msg-ind", widget: "boolean" }
           - { label: "Grove Message Indicator", name: "grove-msg-ind", widget: "boolean" }
           - { label: "Grove Msg Box Type", name: "grove-box-type", widget: "select", options: ["danger", "warning", "info"] }
