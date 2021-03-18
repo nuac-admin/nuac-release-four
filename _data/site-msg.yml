@@ -1,4 +1,4 @@
-msg-ind: false
+msg-ind: true
 box-type: danger
 messages:
   - msg-type: danger
