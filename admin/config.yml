@@ -27,7 +27,7 @@ collections:
         fields:
           - { label: "Grove Open", name: "grove-open-ind", widget: "boolean" }
           - { label: "Grove Message Indicator", name: "grove-msg-ind", widget: "boolean" }
-          - { label: "Grove Msg Box Type", name: "grove-box-type", widget: "select", options: ["danger", "warning", "info"] }
+          - { label: "Grove Msg Box Type", name: "grove-msg-box-type", widget: "select", options: ["danger", "warning", "info"] }
           - label: "Grove Messages"
             name: "grove-messages"
             widget: "list"
@@ -36,7 +36,7 @@ collections:
               - {label: "Message Description", name: "msg-desc", widget: "markdown", hint: "Enter message to show on a given Waters page"}
           # - { label: "BIF Open", name: "bif-open-ind", widget: "boolean" }
           # - { label: "BIF Message Indicator", name: "bif-msg-ind", widget: "boolean" }
-          # - { label: "BIF Msg Box Type", name: "bif-box-type", widget: "select", options: ["danger", "warning", "info"] }
+          # - { label: "BIF Msg Box Type", name: "bif-msg-box-type", widget: "select", options: ["danger", "warning", "info"] }
           # - label: "BIF Messages"
           #   name: "bif-messages"
           #   widget: "list"
@@ -45,7 +45,7 @@ collections:
           #     - {label: "Message Description", name: "msg-desc", widget: "markdown", hint: "Enter message to show on a given Waters page"}
           # - { label: "Yare Open", name: "yare-open-ind", widget: "boolean" }
           # - { label: "Yare Message Indicator", name: "yare-msg-ind", widget: "boolean" }
-          # - { label: "Yare Msg Box Type", name: "yare-box-type", widget: "select", options: ["danger", "warning", "info"] }
+          # - { label: "Yare Msg Box Type", name: "yare-msg-box-type", widget: "select", options: ["danger", "warning", "info"] }
           # - label: "Yare Messages"
           #   name: "Yare-messages"
           #   widget: "list"
@@ -54,7 +54,7 @@ collections:
           #     - {label: "Message Description", name: "msg-desc", widget: "markdown", hint: "Enter message to show on a given Waters page"}
           # - { label: "Snetterton Open", name: "snp-open-ind", widget: "boolean" }
           # - { label: "Snetterton Message Indicator", name: "snp-msg-ind", widget: "boolean" }
-          # - { label: "Snetterton Msg Box Type", name: "snp-box-type", widget: "select", options: ["danger", "warning", "info"] }
+          # - { label: "Snetterton Msg Box Type", name: "snp-msg-box-type", widget: "select", options: ["danger", "warning", "info"] }
           # - label: "Snetterton Messages"
           #   name: "snp-messages"
           #   widget: "list"
@@ -63,7 +63,7 @@ collections:
           #     - {label: "Message Description", name: "msg-desc", widget: "markdown", hint: "Enter message to show on a given Waters page"}
           # - { label: "Trinity Broads Open", name: "fib-open-ind", widget: "boolean" }
           # - { label: "Trinity Broads Message Indicator", name: "fib-msg-ind", widget: "boolean" }
-          # - { label: "Trinity Broads Msg Box Type", name: "fib-box-type", widget: "select", options: ["danger", "warning", "info"] }
+          # - { label: "Trinity Broads Msg Box Type", name: "fib-msg-box-type", widget: "select", options: ["danger", "warning", "info"] }
           # - label: "Trinity Broads Messages"
           #   name: "fib-messages"
           #   widget: "list"
@@ -72,7 +72,7 @@ collections:
           #     - {label: "Message Description", name: "msg-desc", widget: "markdown", hint: "Enter message to show on a given Waters page"}
           # - { label: "Hall Walk Open", name: "hw-open-ind", widget: "boolean" }
           # - { label: "Hall Walk Message Indicator", name: "hw-msg-ind", widget: "boolean" }
-          # - { label: "Hall Walk Msg Box Type", name: "hw-box-type", widget: "select", options: ["danger", "warning", "info"] }
+          # - { label: "Hall Walk Msg Box Type", name: "hw-msg-box-type", widget: "select", options: ["danger", "warning", "info"] }
           # - label: "Hall Walk Messages"
           #   name: "hw-messages"
           #   widget: "list"
@@ -81,7 +81,7 @@ collections:
           #     - {label: "Message Description", name: "msg-desc", widget: "markdown", hint: "Enter message to show on a given Waters page"}
           # - { label: "NDAA Open", name: "ndaa-open-ind", widget: "boolean" }
           # - { label: "NDAA Message Indicator", name: "ndaa-msg-ind", widget: "boolean" }
-          # - { label: NDAAF Msg Box Type", name: "ndaa-box-type", widget: "select", options: ["danger", "warning", "info"] }
+          # - { label: NDAAF Msg Box Type", name: "ndaa-msg-box-type", widget: "select", options: ["danger", "warning", "info"] }
           # - label: "NDAA Messages"
           #   name: "ndaa-messages"
           #   widget: "list"
@@ -90,7 +90,7 @@ collections:
           #     - {label: "Message Description", name: "msg-desc", widget: "markdown", hint: "Enter message to show on a given Waters page"}
           # - { label: "Hickling Broad Open", name: "hib-open-ind", widget: "boolean" }
           # - { label: "Hickling Broad Message Indicator", name: "hib-msg-ind", widget: "boolean" }
-          # - { label: "Hickling Broad Msg Box Type", name: "hib-box-type", widget: "select", options: ["danger", "warning", "info"] }
+          # - { label: "Hickling Broad Msg Box Type", name: "hib-msg-box-type", widget: "select", options: ["danger", "warning", "info"] }
           # - label: "Hickling Broad Messages"
           #   name: "hib-messages"
           #   widget: "list"
