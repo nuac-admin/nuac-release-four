@@ -3,57 +3,76 @@ grove-msg-ind: true
 grove-msg-box-type: warning
 grove-messages:
   - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/).
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling
+      Trust guidance](https://anglingtrust.net/covid-19/).
   - msg-type: warning
-    msg-desc: Please have a face mask available for the duration of your visit, and if approached by any Home residents or their guests wear it whilst they are in your proximity.
-
-yare-open-ind: false
-yare-msg-ind: true
-yare-msg-box-type: warning
-yare-messages:
-  - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/). It is essential that you take your own hand sanitiser and clean hands before and after touching gates etc.
-
-hw-open-ind: false
-hw-msg-ind: true
-hw-msg-box-type: warning
-hw-messages:
-  - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/) and fishery guidance via Hall Walk [facebook page](https://www.facebook.com/bartleslodge)
-
+    msg-desc: Please have a face mask available for the duration of your visit, and
+      if approached by any Home residents or their guests wear it whilst they
+      are in your proximity.
 bif-open-ind: false
 bif-msg-ind: true
 bif-msg-box-type: warning
 bif-messages:
   - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling
+      Trust guidance](https://anglingtrust.net/covid-19/)
   - msg-type: warning
-    msg-desc: Fishery guidance available via Bridge Inn Fishery [facebook page](https://en-gb.facebook.com/The-Bridge-Inn-Fishery-164399460336159/)
-
-fib-open-ind: false
-fib-msg-ind: true
-fib-msg-box-type: warning
-fib-messages:
-  - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/). Please remember to follow social distancing rules, you can only share this boat with someone from the same household as you and, if applicable, your support bubble. This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
-
-hib-open-ind: false
-hib-msg-ind: true
-hib-msg-box-type: warning
-hib-messages:
-  - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/). Please remember to follow social distancing rules, you can only share this boat with someone from the same household as you and, if applicable, your support bubble. This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
-
+    msg-desc: Fishery guidance available via Bridge Inn Fishery [facebook
+      page](https://en-gb.facebook.com/The-Bridge-Inn-Fishery-164399460336159/)
+yare-open-ind: false
+yare-msg-ind: true
+yare-msg-box-type: warning
 snp-open-ind: false
 snp-msg-ind: true
 snp-msg-box-type: warning
 snp-messages:
   - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/).
-
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling
+      Trust guidance](https://anglingtrust.net/covid-19/).
+fib-open-ind: false
+fib-msg-ind: true
+fib-msg-box-type: warning
+fib-messages:
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling
+      Trust guidance](https://anglingtrust.net/covid-19/). Please remember to
+      follow social distancing rules, you can only share this boat with someone
+      from the same household as you and, if applicable, your support bubble.
+      This is a shared facility so remember to maintain strict hand hygiene
+      after touching locks, oars etc.
+hw-open-ind: false
+hw-msg-ind: true
+hw-msg-box-type: warning
+hw-messages:
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling
+      Trust guidance](https://anglingtrust.net/covid-19/) and fishery guidance
+      via Hall Walk [facebook page](https://www.facebook.com/bartleslodge)
 ndaa-open-ind: false
 ndaa-msg-ind: true
 ndaa-msg-box-type: warning
 ndaa-messages:
   - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/). When using a **boat on Decoy Broad** please remember to follow social distancing rules, you can only share a boat with someone from the same household as you and, if applicable, your support bubble. This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling
+      Trust guidance](https://anglingtrust.net/covid-19/). When using a **boat
+      on Decoy Broad** please remember to follow social distancing rules, you
+      can only share a boat with someone from the same household as you and, if
+      applicable, your support bubble. This is a shared facility so remember to
+      maintain strict hand hygiene after touching locks, oars etc.
+hib-open-ind: false
+hib-msg-ind: false
+hib-msg-box-type: warning
+hib-messages:
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling
+      Trust guidance](https://anglingtrust.net/covid-19/). Please remember to
+      follow social distancing rules, you can only share this boat with someone
+      from the same household as you and, if applicable, your support bubble.
+      This is a shared facility so remember to maintain strict hand hygiene
+      after touching locks, oars etc.
+yare-messages:
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling
+      Trust guidance](https://anglingtrust.net/covid-19/). It is essential that
+      you take your own hand sanitiser and clean hands before and after touching
+      gates etc.
