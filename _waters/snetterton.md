@@ -3,6 +3,7 @@ layout: default
 title: Snetterton Pits | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, waters, snetterton pits, snetterton, norfolk
 menu: Snetterton Pits
+hdr: Snetterton Pits, Snetterton
 menu-order: 7
 file-txt: snetterton
 location: Snetterton
@@ -28,30 +29,17 @@ labels:
     label-desc: No Guests
   - label-type: info
     label-tt-ind: true
-    label-tt-type: Charge
+    label-tt-type: charge
     label-desc: Day Ticket
 ---
 
 <div class="container non-header">
 
-	<div class="row hdr-theme">
-    <div class="col-xs-12 col-sm-7">
-      <h1>Snetterton Pits, Snetterton</h1>
-    </div>
-    <div class="col-xs-12 col-sm-5 hdr-label-section text-sm-right mt-sm-12">
-      <span class="label label-danger">Booking</span>
-      <span class="label label-warning">Display Car Permit</span>
-      <span class="label label-warning">No Guests</span>
-      <div class="tooltip">
-        <span class="label label-warning">Day Ticket</span>
-        <span class="tooltiptext tt-bottom">
-            {% include compulsory-charge-tt-text.html %}
-        </span>
-      </div>
-    </div>
-  </div>
+  {% include waterHdr.html %}
 
-	<div class="row top-spacer bottom-spacer">
+  {% include waterMsg.html %}
+
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-desc"><span class="pull-left">Description</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -59,8 +47,6 @@ labels:
 
         <div class="row">
           <div class="col-sm-12 col-md-12">
-            {% include c19-desc-alert.html %}
-
             <p><strong>Snetterton Pits are ordinarily only accessible via a Syndicate Permit. NUAC have an arrangement with the owner that allows NUAC members to fish here via a Day Ticket and this must be booked in advance as per the booking instructions below.</strong></p>
             <p>There are seven waters at this fishery of which six	 are available for NUAC members to explore once a Day Ticket has been booked, see the map in the Location section below for a full list of lakes available.</p>
             <p><b>Mallard Lake is not available to NUAC</b>; this is the largest lake on the complex and the one where NE side backs onto a house and garden.</p>
@@ -73,7 +59,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-  <div class="row bottom-spacer">
+  <div class="row">
     <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-rules"><span class="pull-left">Rules</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
       
@@ -99,7 +85,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-booking"><span class="pull-left">Booking</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -125,7 +111,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-map"><span class="pull-left">Location</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -182,7 +168,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#image-gallery"><span class="pull-left">Image Gallery</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
       

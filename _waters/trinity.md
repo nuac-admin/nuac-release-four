@@ -3,6 +3,7 @@ layout: default
 title: Trinity Broads | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, waters, trinity broads, ormesby broad, rollesby broad, lily broad, ormesby little broad, filby broad, norfolk
 menu: Trinity Broads
+hdr: Trinity Broads, Filby
 menu-order: 5
 file-txt: trinity
 location: Filby
@@ -42,8 +43,11 @@ labels:
 
 <div class="container non-header">
 
+  {% include waterHdr.html %}
 
-	<div class="row top-spacer bottom-spacer">
+  {% include waterMsg.html %}
+
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-desc"><span class="pull-left">Description</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -51,8 +55,6 @@ labels:
 
         <div class="row">
           <div class="col-sm-12 col-md-12">
-            {% include c19-desc-alert.html %}
-
             <p><strong>Fishing on the Trinity Broads is via boat only and this must be booked in advance as per the booking instructions below.</strong></p>
             <p>
             The Trinity Broads consist of five broads; from north to south there is Ormesby Broad then Rollesby Broad (these two are separated by A149 road bridge), Rollesby Broad, Lily Broad, Ormesby Little Broad and Filby Broad (these latter two are intersected by A1064 road bridge).  At the southern extent of Filby Broad the water channels into Muck Fleet dyke and ultimately flows into the River Bure.</p>
@@ -69,16 +71,13 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-rules"><span class="pull-left">Boat Instructions</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
       <div id="water-rules" class="collapse in">
         <div class="row">
           <div class="col-xs-12">
-            <div class="alert alert-danger">
-              <strong><i class="indicator fas fa-exclamation-triangle"></i>COVID-19 restrictions apply please keep up-to-date with Angling Trust <a href="{{ site.data.site.at-c19-url }}">guidance</a>.</strong> Please remember to follow social distancing rules, you can only share this boat with someone from the same household as you and, if applicable, your support bubble. This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
-            </div>
             <p>We look to keep the boat at the end of the jetty, left hand side, it's usually the last but one. </p>
             <p>Committee Members will try to check the boat from time to time, if not using it themselves, but in the main we rely on members ensuring all oars and bailers are secured after use. They will "walk" and be unavailable for the next use, otherwise.</p>
             <p>Please ensure the padlock chain is through the ring in the bows, through the eyes on each oar handle, and through the handle of any bailers. To keep oars from rotting, ensure these are left across the benches, not in the bottom of the boat. The piece of carpet for bottom of boat should be secured under the middle seat using the bungee straps provided. For an example of the boat layout described here please see the relevant picture in the Image Gallery below.</p>
@@ -92,7 +91,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-booking"><span class="pull-left">Booking</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -126,7 +125,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-map"><span class="pull-left">Location</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -181,7 +180,7 @@ labels:
   </div> <!-- END OF row  -->
 
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12">
          <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#image-gallery"><span class="pull-left">Image Gallery</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 

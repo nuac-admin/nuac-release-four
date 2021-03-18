@@ -3,6 +3,7 @@ layout: default
 title: River Yare | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, waters, river yare, claxton, langley, norfolk
 menu: River Yare
+hdr: River Yare, Claxton-Langley
 menu-order: 2
 file-txt: yare
 location: Claxton-Langley
@@ -14,26 +15,22 @@ gmap-id: 1J2-FNrGWZX_qYXqlDnZeEBx3dbk
 open-img: yare-tile.jpg
 closed-img: yare-closed-tile.jpg
 labels:
-- label-type: danger
-  label-tt-ind: false
-  label-tt-type: null
-  label-desc: Booking
 - label-type: warning
   label-tt-ind: false
   label-tt-type: null
   label-desc: Display Car Permit
+- label-type: warning
+  label-tt-ind: false
+  label-tt-type: null
+  label-desc: No Guests
 - label-type: info
-  label-tt-ind: true
-  label-tt-type: guest
-  label-desc: Guests
+  label-tt-ind: false
+  label-tt-type: null
+  label-desc: Day Ticket
 - label-type: info
   label-tt-ind: true
   label-tt-type: u16-boat
   label-desc: Children Allowed
-- label-type: info
-  label-tt-ind: false
-  label-tt-type: null
-  label-desc: Boat Fishing
 - label-type: info
   label-tt-ind: false
   label-tt-type: null
@@ -42,30 +39,15 @@ labels:
 
 <div class="container non-header">
 
-  <div class="row hdr-theme">
-    <div class="col-xs-12 col-sm-5">
-      <h1>River Yare, <span class="no-wrap">Claxton-Langley</span></h1>
-      <!-- <img class="img-responsive hdr-img" src="{{ base }}{{ site.data.site.image-folder }}yare-banner.png"> -->
-    </div>
-    <div class="col-xs-12 col-sm-7 hdr-label-section text-sm-right mt-sm-12">
-      <span class="label label-warning">Display Car Permit</span>
-      <span class="label label-warning">No Guests</span>
-      <span class="label label-info">Day Ticket</span>
-      <div class="tooltip">
-        <span class="label label-info">Children Allowed</span>
-        <span class="tooltiptext tt-bottom">{% include u16-tt-text.html %}</span>
-      </div>
-      <span class="label label-info">Open 16 Jun - 14 Mar</span>
-    </div>
-  </div>
+  {% include waterHdr.html %}
 
-  <div class="row top-spacer bottom-spacer">
+  {% include waterMsg.html %}
+
+  <div class="row">
     <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-desc"><span class="pull-left">Description</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
       
       <div id="water-desc" class="collapse in">
-        {% include c19-desc-alert.html %}
-
         <p>NUAC have an association with Great Yarmouth & Norfolk County Angling Association (GYNCAA) which grants our members access to nearly three miles of the River Yare along the southern bank from Claxton to Langley.  Please ensure that you familiarise yourself with the GYNCAA Rules as stated below before visiting.</p>
         <p>As indicated in the rules this stretch of river is primarily a match water so please ensure you keep clear of the pegs booked for match use.  Also please note that pegs to the left of the Beauchamp Arms are out of bounds until further notice.</p>
         <p>See the Location section below for details of the main access points to this stretch of river plus associated parking information.</p>
@@ -92,14 +74,11 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-  <div class="row bottom-spacer">
+  <div class="row">
     <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-rules"><span class="pull-left">Rules</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
       <div id="water-rules" class="collapse in">
-        <div class="alert alert-danger">
-          <strong><i class="indicator fas fa-exclamation-triangle"></i>COVID-19 restrictions apply please keep up-to-date with Angling Trust <a href="{{ site.data.site.at-c19-url }}">guidance</a>.</strong> It is essential that you take your own hand sanitiser and clean hands before and after touching gates etc.          
-        </div>
         <p><strong>Any breach of the following rules will be taken very seriously by the committee and may result in expulsion from the club.</strong></p>
 
         <ol>
@@ -182,7 +161,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-  <div class="row bottom-spacer">
+  <div class="row">
     <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-map"><span class="pull-left">Location</span><span class="pull-right"><i class="hidden-xs hidden-sm indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs visible-sm indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -251,7 +230,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-  <div class="row bottom-spacer">
+  <div class="row">
     <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#image-gallery"><span class="pull-left">Image Gallery</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 

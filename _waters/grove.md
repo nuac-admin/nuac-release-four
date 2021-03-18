@@ -3,6 +3,7 @@ layout: default
 title: The Grove | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, waters, the grove, east carlton, norfolk
 menu: The Grove
+hdr: The Grove, East Carlton
 menu-order: 1
 file-txt: grove
 location: East Carlton
@@ -28,31 +29,15 @@ labels:
 
 <div class="container non-header">
 
-  <div class="row hdr-theme">
-	  <div class="col-xs-12 col-sm-6">
-      <h1>The Grove, East Carlton</h1>
-	  </div>
-    <div class="col-xs-12 col-sm-6 hdr-label-section text-sm-right mt-sm-12">
-      <span class="label label-warning">Display Car Permit</span>
-      <div class="tooltip">
-        <span class="label label-info">Guests</span>
-        <span class="tooltiptext tt-bottom">
-          {% include guest-tt-text.html %}
-        </span>
-      </div> 
-      <div class="tooltip">
-        <span class="label label-info">Children Allowed</span>
-        <span class="tooltiptext tt-bottom">{% include u16-tt-text.html %}</span>
-      </div>
-    </div>
-  </div>
+  {% include waterHdr.html %}
 
-	<div class="row top-spacer bottom-spacer">
+  {% include waterMsg.html %}
+
+	<div class="row">
     <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-desc"><span class="pull-left">Description</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
       
       <div id="water-desc" class="collapse in">
-        {% include c19-desc-alert.html %}
 
         <p>We have exclusive use of this water - please respect the flora & fauna around you, in particular the snowdrops and bulbs within season and the memorial trees and shrubs.</p>
         <p>Please leave a message on how your session went in the "returns" book kept under the tree in the Angler's Car Park.</p>
@@ -62,14 +47,11 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-  <div class="row bottom-spacer">
+  <div class="row">
     <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-rules"><span class="pull-left">Rules</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
       <div id="water-rules" class="collapse in">
-        <div class="alert alert-danger">
-          <strong><i class="indicator fas fa-exclamation-triangle"></i>COVID-19 restrictions apply please keep up-to-date with Angling Trust <a href="{{ site.data.site.at-c19-url }}" >guidance</a>.</strong> Please have a face mask available for the duration of your visit, and if approached by any Home residents or their guests wear it whilst they are in your proximity.         
-        </div>
         <p><strong>Any breach of the following rules will be taken very seriously by the committee and may result in expulsion from the club.</strong></p>
         <ol>
           <li>Parking  in the Fishery Car Park only and NUAC car badge must be displayed.</li>
@@ -99,7 +81,7 @@ labels:
   </div> <!-- END OF row  -->
 
 
-  <div class="row bottom-spacer">
+  <div class="row">
     <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-map"><span class="pull-left">Location</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
       
@@ -182,7 +164,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-  <div class="row bottom-spacer">
+  <div class="row">
     <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse"
         data-target="#image-gallery"><span class="pull-left">Image Gallery</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>

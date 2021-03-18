@@ -3,6 +3,10 @@
     padding-bottom:    $page-padding-bottom;
     min-height:        $pageMinHeight;
 
+    & > * + * {
+        padding-top: 20px;
+    }
+
     ol {
         margin: 0;
         padding-inline-start: 3.25rem;
@@ -13,6 +17,10 @@
         }        
     }
     
+}
+
+.no-banner > :first-child {
+    padding-top: 20px;
 }
 
 .f-right {

@@ -43,19 +43,29 @@
     padding-top: 5px;
 }
 
-.committee-listing .row {
-    
-    &:first-child {
-        // background-color: red;
-        font-weight: bold;
+.committee-listing {
+
+    & > * + * {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
     }
 
-    &:nth-child(2n) {
-        // color: $navbar-light-color;
-        background-color: $gray-lighter;
-      }
 
+    .row {
+    
+        &:first-child {
+            // background-color: red;
+            font-weight: bold;
+        }
+    
+        &:nth-child(2n) {
+            // color: $navbar-light-color;
+            background-color: $gray-lighter;
+          }
+    
+    }
 }
+
 
 @media (max-width: $screen-sm-max) {
     .name, .role, .contact {
@@ -69,6 +79,15 @@
     }
 }
 
-.alert-danger .indicator {
-    margin-right: 0.5em; padding: 0.2em; color: black; background-color: yellow;
+.alert-flex {
+    margin-bottom: 0;
+    display: flex;
+
+    & .indicator {
+        margin-right: 0.2em; 
+        padding: 0.2em;
+        // color: black;
+        // background-color: yellow;
+    }
 }
+

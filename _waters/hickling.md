@@ -3,6 +3,7 @@ layout: default
 title: Hickling Broad | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, waters, hickling broad, whispering reeds boatyard, norfolk
 menu: Hickling Broad
+hdr: Hickling Broad, Hickling
 menu-order: 6
 file-txt: hickling
 location: Hickling
@@ -43,32 +44,11 @@ labels:
 
 <div class="container non-header">
 
-	<div class="row hdr-theme">
-    <div class="col-xs-12 col-sm-5">
-      <h1>Hickling Broad, Hickling</h1>
-      <!-- <img class="img-responsive hdr-img" src="{{ base }}{{ site.data.site.image-folder }}hickling-banner.png"> -->
-    </div>
-    <div class="col-xs-12 col-sm-7 hdr-label-section text-sm-right mt-sm-12">
-      <span class="label label-danger">Booking</span>
-      <span class="label label-warning">Display Car Permit</span>
-      <div class="tooltip">
-        <span class="label label-info">Guests</span>
-        <span class="tooltiptext tt-bottom">
-            {% include guest-tt-text.html %}
-        </span>
-      </div>
-      <div class="tooltip">
-        <span class="label label-info">Children Allowed</span>
-        <span class="tooltiptext tt-bottom">
-          {% include u16-tt-text.html %}{% include boat-tt-text.html %}
-        </span>
-      </div>
-      <span class="label label-info">Boat Fishing</span>
-      <span class="label label-info">Open 16 Jun - 14 Mar</span>
-    </div>
-  </div>
+  {% include waterHdr.html %}
 
-	<div class="row top-spacer bottom-spacer">
+  {% include waterMsg.html %}
+
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-desc"><span class="pull-left">Description</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -76,8 +56,6 @@ labels:
 
         <div class="row">
           <div class="col-xs-12">
-            {% include c19-desc-alert.html %}
-
               <p><strong>Fishing on Hickling Broad is via boat only and this must be booked in advance as per the booking instructions below.</strong></p>
               <p>Hickling Broad covers several hundred acres and is the largest of the broads.  This reed fringed "ocean" of water is seldom deeper than 4 feet with the greatest depth to be found along the boat channel denoted by the red and green marker posts.</p>
               <p>Given the scale of this body of water it is wise to seek out those areas that are out of the wind as it can certainly blow on this broad! If you tuck yourself in the lee of a reed bed and fish 20-30' from the boat you will invariably catch a succession of Roach, Bream, Hybrids, Rudd and Perch on light float tackle.  If the wind is not too strong and the boat traffic permits then moor up on the edge of the boat channel, where the deeper water sometimes provides a better stamp of fish.  Another noted area that is accessible with our boat, is the mouth of Catfield Dyke on the western shore, with bream up to 12lbs reported.</p>
@@ -93,17 +71,13 @@ labels:
       </div> <!-- END OF row  -->
     
     
-      <div class="row bottom-spacer">
+      <div class="row">
         <div class="col-xs-12 col-md-12">
           <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-rules"><span class="pull-left">Booking</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
     
           <div id="water-rules" class="collapse in">
             <div class="row">
               <div class="col-xs-12">
-                <div class="alert alert-danger">
-                  <strong><i class="indicator fas fa-exclamation-triangle"></i>COVID-19 restrictions apply please keep up-to-date with Angling Trust <a href="{{ site.data.site.at-c19-url }}">guidance</a>.</strong> Please remember to follow social distancing rules, you can only share this boat with someone from the same household as you and, if applicable, your support bubble. This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
-                </div>
-    
                 <p>Whispering Reeds boatyard at Hickling will make one rowing boat a day available free of charge to NUAC members.</p>
                 <p>They are happy to cater for early starts and they will supply life jackets on request.</p>
                 <p>Please note that Whispering Reeds do not have a fleet licence for the use of outboards on their boats.</p>
@@ -118,7 +92,7 @@ labels:
         </div> <!-- END OF col  -->
       </div> <!-- END OF row  -->
     
-      <div class="row bottom-spacer">
+      <div class="row">
         <div class="col-xs-12 col-md-12">
           <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-map"><span class="pull-left">Location</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
     

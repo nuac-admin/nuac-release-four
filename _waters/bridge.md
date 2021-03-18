@@ -3,6 +3,7 @@ layout: default
 title: Bridge Inn Fishery | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, waters, bridge inn, lenwade, norfolk
 menu: Bridge Inn
+hdr: Bridge Inn Fishery, Lenwade
 menu-order: 4
 file-txt: bridge
 location: Lenwade
@@ -34,23 +35,11 @@ labels:
 
 <div class="container non-header">
 
-  <div class="row hdr-theme">
-    <div class="col-xs-12 col-sm-6">
-      <h1>Bridge Inn, Lenwade</h1>
-    </div>
-    <div class="col-xs-12 col-sm-6 hdr-label-section text-sm-right mt-sm-12">
-      <span class="label label-danger">Booking</span>
-      <span class="label label-warning">Display Car Permit</span>
-      <span class="label label-warning">No Guests</span>
-      <span class="label label-info">Day Ticket</span>
-      <!-- <div class="tooltip">
-        <span class="label label-info">Children Allowed</span>
-        <span class="tooltiptext tt-bottom">{% include u16-tt-text.html %}</span>
-      </div> -->
-    </div>
-  </div>
+  {% include waterHdr.html %}
 
-	<div class="row top-spacer bottom-spacer">
+  {% include waterMsg.html %}
+
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-desc"><span class="pull-left">Description</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -58,7 +47,8 @@ labels:
 
         <div class="row">
           <div class="col-sm-12 col-md-12">
-            {% include c19-desc-alert.html %}
+
+            <!-- {% include c19-desc-alert.html %} -->
 
             <p>The following waters at the Bridge Inn are available to NUAC members but <strong>access must be booked in advance as per booking instructions stated below.</strong></p>
             <p>Please adhere to the venue rules and please note that <strong>NUAC guests must purchase a Day Ticket, available from the Bridge Inn.</strong></p>
@@ -96,7 +86,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-rules"><span class="pull-left">Rules</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -104,9 +94,6 @@ labels:
 
           <div class="row">
             <div class="col-sm-12 col-md-12">
-              <div class="alert alert-danger">
-                <strong><i class="indicator fas fa-exclamation-triangle"></i>COVID-19 restrictions apply please keep up-to-date with <a href="{{ site.data.site.at-c19-url }}">Angling Trust</a> and fishery guidance.</strong> Bridge Inn Fishery facebook page is <a href="{{ page.fb-url }}">here</a>.
-              </div>  
 		          <p>NUAC access to Bridge Inn venues is via arrangement with the owner and as part of this arrangement the following rules <strong>MUST</strong> be followed;</p>
 
               <ol>
@@ -170,7 +157,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
         <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-booking"><span class="pull-left">Booking</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -208,7 +195,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-map"><span class="pull-left">Location</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 

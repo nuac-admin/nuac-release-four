@@ -3832,11 +3832,17 @@ button.close {
 .fa-chevron-up:before {
   content: "\f077"; }
 
+.fa-exclamation-circle:before {
+  content: "\f06a"; }
+
 .fa-exclamation-triangle:before {
   content: "\f071"; }
 
 .fa-facebook-square:before {
   content: "\f082"; }
+
+.fa-info-circle:before {
+  content: "\f05a"; }
 
 .fa-instagram:before {
   content: "\f16d"; }
@@ -4126,6 +4132,10 @@ button.close {
 .top-spacer-5 {
   padding-top: 5px; }
 
+.committee-listing > * + * {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
+
 .committee-listing .row:first-child {
   font-weight: bold; }
 
@@ -4140,11 +4150,15 @@ button.close {
   .name, .role, .contact {
     padding-bottom: 0; } }
 
-.alert-danger .indicator {
-  margin-right: 0.5em;
-  padding: 0.2em;
-  color: black;
-  background-color: yellow; }
+.alert-flex {
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .alert-flex .indicator {
+    margin-right: 0.2em;
+    padding: 0.2em; }
 
 .hdr-theme {
   color: #ffcc24;
@@ -4291,6 +4305,8 @@ button.close {
   background-color: #eeeeee;
   padding-bottom: 20px;
   min-height: 800px; }
+  .non-header > * + * {
+    padding-top: 20px; }
   .non-header ol {
     margin: 0;
     -webkit-padding-start: 3.25rem;
@@ -4298,6 +4314,9 @@ button.close {
     .non-header ol > li {
       margin-top: 0;
       margin-bottom: 0.6em; }
+
+.no-banner > :first-child {
+  padding-top: 20px; }
 
 .f-right {
   float: right; }

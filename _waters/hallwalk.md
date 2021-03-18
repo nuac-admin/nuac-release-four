@@ -3,6 +3,7 @@ layout: default
 title: Hall Walk | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, waters, hall walk lakes, hallwalk lakes, lenwade, norfolk
 menu: Hall Walk
+hdr: Hall Walk Lakes, Lenwade
 menu-order: 3
 file-txt: hallwalk
 location: Lenwade
@@ -31,19 +32,11 @@ labels:
 
 <div class="container non-header">
 
-	<div class="row hdr-theme">
-	  <div class="col-xs-12 col-sm-7">
-		  <h1>Hall Walk Lakes, Lenwade</h1>
-      <!-- <img class="img-responsive hdr-img" src="{{ base }}{{ site.data.site.image-folder }}hallwalk-banner.png"> -->
-	  </div>
-    <div class="col-xs-12 col-sm-5 hdr-label-section text-sm-right mt-sm-12">
-      <span class="label label-danger">Booking</span>
-      <span class="label label-warning">Display Car Permit</span>
-      <span class="label label-warning">No Guests</span>
-    </div>
-  </div>
+  {% include waterHdr.html %}
 
-	<div class="row top-spacer bottom-spacer">
+  {% include waterMsg.html %}
+
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-desc"><span class="pull-left">Description</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -51,9 +44,8 @@ labels:
 
         <div class="row">
           <div class="col-sm-12 col-md-12">
-            {% include c19-desc-alert.html %}
 
-            <p>	The following waters at Hall Walk Lakes are available to NUAC members but <strong>access must be booked in advance as per booking instructions stated below.</strong></p>
+            <p>The following waters at Hall Walk Lakes are available to NUAC members but <strong>access must be booked in advance as per booking instructions stated below.</strong></p>
             <p>For further information on these lakes, please refer to the <a href="{{ page.ws-url }}" target="_blank">Hall Walk Lakes website</a>.</p> 
         
           </div> <!-- END OF col  -->
@@ -80,7 +72,7 @@ labels:
           <div class="col-sm-12 col-md-12">
 
             <h3>Puppy Lake</h3>
-            <p>Puppy Lake is just under 2 acres with an island and 12 swims.  The water is accessed from the car park at the far end of the access track. A shallow water with only 3' - 4' at the end nearest the track it deepens to 5'+ at the far end.
+            <p>Puppy Lake is just under 2 acres with an island and 12 swims.  The water is accessed from the car park at the far end of the access track. A shallow water with only 3' - 4' at the end nearest the track it deepens to 5'+ at the far end.</p>
             <p>This was stocked in March 2008 with 116 quality English scaley carp averaging about 8.5 lbs. As of 2017 these fish are now in the 15 - 20 lbs range. Although it was only stocked with carp the lake is teeming with roach and rudd that can prove troublesome when using soft hook baits.</p>
 
           </div> <!-- END OF col  -->
@@ -88,17 +80,14 @@ labels:
 
       </div> <!-- END OF collapse  -->
     </div> <!-- END OF col  -->
-  </div> <!-- END OF row  -->
+  </div>
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-rules"><span class="pull-left">Rules</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
       <div id="water-rules" class="collapse in">
 
-        <div class="alert alert-danger">
-          <strong><i class="indicator fas fa-exclamation-triangle"></i>COVID-19 restrictions apply please keep up-to-date with <a href="{{ site.data.site.at-c19-url }}">Angling Trust</a> and fishery guidance.</strong> Hall Walk facebook page is <a href="{{ page.fb-url }}">here</a>.
-        </div>  
         <p>NUAC access to Hall Walk Lakes is via arrangement with the owner and as part of this arrangement the following rules <strong>MUST</strong> be followed;</p>
         <ol>
           <li>NUAC member must have pre-booked day's fishing as per booking instructions below.</li>  
@@ -112,7 +101,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-booking"><span class="pull-left">Booking</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -147,7 +136,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-map"><span class="pull-left">Location</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 

@@ -91,6 +91,8 @@ gulp.task('copy-fa-fonts', function() {
       "_layouts/*.html",
       "_info/*.html",
       "_info/*.md",
+      "news/**/*.md",
+      "news/**/*.html",
       "_waters/*.html",
       "_waters/*.md",
       "_includes/*.html",

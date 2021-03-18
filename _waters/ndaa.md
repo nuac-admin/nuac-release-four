@@ -3,6 +3,7 @@ layout: default
 title: Norwich & District AA | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, waters, ndaa, NDAA, norwich & district, st benets, cold harbour, horning, decoy broad, woodbastwick staithe, norfolk
 menu: Norwich & District AA
+hdr: Norwich and District AA
 menu-order: 8
 file-txt: ndaa
 location: null
@@ -20,12 +21,8 @@ labels:
     label-desc: Booking
   - label-type: warning
     label-tt-ind: false
-    label-tt-type: null
-    label-desc: Display Car Permit
-  - label-type: info
-    label-tt-ind: true
     label-tt-type: guest
-    label-desc: Guests
+    label-desc: No Guests
   - label-type: info
     label-tt-ind: true
     label-tt-type: u16-decoy
@@ -38,32 +35,17 @@ labels:
 	
 <div class="container non-header">
 
-	<div class="row hdr-theme">
-		<div class="col-xs-12 col-sm-5">
-			<h1>Norwich and District AA</h1>
-		</div>
-		<div class="col-xs-12 col-sm-7 hdr-label-section text-sm-right mt-sm-12">
-			<span class="label label-danger">Booking</span>
-			<span class="label label-warning">No Guests</span>
-			<div class="tooltip">
-				<span class="label label-info">Children Allowed</span>
-				<span class="tooltiptext tt-bottom">
-						{% include u16-tt-text.html %}{% include boat-tt-text.html %}{% include decoy-tt-text.html %}
-				</span>
-			</div>
-			<span class="label label-info">Open 16 Jun - 14 Mar</span>
-		</div>
-	</div>
+  {% include waterHdr.html %}
 
-	<div class="row top-spacer bottom-spacer">
+  {% include waterMsg.html %}
+
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-desc"><span class="pull-left">Description</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
       <div id="water-desc" class="collapse in">
         <div class="row">
           <div class="col-sm-12 col-md-12">
-						{% include c19-desc-alert.html %}
-
 						<p>The following Norwich & District Angler's Association (NDAA) waters <strong>must be booked in advance (see <a href="#water-booking">booking instructions</a> below).</strong></p>
 						<p>Please ensure that you familiarise yourself with the <a href="#water-rules">NDAA Rules</a> as stated below before visiting.</p>
 					</div>
@@ -96,14 +78,11 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-rules"><span class="pull-left">Rules</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
       <div id="water-rules" class="collapse in">
-				<div class="alert alert-danger">
-					<strong><i class="indicator fas fa-exclamation-triangle"></i>COVID-19 restrictions apply please keep up-to-date with Angling Trust <a href="{{ site.data.site.at-c19-url }}">guidance</a>.</strong> When using a <strong>boat on Decoy Broad</strong> please remember to follow social distancing rules, you can only share a boat with someone from the same household as you and, if applicable, your support bubble. This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
-				</div>
 				<p>NUAC access to the waters indicated is via arrangement with Norwich & District Angler's Association and as part of this arrangement the following rules <strong>MUST</strong> be followed;</p>
 				<ol>
 					<li>Only the NUAC member & one family member under 16 are entitled to free fishing, other guests must purchase a Membership Card <strong>before visiting</strong> (a list of NDAA Membership Card stockists can be found at <a href="{{ page.ws-url }}">ndaa.org.uk</a>).</li>
@@ -127,7 +106,7 @@ labels:
     </div> <!-- END OF col  -->
   </div> <!-- END OF row  -->
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-booking"><span class="pull-left">Booking</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -182,7 +161,7 @@ labels:
   </div> <!-- END OF row  -->
 
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-map"><span class="pull-left">Location</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
@@ -333,7 +312,7 @@ labels:
 	</div> <!-- END OF row  -->
 
 
-	<div class="row bottom-spacer">
+	<div class="row">
 	  <div class="col-xs-12 col-md-12">
          <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#image-gallery"><span class="pull-left">Image Gallery</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 

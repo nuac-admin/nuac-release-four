@@ -4,6 +4,24 @@ backend:
 # These lines should *not* be indented
 publish_mode: editorial_workflow
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
+
+collections:
+  - label: "Manage NUAC Information"
+    name: "global"
+    files:
+      - label: "Common Water Messages"
+        name: "site message"
+        file: "_data/site-msg.yml"
+        fields:
+          - { label: "Common Message Indicator", name: "msg-ind", widget: "boolean" }
+          - { label: "Message Box Type", name: "box-type", widget: "select", options: ["danger", "warning", "info"] }
+          - label: "Common Messages"
+            name: "messages"
+            widget: "list"
+            fields:
+              - {label: "Message Type", name: "msg-type", widget: "select", options: ["danger", "warning", "info"]}
+              - {label: "Message Description", name: "msg-desc", widget: "markdown", hint: "Enter message to show on each Waters page"}
+
 # collections:
 #   - label: "Manage NDAA Information"
 #     name: "global"

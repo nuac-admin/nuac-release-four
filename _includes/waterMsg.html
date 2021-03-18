@@ -1,0 +1,187 @@
+{% if site.data.site-msg.msg-ind == true %}
+<div class="row">
+  <div class="col-xs-12">
+    <div class="alert alert-{{ site.data.site-msg.box-type}} alert-flex">
+      {% for item in site.data.site-msg.messages %}
+      {% case item.msg-type %}
+      {% when "danger" %}
+      <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
+      {% when "warning" %}
+      <i class="indicator fas fa-exclamation-circle"></i>{{ item.msg-desc | markdownify }}
+      {% when "info" %}
+      <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
+      {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if page.url contains 'bridge' %}
+{% if site.data.water-msg.bif-msg-ind == true %}
+<div class="row">
+  <div class="col-xs-12">
+    <div class="alert alert-{{ site.data.water-msg.bif-msg-box-type}} alert-flex">
+      {% for item in site.data.water-msg.bif-messages %}
+      {% case item.msg-type %}
+      {% when "danger" %}
+      <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
+      {% when "warning" %}
+      <i class="indicator fas fa-exclamation-circle"></i>{{ item.msg-desc | markdownify }}
+      {% when "info" %}
+      <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
+      {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+
+{% if page.url contains 'grove' %}
+{% if site.data.water-msg.grove-msg-ind == true %}
+<div class="row">
+  <div class="col-xs-12">
+    <div class="alert alert-{{ site.data.water-msg.grove-msg-box-type}} alert-flex">
+      {% for item in site.data.water-msg.grove-messages %}
+      {% case item.msg-type %}
+      {% when "danger" %}
+      <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
+      {% when "warning" %}
+      <i class="indicator fas fa-exclamation-circle"></i>{{ item.msg-desc | markdownify }}
+      {% when "info" %}
+      <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
+      {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+
+{% if page.url contains 'hallwalk' %}
+{% if site.data.water-msg.hw-msg-ind == true %}
+<div class="row">
+  <div class="col-xs-12">
+    <div class="alert alert-{{ site.data.water-msg.hw-msg-box-type}} alert-flex">
+      {% for item in site.data.water-msg.hw-messages %}
+      {% case item.msg-type %}
+      {% when "danger" %}
+      <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
+      {% when "warning" %}
+      <i class="indicator fas fa-exclamation-circle"></i>{{ item.msg-desc | markdownify }}
+      {% when "info" %}
+      <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
+      {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+
+{% if page.url contains 'hickling' %}
+{% if site.data.water-msg.hib-msg-ind == true %}
+<div class="row">
+  <div class="col-xs-12">
+    <div class="alert alert-{{ site.data.water-msg.hib-msg-box-type}} alert-flex">
+      {% for item in site.data.water-msg.hib-messages %}
+      {% case item.msg-type %}
+      {% when "danger" %}
+      <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
+      {% when "warning" %}
+      <i class="indicator fas fa-exclamation-circle"></i>{{ item.msg-desc | markdownify }}
+      {% when "info" %}
+      <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
+      {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+
+
+{% if page.url contains 'ndaa' %}
+{% if site.data.water-msg.ndaa-msg-ind == true %}
+<div class="row">
+  <div class="col-xs-12">
+    <div class="alert alert-{{ site.data.water-msg.ndaa-msg-box-type}} alert-flex">
+      {% for item in site.data.water-msg.ndaa-messages %}
+      {% case item.msg-type %}
+      {% when "danger" %}
+      <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
+      {% when "warning" %}
+      <i class="indicator fas fa-exclamation-circle"></i>{{ item.msg-desc | markdownify }}
+      {% when "info" %}
+      <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
+      {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+
+{% if page.url contains 'snetterton' %}
+{% if site.data.water-msg.snp-msg-ind == true %}
+<div class="row">
+  <div class="col-xs-12">
+    <div class="alert alert-{{ site.data.water-msg.snp-msg-box-type}} alert-flex">
+      {% for item in site.data.water-msg.snp-messages %}
+      {% case item.msg-type %}
+      {% when "danger" %}
+      <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
+      {% when "warning" %}
+      <i class="indicator fas fa-exclamation-circle"></i>{{ item.msg-desc | markdownify }}
+      {% when "info" %}
+      <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
+      {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+
+{% if page.url contains 'trinity' %}
+{% if site.data.water-msg.fib-msg-ind == true %}
+<div class="row">
+  <div class="col-xs-12">
+    <div class="alert alert-{{ site.data.water-msg.fib-msg-box-type}} alert-flex">
+      {% for item in site.data.water-msg.fib-messages %}
+      {% case item.msg-type %}
+      {% when "danger" %}
+      <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
+      {% when "warning" %}
+      <i class="indicator fas fa-exclamation-circle"></i>{{ item.msg-desc | markdownify }}
+      {% when "info" %}
+      <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
+      {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+
+{% if page.url contains 'yare' %}
+{% if site.data.water-msg.yare-msg-ind == true %}
+<div class="row">
+  <div class="col-xs-12">
+    <div class="alert alert-{{ site.data.water-msg.yare-msg-box-type}} alert-flex">
+      {% for item in site.data.water-msg.yare-messages %}
+      {% case item.msg-type %}
+      {% when "danger" %}
+      <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
+      {% when "warning" %}
+      <i class="indicator fas fa-exclamation-circle"></i>{{ item.msg-desc | markdownify }}
+      {% when "info" %}
+      <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
+      {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endif %}
