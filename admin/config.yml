@@ -32,8 +32,8 @@ collections:
             name: "grove-messages"
             widget: "list"
             fields:
-              - {label: "Message Type", name: "msg-type", widget: "select", options: ["danger", "warning", "info"]}
-              - {label: "Message Description", name: "msg-desc", widget: "markdown", hint: "Enter message to show on a given Waters page"}
+              - {label: "Message Type", name: "grove-msg-type", widget: "select", options: ["danger", "warning", "info"]}
+              - {label: "Message Description", name: "grove-msg-desc", widget: "markdown", hint: "Enter message to show on a given Waters page"}
           # - { label: "BIF Open", name: "bif-msg-ind", widget: "boolean" }
           # - { label: "BIF Message Indicator", name: "bif-msg-ind", widget: "boolean" }
           # - { label: "BIF Msg Box Type", name: "bif-box-type", widget: "select", options: ["danger", "warning", "info"] }
