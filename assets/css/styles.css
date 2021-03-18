@@ -4150,12 +4150,18 @@ button.close {
   .name, .role, .contact {
     padding-bottom: 0; } }
 
+.alert {
+  margin-bottom: 0; }
+
 .alert-flex {
-  margin-bottom: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
+  .alert-flex p {
+    margin-bottom: 0px; }
+  .alert-flex > * {
+    margin-top: 5px; }
   .alert-flex .indicator {
     margin-right: 0.2em;
     padding: 0.2em; }

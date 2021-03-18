@@ -79,10 +79,21 @@
     }
 }
 
-.alert-flex {
+.alert {
     margin-bottom: 0;
+}
+
+.alert-flex {
     display: flex;
 
+    p {
+        margin-bottom: 0px;
+    }
+
+    &  >  * {
+        margin-top: 5px;
+    }
+      
     & .indicator {
         margin-right: 0.2em; 
         padding: 0.2em;

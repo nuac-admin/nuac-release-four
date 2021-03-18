@@ -3,7 +3,9 @@ grove-msg-ind: true
 grove-msg-box-type: warning
 grove-messages:
   - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/). Please have a face mask available for the duration of your visit, and if approached by any Home residents or their guests wear it whilst they are in your proximity.
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/).
+  - msg-type: warning
+    msg-desc: Please have a face mask available for the duration of your visit, and if approached by any Home residents or their guests wear it whilst they are in your proximity.
 
 yare-open-ind: false
 yare-msg-ind: true
@@ -24,7 +26,9 @@ bif-msg-ind: true
 bif-msg-box-type: warning
 bif-messages:
   - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/) and fishery guidance via Bridge Inn Fishery [facebook page](https://en-gb.facebook.com/The-Bridge-Inn-Fishery-164399460336159/)
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
+  - msg-type: warning
+    msg-desc: Fishery guidance available via Bridge Inn Fishery [facebook page](https://en-gb.facebook.com/The-Bridge-Inn-Fishery-164399460336159/)
 
 fib-open-ind: false
 fib-msg-ind: true

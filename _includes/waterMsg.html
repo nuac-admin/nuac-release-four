@@ -1,8 +1,9 @@
 {% if site.data.site-msg.msg-ind == true %}
 <div class="row">
   <div class="col-xs-12">
-    <div class="alert alert-{{ site.data.site-msg.box-type}} alert-flex">
+    <div class="alert alert-{{ site.data.site-msg.box-type}}">
       {% for item in site.data.site-msg.messages %}
+      <span class="alert-flex">
       {% case item.msg-type %}
       {% when "danger" %}
       <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
@@ -11,6 +12,7 @@
       {% when "info" %}
       <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
       {% endcase %}
+      </span>
       {% endfor %}
     </div>
   </div>
@@ -21,17 +23,19 @@
 {% if site.data.water-msg.bif-msg-ind == true %}
 <div class="row">
   <div class="col-xs-12">
-    <div class="alert alert-{{ site.data.water-msg.bif-msg-box-type}} alert-flex">
+    <div class="alert alert-{{ site.data.water-msg.bif-msg-box-type}}">
       {% for item in site.data.water-msg.bif-messages %}
-      {% case item.msg-type %}
-      {% when "danger" %}
-      <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
-      {% when "warning" %}
-      <i class="indicator fas fa-exclamation-circle"></i>{{ item.msg-desc | markdownify }}
-      {% when "info" %}
-      <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
-      {% endcase %}
-      {% endfor %}
+      <span class="alert-flex">
+        {% case item.msg-type %}
+        {% when "danger" %}
+        <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}        
+        {% when "warning" %}
+        <i class="indicator fas fa-exclamation-circle"></i>{{ item.msg-desc | markdownify }}        
+        {% when "info" %}
+        <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}                
+        {% endcase %}
+      </span>
+      {% endfor %} 
     </div>
   </div>
 </div>
@@ -42,16 +46,18 @@
 {% if site.data.water-msg.grove-msg-ind == true %}
 <div class="row">
   <div class="col-xs-12">
-    <div class="alert alert-{{ site.data.water-msg.grove-msg-box-type}} alert-flex">
+    <div class="alert alert-{{ site.data.water-msg.grove-msg-box-type}}">
       {% for item in site.data.water-msg.grove-messages %}
-      {% case item.msg-type %}
-      {% when "danger" %}
-      <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
-      {% when "warning" %}
-      <i class="indicator fas fa-exclamation-circle"></i>{{ item.msg-desc | markdownify }}
-      {% when "info" %}
-      <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
-      {% endcase %}
+      <span class="alert-flex">
+        {% case item.msg-type %}
+        {% when "danger" %}
+        <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
+        {% when "warning" %}
+        <i class="indicator fas fa-exclamation-circle"></i>{{ item.msg-desc | markdownify }}
+        {% when "info" %}
+        <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
+        {% endcase %}          
+      </span>
       {% endfor %}
     </div>
   </div>
@@ -63,8 +69,9 @@
 {% if site.data.water-msg.hw-msg-ind == true %}
 <div class="row">
   <div class="col-xs-12">
-    <div class="alert alert-{{ site.data.water-msg.hw-msg-box-type}} alert-flex">
+    <div class="alert alert-{{ site.data.water-msg.hw-msg-box-type}}">
       {% for item in site.data.water-msg.hw-messages %}
+      <span class="alert-flex">
       {% case item.msg-type %}
       {% when "danger" %}
       <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
@@ -73,6 +80,7 @@
       {% when "info" %}
       <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
       {% endcase %}
+      </span>
       {% endfor %}
     </div>
   </div>
@@ -84,8 +92,9 @@
 {% if site.data.water-msg.hib-msg-ind == true %}
 <div class="row">
   <div class="col-xs-12">
-    <div class="alert alert-{{ site.data.water-msg.hib-msg-box-type}} alert-flex">
+    <div class="alert alert-{{ site.data.water-msg.hib-msg-box-type}}">
       {% for item in site.data.water-msg.hib-messages %}
+      <span class="alert-flex">
       {% case item.msg-type %}
       {% when "danger" %}
       <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
@@ -94,6 +103,7 @@
       {% when "info" %}
       <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
       {% endcase %}
+      </span>
       {% endfor %}
     </div>
   </div>
@@ -106,8 +116,9 @@
 {% if site.data.water-msg.ndaa-msg-ind == true %}
 <div class="row">
   <div class="col-xs-12">
-    <div class="alert alert-{{ site.data.water-msg.ndaa-msg-box-type}} alert-flex">
+    <div class="alert alert-{{ site.data.water-msg.ndaa-msg-box-type}}">
       {% for item in site.data.water-msg.ndaa-messages %}
+      <span class="alert-flex">
       {% case item.msg-type %}
       {% when "danger" %}
       <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
@@ -116,6 +127,7 @@
       {% when "info" %}
       <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
       {% endcase %}
+      </span>
       {% endfor %}
     </div>
   </div>
@@ -127,8 +139,9 @@
 {% if site.data.water-msg.snp-msg-ind == true %}
 <div class="row">
   <div class="col-xs-12">
-    <div class="alert alert-{{ site.data.water-msg.snp-msg-box-type}} alert-flex">
+    <div class="alert alert-{{ site.data.water-msg.snp-msg-box-type}}">
       {% for item in site.data.water-msg.snp-messages %}
+      <span class="alert-flex">
       {% case item.msg-type %}
       {% when "danger" %}
       <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
@@ -137,6 +150,7 @@
       {% when "info" %}
       <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
       {% endcase %}
+      </span>
       {% endfor %}
     </div>
   </div>
@@ -148,8 +162,9 @@
 {% if site.data.water-msg.fib-msg-ind == true %}
 <div class="row">
   <div class="col-xs-12">
-    <div class="alert alert-{{ site.data.water-msg.fib-msg-box-type}} alert-flex">
+    <div class="alert alert-{{ site.data.water-msg.fib-msg-box-type}}">
       {% for item in site.data.water-msg.fib-messages %}
+      <span class="alert-flex">
       {% case item.msg-type %}
       {% when "danger" %}
       <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
@@ -158,6 +173,7 @@
       {% when "info" %}
       <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
       {% endcase %}
+      </span>
       {% endfor %}
     </div>
   </div>
@@ -169,8 +185,9 @@
 {% if site.data.water-msg.yare-msg-ind == true %}
 <div class="row">
   <div class="col-xs-12">
-    <div class="alert alert-{{ site.data.water-msg.yare-msg-box-type}} alert-flex">
+    <div class="alert alert-{{ site.data.water-msg.yare-msg-box-type}}">
       {% for item in site.data.water-msg.yare-messages %}
+      <span class="alert-flex">
       {% case item.msg-type %}
       {% when "danger" %}
       <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
@@ -179,6 +196,7 @@
       {% when "info" %}
       <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
       {% endcase %}
+      </span>
       {% endfor %}
     </div>
   </div>
