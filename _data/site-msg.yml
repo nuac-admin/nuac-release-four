@@ -6,3 +6,5 @@ messages:
       relevant [news item](../news/news.html) for more information.
   - msg-type: info
     msg-desc: COVID-19 restrictions apply please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
+  - msg-desc: "**Patrick says you can fish when you like**."
+    msg-type: info
