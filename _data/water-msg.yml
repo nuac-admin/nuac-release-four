@@ -31,7 +31,8 @@ grove-messages:
     msg-desc: Looks like if you want to change the order of any messages, it's
       copy/paste/retype - rather than shuffle them. Play around with the Grove
       Open / Grove Message Indicator..... what do they do???? Looks like The
-      Grove is open!!!!
+      Grove is open!!!! Can see there is a (slight) lag in edits getting into
+      preview. No consequence.
 bif-open-ind: false
 bif-msg-ind: true
 bif-msg-box-type: warning
