@@ -1,4 +1,4 @@
-grove-open-ind: false
+grove-open-ind: true
 grove-msg-ind: true
 grove-msg-box-type: warning
 grove-messages:
@@ -70,7 +70,6 @@ hw-messages:
       via Hall Walk [facebook page](https://www.facebook.com/bartleslodge)
 ndaa-open-ind: false
 ndaa-msg-ind: true
-ndaa-msg-box-type: warning
 ndaa-messages:
   - msg-type: warning
     msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling
@@ -96,3 +95,4 @@ yare-messages:
       Trust guidance](https://anglingtrust.net/covid-19/). It is essential that
       you take your own hand sanitiser and clean hands before and after touching
       gates etc.
+ndaa-msg-box-type: warning
