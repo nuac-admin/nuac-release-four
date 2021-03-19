@@ -10,9 +10,21 @@ grove-messages:
       if approached by any Home residents or their guests wear it whilst they
       are in your proximity.
   - msg-type: info
-    msg-desc: Additional Update by Jon. This is Info.
+    msg-desc: Additional Update by Jon. This is Info. Comfy with the quick-hit
+      message change & delete - intuititive, in line with philosophy of allowing
+      Water Owners (or at least not just (Jason) to effect quick updates. I'd be
+      knocking out a few tweaks as a matter of course (for review) here & there.
+      Downside is risk of losing the true "corporate consistency if not running
+      thru same person, but part of review prior to live.
   - msg-type: danger
-    msg-desc: Another Jon Message - this is danger
+    msg-desc: >-
+      Another **Jon** Message - this is danger. Wonder, can you change Text
+      Colour. Can see how to import a photo - via upload of "Asset". Assume cant
+      see the Assets as very restricted Demo extract of site. (i.e. the messages
+      only @ present. 
+
+
+      ![]()
   - msg-type: warning
     msg-desc: And another from Jon - this is a warning
 bif-open-ind: false
