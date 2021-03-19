@@ -53,10 +53,9 @@ labels:
 
         <div class="row">
           <div class="col-sm-12 col-md-6">
-
-            <h3>Tom's Lake</h3>
-            <p>Tom’s lake is the largest of the three lake complex at approx. 9 acres. A mature gravel pit containing many interesting features with islands, reed beds, gravel bars and lilies. There are still a couple of originally stocked carp that weighed in at 40lb, but these are now old fish and not as heavy, but it does show the potential that Tom’s Lake has. The young carp in there now are pushing close to 30lb and growing fast.</p>
-            <p>It also boasts great winter pike weighing in at well over 20lb. There are also bream and tench to 10lb and large rudd and roach.</p>
+            <h3>Puppy Lake</h3>
+            <p>Puppy Lake is just under 2 acres with an island and 12 swims.  The water is accessed from the car park at the far end of the access track. A shallow water with only 3' - 4' at the end nearest the track it deepens to 5'+ at the far end.</p>
+            <p>This was stocked in March 2008 with 116 quality English scaley carp averaging about 8.5 lbs. As of 2017 these fish are now in the 15 - 20 lbs range. Although it was only stocked with carp the lake is teeming with roach and rudd that can prove troublesome when using soft hook baits.</p>
 
           </div> <!-- END OF col  -->
           <div class="col-sm-12 col-md-6">
@@ -71,9 +70,9 @@ labels:
         <div class="row">
           <div class="col-sm-12 col-md-12">
 
-            <h3>Puppy Lake</h3>
-            <p>Puppy Lake is just under 2 acres with an island and 12 swims.  The water is accessed from the car park at the far end of the access track. A shallow water with only 3' - 4' at the end nearest the track it deepens to 5'+ at the far end.</p>
-            <p>This was stocked in March 2008 with 116 quality English scaley carp averaging about 8.5 lbs. As of 2017 these fish are now in the 15 - 20 lbs range. Although it was only stocked with carp the lake is teeming with roach and rudd that can prove troublesome when using soft hook baits.</p>
+            <h3>Tom's Lake</h3>
+            <p>Tom’s lake is only available to NUAC members for Pike Fishing and only when fishery rules allow (see below). This lake is the largest of the three on the complex at approx. 9 acres. A mature gravel pit containing many interesting features with islands, reed beds, gravel bars and lilies.</p>
+            <p>It boasts great winter pike weighing in at well over 20lb.</p>
 
           </div> <!-- END OF col  -->
         </div> <!-- END OF row  -->

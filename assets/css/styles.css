@@ -3341,13 +3341,13 @@ a.thumbnail.active {
     color: #245269; }
 
 .alert-warning {
-  color: #8a6d3b;
-  background-color: #fcf8e3;
-  border-color: #faebcc; }
+  color: #686211;
+  background-color: #f7e288;
+  border-color: #f5c670; }
   .alert-warning hr {
-    border-top-color: #f7e1b5; }
+    border-top-color: #f4bc58; }
   .alert-warning .alert-link {
-    color: #66512c; }
+    color: #3c390a; }
 
 .alert-danger {
   color: #a94442;
@@ -4165,6 +4165,9 @@ button.close {
   .alert-flex .indicator {
     margin-right: 0.2em;
     padding: 0.2em; }
+
+alert-flow > * {
+  margin-top: 5px; }
 
 .hdr-theme {
   color: #ffcc24;

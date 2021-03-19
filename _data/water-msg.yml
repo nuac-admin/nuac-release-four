@@ -1,4 +1,4 @@
-grove-open-ind: false
+grove-open-ind: true
 grove-msg-ind: true
 grove-msg-box-type: warning
 grove-messages:
@@ -12,16 +12,18 @@ yare-msg-ind: true
 yare-msg-box-type: warning
 yare-messages:
   - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/). It is essential that you take your own hand sanitiser and clean hands before and after touching gates etc.
+    msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th March
 
-hw-open-ind: false
+hw-open-ind: true
 hw-msg-ind: true
 hw-msg-box-type: warning
 hw-messages:
   - msg-type: warning
     msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/) and fishery guidance via Hall Walk [facebook page](https://www.facebook.com/bartleslodge)
+  - msg-type: warning
+    msg-desc: March 2021 - Please note that access to **Tom's Lake** is now restricted to **Pike Fishing** when fishery rules allow
 
-bif-open-ind: false
+bif-open-ind: true
 bif-msg-ind: true
 bif-msg-box-type: warning
 bif-messages:
@@ -29,22 +31,24 @@ bif-messages:
     msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
   - msg-type: warning
     msg-desc: Fishery guidance available via Bridge Inn Fishery [facebook page](https://en-gb.facebook.com/The-Bridge-Inn-Fishery-164399460336159/)
+  - msg-type: danger
+    msg-desc: March 2021 - Please familiarise yourself with **New Booking Instructions**
 
 fib-open-ind: false
 fib-msg-ind: true
 fib-msg-box-type: warning
 fib-messages:
   - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/). Please remember to follow social distancing rules, you can only share this boat with someone from the same household as you and, if applicable, your support bubble. This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
+    msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th March
 
 hib-open-ind: false
 hib-msg-ind: true
 hib-msg-box-type: warning
 hib-messages:
   - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/). Please remember to follow social distancing rules, you can only share this boat with someone from the same household as you and, if applicable, your support bubble. This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
+    msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th March
 
-snp-open-ind: false
+snp-open-ind: true
 snp-msg-ind: true
 snp-msg-box-type: warning
 snp-messages:
@@ -56,4 +60,4 @@ ndaa-msg-ind: true
 ndaa-msg-box-type: warning
 ndaa-messages:
   - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/). When using a **boat on Decoy Broad** please remember to follow social distancing rules, you can only share a boat with someone from the same household as you and, if applicable, your support bubble. This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
+    msg-desc: Venues closed due to River Close Season; re-opens Wednesday 16th March

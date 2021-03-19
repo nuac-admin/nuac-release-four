@@ -61,13 +61,13 @@ labels:
           <div class="col-sm-12 col-md-6">
 
       	    <h3>Main Lake</h3>
-            <p>This is a mature gravel pit of approximately 5 acres in size with 36 swims and is full of features such as an island, gravel bars & lilies all of which offer the perfect environment for our fish. The lake is mainly stocked with carp and tench, with the carp averaging 15lbs+ and the tench 5lbs+ and it is also home to many other species and is a magnet for wildlife.</p>
+            <p>This is a mature gravel pit of approximately 5 acres in size with 20 swims and is full of features such as an island, gravel bars & lilies all of which offer the perfect environment for our fish. The lake is mainly stocked with carp and tench, with the carp averaging 15lbs+ and the tench 5lbs+ and it is also home to many other species and is a magnet for wildlife.</p>
 
           </div> <!-- END OF col  -->
           <div class="col-sm-12 col-md-6">
 
-            <h3>Match Lake</h3>
-            <p>A small match/pleasure pond with canal arm towards the river, heavily stocked with a mix of roach, rudd, skimmers, perch, carp, tench and even a few crucians. With depths of only 3ft max this makes it ideal for youngsters to learn our sport.</p>
+            <h3>Pleasure Lake</h3>
+            <p>A small pleasure lake with 15 pegs, heavily stocked with a mix of roach, rudd, skimmers, perch, carp, tench and even a few crucians. With depths of only 3ft max this makes it ideal for youngsters to learn our sport.</p>
 
           </div> <!-- END OF col  -->
         </div> <!-- END OF row  -->
@@ -177,12 +177,13 @@ labels:
 
               <div class="row top-spacer">
                     <div class="col-xs-12 col-md-8">           
-                        <div class="alert alert-info">
-                          <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.</p>
-                          <p>Please state your required date(s), time and venue e.g. Bridge Inn.</p>
-                          <p>Please also provide a contact number so that we can speak to you if necessary.</p>
-                          <p><i>Please note that there are only 2 tickets available per day.</i></p>
-                          <p>Thank You.</p>
+                        <div class="alert alert-danger alert-flow">
+                          <p>Check venue calendar for availability at BIF <a class="alert-link" href="https://www.ibookfishing.com/booking/bridge-inn-fisheries" target="_blank">Facebook Shop</a></p>
+                          <p>To book your place, please send an e-mail to <a class="alert-link" href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a></p>
+                          <p>Please state your required date(s), time and venue: BIF Main/BIF Pleasure/BIF River</p>
+                          <p>Please also provide a contact number so that we can speak to you if necessary</p>
+                          <p><i>Please note that there are only 2 tickets available per day</i></p>
+                          <p>Thank You</p>
                         </div>
                     </div> <!-- END OF col  -->
               </div> <!-- END OF row  -->
