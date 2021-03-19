@@ -10,7 +10,11 @@ grove-messages:
       if approached by any Home residents or their guests wear it whilst they
       are in your proximity.
   - msg-type: info
-    msg-desc: Additional Update by Jon.
+    msg-desc: Additional Update by Jon. This is Info.
+  - msg-type: danger
+    msg-desc: Another Jon Message - this is danger
+  - msg-type: warning
+    msg-desc: An another from Jon - this is a warning
 bif-open-ind: false
 bif-msg-ind: true
 bif-msg-box-type: warning
