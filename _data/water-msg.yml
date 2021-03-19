@@ -37,6 +37,8 @@ bif-messages:
   - msg-type: warning
     msg-desc: Fishery guidance available via Bridge Inn Fishery [facebook
       page](https://en-gb.facebook.com/The-Bridge-Inn-Fishery-164399460336159/)
+  - msg-type: warning
+    msg-desc: "**Beware Patrick says there are sharks in the water**"
 yare-open-ind: false
 yare-msg-ind: true
 yare-msg-box-type: warning
@@ -68,6 +70,7 @@ hw-messages:
       via Hall Walk [facebook page](https://www.facebook.com/bartleslodge)
 ndaa-open-ind: false
 ndaa-msg-ind: true
+ndaa-msg-box-type: warning
 ndaa-messages:
   - msg-type: warning
     msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling
@@ -93,4 +96,3 @@ yare-messages:
       Trust guidance](https://anglingtrust.net/covid-19/). It is essential that
       you take your own hand sanitiser and clean hands before and after touching
       gates etc.
-ndaa-msg-box-type: warning
