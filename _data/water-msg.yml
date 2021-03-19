@@ -14,7 +14,7 @@ grove-messages:
   - msg-type: danger
     msg-desc: Another Jon Message - this is danger
   - msg-type: warning
-    msg-desc: An another from Jon - this is a warning
+    msg-desc: And another from Jon - this is a warning
 bif-open-ind: false
 bif-msg-ind: true
 bif-msg-box-type: warning
