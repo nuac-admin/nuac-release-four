@@ -12,15 +12,17 @@ yare-msg-ind: true
 yare-msg-box-type: warning
 yare-messages:
   - msg-type: warning
-    msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th March
+    msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th June
 
 hw-open-ind: true
 hw-msg-ind: true
 hw-msg-box-type: warning
 hw-messages:
   - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/) and fishery guidance via Hall Walk [facebook page](https://www.facebook.com/bartleslodge)
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
   - msg-type: warning
+    msg-desc: Fishery guidance available via Hall Walk Lakes [facebook page](https://www.facebook.com/bartleslodge)
+  - msg-type: info
     msg-desc: March 2021 - Please note that access to **Tom's Lake** is now restricted to **Pike Fishing** when fishery rules allow
 
 bif-open-ind: true
@@ -39,14 +41,14 @@ fib-msg-ind: true
 fib-msg-box-type: warning
 fib-messages:
   - msg-type: warning
-    msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th March
+    msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th June
 
 hib-open-ind: false
 hib-msg-ind: true
 hib-msg-box-type: warning
 hib-messages:
   - msg-type: warning
-    msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th March
+    msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th June
 
 snp-open-ind: true
 snp-msg-ind: true
@@ -60,4 +62,4 @@ ndaa-msg-ind: true
 ndaa-msg-box-type: warning
 ndaa-messages:
   - msg-type: warning
-    msg-desc: Venues closed due to River Close Season; re-opens Wednesday 16th March
+    msg-desc: Venues closed due to River Close Season; re-opens Wednesday 16th June
