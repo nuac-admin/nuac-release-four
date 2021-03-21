@@ -9,7 +9,7 @@ file-txt: bridge
 location: Lenwade
 category: waters
 fb-url: https://en-gb.facebook.com/The-Bridge-Inn-Fishery-164399460336159/
-ws-url:
+ws-url: https://www.ibookfishing.com/booking/bridge-inn-fisheries
 gmap-id: 1MnjnpVi4Ae4lqrqtIMvXPeKxRQU
 open-img: bridge-tile.jpg
 closed-img: bridge-closed-tile.jpg
@@ -40,31 +40,31 @@ labels:
   {% include waterMsg.html %}
 
 	<div class="row">
-	  <div class="col-xs-12 col-md-12">
+	  <div class="col-xs-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-desc"><span class="pull-left">Description</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
       <div id="water-desc" class="collapse in">
 
         <div class="row">
-          <div class="col-sm-12 col-md-12">
+          <div class="col-xs-12">
 
             <!-- {% include c19-desc-alert.html %} -->
 
-            <p>The following waters at the Bridge Inn are available to NUAC members but <strong>access must be booked in advance as per booking instructions stated below.</strong></p>
-            <p>Please adhere to the venue rules and please note that <strong>NUAC guests must purchase a Day Ticket, available from the Bridge Inn.</strong></p>
+            <p>The following waters at Bridge Inn Fishery are available to NUAC members but <strong>access must be booked in advance as per booking instructions stated below.</strong></p>
+            <p>Please note that <strong>NUAC guests must purchase a Day Ticket</strong>. Day Tickets can be booked and paid for via Bridge Inn Fishery <a href="{{ page.ws-url }}" target="_blank">Bookings</a> (or purchased on site BEFORE fishing).</p>
             <p>For further information on these lakes please refer to their <a href="{{ page.fb-url }}" target="_blank">Facebook page</a>.</p>
 
           </div> <!-- END OF col  -->
         </div> <!-- END OF row  -->
 
         <div class="row">
-          <div class="col-sm-12 col-md-6">
+          <div class="col-xs-12 col-md-6">
 
       	    <h3>Main Lake</h3>
-            <p>This is a mature gravel pit of approximately 5 acres in size with 20 swims and is full of features such as an island, gravel bars & lilies all of which offer the perfect environment for our fish. The lake is mainly stocked with carp and tench, with the carp averaging 15lbs+ and the tench 5lbs+ and it is also home to many other species and is a magnet for wildlife.</p>
+            <p>This is a mature gravel pit of approximately 5 acres in size with 20 swims and is full of features such as an island, gravel bars & lilies all of which offer the perfect environment for our fish. There are 200 to 250 carp, the average is 19lb, a good head of twenties, and some go over the magical 30lb mark.</p>
 
           </div> <!-- END OF col  -->
-          <div class="col-sm-12 col-md-6">
+          <div class="col-xs-12 col-md-6">
 
             <h3>Pleasure Lake</h3>
             <p>A small pleasure lake with 15 pegs, heavily stocked with a mix of roach, rudd, skimmers, perch, carp, tench and even a few crucians. With depths of only 3ft max this makes it ideal for youngsters to learn our sport.</p>
@@ -73,7 +73,7 @@ labels:
         </div> <!-- END OF row  -->
 
         <div class="row">
-          <div class="col-sm-12 col-md-12">
+          <div class="col-xs-12">
 
             <h3>River Wensum</h3>
             <p>The Bridge Inn also provide access to a wonderful stretch of the river Wensum where you can fish for chub, dace, roach and grayling.  This stretch runs downstream from the Fakenham Road bridge to the old railway bridge (now Marriots Way).</p>
@@ -87,13 +87,13 @@ labels:
   </div> <!-- END OF row  -->
 
 	<div class="row">
-	  <div class="col-xs-12 col-md-12">
+	  <div class="col-xs-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-rules"><span class="pull-left">Rules</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
       <div id="water-rules" class="collapse in">
 
           <div class="row">
-            <div class="col-sm-12 col-md-12">
+            <div class="col-xs-12">
 		          <p>NUAC access to Bridge Inn venues is via arrangement with the owner and as part of this arrangement the following rules <strong>MUST</strong> be followed;</p>
 
               <ol>
@@ -103,8 +103,18 @@ labels:
                 <li>Please display your NUAC car parking permit when you park your car.</li>
                 <li>Members must adhere to the fishery rules as stated below.</li>
               </ol>
+            </div>
+          </div>
 
+          <div class="row">
+            <div class="col-xs-12">
               <h3>Fishery Rules</h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+    
 
               <h4><strong>Main Lake</strong> - No access after 8.30pm</h4>
               <ol>
@@ -135,6 +145,8 @@ labels:
                 <li>Fishing licence must be shown on arrival</li>
                 <li>No under 16s</li>
               </ol>
+            </div>
+            <div class="col-xs-12 col-md-6">
               <h4><strong>Pleasure Lake</strong> – Dawn to Dusk Only</h4>
               <ol>
                 <li>Barbless hooks only</li>
@@ -158,30 +170,30 @@ labels:
   </div> <!-- END OF row  -->
 
 	<div class="row">
-	  <div class="col-xs-12 col-md-12">
+	  <div class="col-xs-12">
         <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-booking"><span class="pull-left">Booking</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
         <div id="water-booking" class="collapse in">
 
           <div class="row">
-            <div class="col-sm-12 col-md-12">
+            <div class="col-sm-12">
 
               <ol>
-                <li>Only 2 advance bookings can be in place at any one time for any member. Either two separate days or one consecutive two-day period.</li>
-                <li>Whole day booking is from 08:00 on the first day to 08:00 on the following day. This enables overnight fishing on those venues where night fishing is allowed.</li>
-                <li>If after 2.00pm on the day of any booking, there is availability on the following day, members are then allowed to book the following day as well. This would enable two consecutive night's fishing.</li>
-                <li>If you are only planning a part day, please state the approximate period you would be on the water. For example if you were just going for the morning, we might be able to release the ticket to someone else who fancies going for the afternoon.</li>
+                <li>Only 2 advance bookings can be in place at any one time for any member. Either two separate 24 hour periods or one consecutive 48 hour period.</li>
+                <li>Bookings must start or end at 7am or 7pm.</li>
                 <li>If asked for a ticket, please present your NUAC membership card.</li>
                 <li>Please ensure you have read the relevant fishery rules before fishing.</li>
               </ol>
 
               <div class="row top-spacer">
-                    <div class="col-xs-12 col-md-8">           
+                    <div class="col-xs-12">           
                         <div class="alert alert-danger alert-flow">
-                          <p>Check venue calendar for availability at BIF <a class="alert-link" href="https://www.ibookfishing.com/booking/bridge-inn-fisheries" target="_blank">Facebook Shop</a></p>
-                          <p>To book your place, please send an e-mail to <a class="alert-link" href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a></p>
-                          <p>Please state your required date(s), time and venue: BIF Main/BIF Pleasure/BIF River</p>
+                          <p>Check venue calendar for availability at Bridge Inn Fishery <a class="alert-link" href="{{ page.ws-url }}" target="_blank">Bookings</a></p>
+                          <p>Once you have ascertained days you require are available, please send an e-mail to <a class="alert-link" href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a></p>
+                          <p>Please state your required date(s), time and venue: BIF Main | BIF Pleasure | BIF River</p>
                           <p>Please also provide a contact number so that we can speak to you if necessary</p>
+                          <p>Please provide at least <strong>24 hours notice (from the start of your booking)</strong>, we cannot guarantee your booking will be processed otherwise</p>
+                          <p>A booking is not completed UNTIL you receive a confirmation email</p>
                           <p><i>Please note that there are only 2 tickets available per day</i></p>
                           <p>Thank You</p>
                         </div>
@@ -197,13 +209,13 @@ labels:
   </div> <!-- END OF row  -->
 
 	<div class="row">
-	  <div class="col-xs-12 col-md-12">
+	  <div class="col-xs-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-map"><span class="pull-left">Location</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
       <div id="water-map" class="collapse in">
 
           <div class="row">
-            <div class="col-sm-12 col-md-6">
+            <div class="col-xs-12 col-md-6">
 
               <h3>Directions to Venue</h3>
               

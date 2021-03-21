@@ -11,6 +11,7 @@ category: waters
 fb-url: https://www.facebook.com/bartleslodge
 ws-url: http://www.hallwalkfishery.co.uk
 rules-url: http://hallwalkfishery.co.uk/rules/
+pike-dates: 1st October - 1st March
 gmap-id: 1mEyjTsQMxxW8TlG7kVSFpmrzifs
 open-img: hallwalk-tile.jpg
 closed-img: hallwalk-closed-tile.jpg
@@ -45,8 +46,8 @@ labels:
         <div class="row">
           <div class="col-sm-12 col-md-12">
 
-            <p>The following waters at Hall Walk Lakes are available to NUAC members but <strong>access must be booked in advance as per booking instructions stated below.</strong></p>
-            <p>For further information on these lakes, please refer to the <a href="{{ page.ws-url }}" target="_blank">Hall Walk Lakes website</a>.</p> 
+            <p>The following waters at Hall Walk Lakes are available to NUAC members for <strong>Day Fishing Only</strong>. Access must be <strong>booked in advance as per booking instructions stated below.</strong></p>
+            <p>For further information on these lakes, please refer to the Hall Walk Lakes <a href="{{ page.ws-url }}" target="_blank">website</a>.</p> 
         
           </div> <!-- END OF col  -->
         </div> <!-- END OF row  -->
@@ -71,8 +72,8 @@ labels:
           <div class="col-sm-12 col-md-12">
 
             <h3>Tom's Lake</h3>
-            <p>Tom’s lake is only available to NUAC members for Pike Fishing and only when fishery rules allow (see below). This lake is the largest of the three on the complex at approx. 9 acres. A mature gravel pit containing many interesting features with islands, reed beds, gravel bars and lilies.</p>
-            <p>It boasts great winter pike weighing in at well over 20lb.</p>
+            <p>NUAC members have access to Tom’s Lake for Pike Fishing from {{ page.pike-dates }}.</p>
+            <p>This lake is the largest of the three on the complex at approx. 9 acres. A mature gravel pit containing many interesting features with islands, reed beds, gravel bars and lilies. It boasts great winter pike fishing with specimens weighing in at well over 20lb.</p>
 
           </div> <!-- END OF col  -->
         </div> <!-- END OF row  -->
@@ -94,6 +95,7 @@ labels:
           <li>Members must adhere to the <a href="{{ page.rules-url }}" target="_blank">fishery rules</a>.</li>
           <li>Members must carry their NUAC club permit at all times, and show it if requested.</li>
           <li>Please display your NUAC car parking permit when you park your car.</li>
+          <li>NUAC member can <strong>fish dawn to dusk</strong>, you are not permitted to night fish.</li>
         </ol>
 
       </div> <!-- END OF collapse  -->
@@ -109,21 +111,21 @@ labels:
         <div class="row">
           <div class="col-sm-12 col-md-12">
             <ol>
-              <li>2 advance bookings can be in place at any one time for any member. Either two separate days or one consecutive two-day period.</li>
-              <li>Whole day booking is from 08:00 on the first day to 08:00 on the following day. This enables overnight fishing on those venues where night fishing is allowed.</li>
-              <li>If after 2.00pm on the day of any booking, there is availability on the following day, members are then allowed to book the following day as well. This would enable two consecutive night's fishing.</li>
+              <li>2 advance bookings can be in place at any one time.</li>
               <li>If you are only planning a part day, please state the approximate period you would be on the water. For example if you were just going for the morning, we might be able to release the ticket to someone else who fancies going for the afternoon.</li>
-              <li>During your booking you are classed as a Hall Walk Member, please present your NUAC membership card as proof of membership.</li>
-              <li>Please ensure you have read the relevant fishery rules before fishing.</li>
+              <li>During your booking you are classed as a Hall Walk "Silver" Member, please present your NUAC membership card as proof of membership.</li>
+              <li>Please ensure you have read the <a href="{{ page.rules-url }}" target="_blank">fishery rules</a> before fishing.</li>
             </ol>
             <div class="row top-spacer">
-             	<div class="col-xs-12 col-md-8">           
+             	<div class="col-xs-12">           
                 <div class="alert alert-info">
-                         <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.</p>
-                         <p>Please state your required date(s), time and venue e.g. Hall Walk Puppy/Long/Tom's.</p>
-                         <p>Please also provide a contact number so that we can speak to you if necessary.</p>
-                         <p><i>Please note that there are only 2 tickets available per day.</i></p>
-                         <p>Thank You.</p>
+                  <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.</p>
+                  <p>Please state your required date(s), time and venue e.g. Hall Walk Puppy/Long/Tom's.</p>
+                  <p>Please also provide a contact number so that we can speak to you if necessary.</p>
+                  <p>Please provide at least <strong>24 hours notice (from the start of your booking)</strong>, we cannot guarantee your booking will be processed otherwise</p>
+                  <p>A booking is not completed UNTIL you receive a confirmation email</p>
+                  <p><i>Please note that there are only 2 tickets available per day.</i></p>
+                  <p>Thank You.</p>
                 </div>
           		</div> <!-- END OF col  -->
             </div> <!-- END OF row  -->

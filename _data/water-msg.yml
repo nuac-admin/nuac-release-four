@@ -22,8 +22,8 @@ hw-messages:
     msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
   - msg-type: warning
     msg-desc: Fishery guidance available via Hall Walk Lakes [facebook page](https://www.facebook.com/bartleslodge)
-  - msg-type: info
-    msg-desc: March 2021 - Please note that access to **Tom's Lake** is now restricted to **Pike Fishing** when fishery rules allow
+  - msg-type: danger
+    msg-desc: March 2021 - Please note NUAC access has changed. **No Night Fishing** and **Tom's Lake** is restricted to **Pike Fishing** [1st Oct - 1st Mar]
 
 bif-open-ind: true
 bif-msg-ind: true

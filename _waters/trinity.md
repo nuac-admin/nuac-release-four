@@ -60,8 +60,8 @@ labels:
             The Trinity Broads consist of five broads; from north to south there is Ormesby Broad then Rollesby Broad (these two are separated by A149 road bridge), Rollesby Broad, Lily Broad, Ormesby Little Broad and Filby Broad (these latter two are intersected by A1064 road bridge).  At the southern extent of Filby Broad the water channels into Muck Fleet dyke and ultimately flows into the River Bure.</p>
             <p>These broads contain pike, perch, bream, roach, rudd and tench with the system noted for it's large pike and prolific shoals of bream.  The broads, given their remote and undisturbed nature, are also a haven for wildlife such as marsh harrier and bittern.</p>
             <p>The boat is moored at the south west corner of Ormesby Little Broad (see the Location section below).</p>
-            <br>To the south of the mooring under the road bridge leads onto Filby Broad. This channel can be very shallow in the summer and occasionally reedy although still passable.
-            <br>To the north; bearing to the right from the mooring takes you to the main arm of Ormesby Little Broad heading up to Eel's Foot Inn. Or bearing left from the mooring leads onto Rollesby Broad. Lily Broad can be accessed just past the narrows going up to Rollesby - very difficult to get through sometimes. A nice, interesting little broad.
+            <p>To the south of the mooring under the road bridge leads onto Filby Broad. This channel can be very shallow in the summer and occasionally reedy although still passable.
+            <br>To the north; bearing to the right from the mooring takes you to the main arm of Ormesby Little Broad heading up to Eel's Foot Inn. Or bearing left from the mooring leads onto Rollesby Broad. Lily Broad can be accessed just past the narrows going up to Rollesby - very difficult to get through sometimes. A nice, interesting little broad.</p>
             <p>For first-timers on this group of waters we recommend getting familiar with Ormesby Little Broad first (not that it's that little anyway!) before venturing onto the other broads.</p>
 
           </div> <!-- END OF col  -->
@@ -82,7 +82,7 @@ labels:
             <p>Committee Members will try to check the boat from time to time, if not using it themselves, but in the main we rely on members ensuring all oars and bailers are secured after use. They will "walk" and be unavailable for the next use, otherwise.</p>
             <p>Please ensure the padlock chain is through the ring in the bows, through the eyes on each oar handle, and through the handle of any bailers. To keep oars from rotting, ensure these are left across the benches, not in the bottom of the boat. The piece of carpet for bottom of boat should be secured under the middle seat using the bungee straps provided. For an example of the boat layout described here please see the relevant picture in the Image Gallery below.</p>
             <p>Padlock combination will be confirmed on booking (instructions in following section).</p>
-            <p>Any feedback or issues regards the boat, please contact Neil Glover directly (contact details as per <a href="../contact.html">Committee</a> page).</p>
+            <p>Any feedback or issues regards the boat, please send an email to <a href="mailto:secretary@nuac.org.uk">secretary@nuac.org.uk</a>.</p>
             <p><b><u>When you use a NUAC boat / punt, please ensure that you have adequate personal buoyancy aids - your safety is your own responsibility.</u></b></p>
           </div> <!-- END OF col  -->
         </div> <!-- END OF row  -->
@@ -108,11 +108,13 @@ labels:
       	      <li>Please ensure you have read the relevant fishery rules before fishing.</li>
       	    </ol>
             <div class="row top-spacer">
-              <div class="col-xs-12 col-md-8">           
+              <div class="col-xs-12">           
                 <div class="alert alert-info">
                          <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.</p>
                          <p>Please state your required date(s), time and venue e.g. Trinity.</p>
                          <p>Please also provide a contact number so that we can speak to you if necessary.</p>
+                         <p>Please provide at least <strong>24 hours notice (from the start of your booking)</strong>, we cannot guarantee your booking will be processed otherwise</p>
+                         <p>A booking is not completed UNTIL you receive a confirmation email</p>
                          <p>Thank You.</p>
                 </div>
         		  </div> <!-- END OF col  -->

@@ -40,39 +40,43 @@ labels:
   {% include waterMsg.html %}
 
 	<div class="row">
-	  <div class="col-xs-12 col-md-12">
+	  <div class="col-xs-12">
       <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-desc"><span class="pull-left">Description</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
 
       <div id="water-desc" class="collapse in">
         <div class="row">
-          <div class="col-sm-12 col-md-12">
+          <div class="col-xs-12">
 						<p>The following Norwich & District Angler's Association (NDAA) waters <strong>must be booked in advance (see <a href="#water-booking">booking instructions</a> below).</strong></p>
 						<p>Please ensure that you familiarise yourself with the <a href="#water-rules">NDAA Rules</a> as stated below before visiting.</p>
 					</div>
 	    	</div>
 
       	<div class="row">
-        	<div class="col-sm-12 col-md-6">
+        	<div class="col-xs-12 col-md-6">
 						<h3>Rivers Ant & Bure, St. Benets </h3>
 						<p>Access to rivers Ant & Bure is available via St. Benets, parking in the designated visitor car park only.</p>
 						<p>Follow the track to the right of the Abbey to gain access to the River Ant (NDAA access from Ant mouth upstream to the first bend). Access to the River Bure runs downstream from Ant mouth all the way downstream to Thurne mouth. Unfortunately bank access is difficult if not impossible beyond the field where the abbey remains are located. This leaves roughly 40 pegs with easy bank access from in front of the disused wind pump downstream to the field boundary.</p>	<p>The Bure throws up lots of skimmers & bream throughout the season.  Roach are also present in large numbers in the summer and autumn but migrate upstream once larger tides arrive in early October.  Boat traffic is very heavy during the summer holidays and can make fishing the feeder across to the far bank almost impossible.  Once boat traffic drops in October the river colour also diminishes and fishing early and late in the day may be the only way to attract bites in the colder months.</p>
-						<p>Noted pegs are the first 5 in front of the wind pump, the pegs opposite the willow just upstream of the cattle drink, the pegs near the "black board" and the end pegs just before the field boundary.</p>
+						<p>Noted pegs are the first 5 in front of the wind pump, the pegs opposite the willow just upstream of the cattle drink, the pegs near the "black sign" and the end pegs just before the field boundary.</p>
 
 					</div> <!-- END OF col  -->
-					<div class="col-sm-12 col-md-6">
+					<div class="col-xs-12 col-md-6">
 
 						<h3>Decoy Broad & River Bure, Woodbastwick</h3>
 						<p>NDAA have access to ten 13 foot rowing boats at Decoy Broad along with use of the river bank adjacent to the broad.  Access is via a self-opening/closing electronic gate, combination will be provided on booking.  The rowing boats can be hired at a cost of £6 per day and must be booked separately as per instructions below.</p>
 
-						<h3>River Bure, Woodbastwick Staithe </h3>
-						<p>NDAA have exclusive use of fishing platforms and areas downstream of Woodbastwick staithe (south bank of the river opposite Horning Ferry).</p>
-
 						<h3>River Thurne, Cold Harbour </h3>
-						<p>Access to the right of car park through gate at top of flood bank.  Bank access stretches all the way downtream to Thurne mouth where the river joins the river Bure.  Unfortunatey only 16 pegs are maintained with access via two pathways in front of a dyke which acts as fish refuge from salt tides (access signposted on footpath on flood bank).</p>
+						<p>Access to the right of car park through gate at top of flood bank.  Bank access stretches all the way downstream to Thurne mouth where the river joins the Bure.  Unfortunatey only 16 pegs are maintained with access via two pathways in front of a dyke which acts as a fish refuge from salt tides (access signposted on footpath on flood bank).</p>
 						<p>Note that fishing pattern here follows that of the Bure with summer & autumn providing the most consistent sport.  Although the roach migrate upstream once the first salt tides arrive at the end of September there are plenty of skimmers & bream to be caught throughout the season conditions permitting.</p>
 
 					</div> <!-- END OF col  -->
   	  	</div> <!-- END OF row  -->
+				
+				<div class="row">
+	  			<div class="col-xs-12">
+						<h3>River Bure, Woodbastwick Staithe </h3>
+						<p>NDAA have exclusive use of fishing platforms and areas downstream of Woodbastwick staithe (south bank of the river opposite Horning Ferry).</p>
+					</div>
+				</div>
 
 	  	</div> <!-- END OF collapse  -->
     </div> <!-- END OF col  -->
@@ -123,12 +127,13 @@ labels:
 							<li>Please ensure you have read the relevant fishery rules before fishing.</li>
 						</ol>
 						<div class="row">
-							<div class="col-xs-12 col-md-10">           
+							<div class="col-xs-12">           
 								<div class="alert alert-info">
 									<p>To book your visit, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.</p>
 									<p>Please state your required date(s), time and venue e.g. NDAA.</p>
 									<p>Please also provide a contact number so that we can speak to you if necessary.</p>
 									<p>To book and pay for the hire of a boat at Decoy Broad please visit the following outlets (you will need the NDAA permit number provided when your e-mail booking is confirmed):</p>
+
 									<div class="row top-spacer-5">
 										<div class="col-xs-6 col-md-4">
 											<address>
@@ -147,6 +152,8 @@ labels:
 											</address>
 										</div>
 									</div>
+                  <p>Please provide at least <strong>24 hours notice (from the start of your booking)</strong>, we cannot guarantee your booking will be processed otherwise</p>
+						      <p>A booking is not completed UNTIL you receive a confirmation email</p>
 									<p><i>Please note that there are only 4 tickets available per day.</i></p>
 									<p>Thank You.</p>
 								</div>
