@@ -1,11 +1,14 @@
-grove-open-ind: true
+grove-open-ind: false
 grove-msg-ind: true
-grove-msg-box-type: warning
+grove-msg-box-type: danger
 grove-messages:
-  - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/).
-  - msg-type: warning
-    msg-desc: Please have a face mask available for the duration of your visit, and if approached by any Home residents or their guests wear it whilst they are in your proximity.
+  - msg-type: danger
+    msg-desc: <strong>Venue remains CLOSED until further notice</strong>, please see the relevant <a href="../news/news.html#NI106" class="alert-link">news item</a> for more information
+
+  # - msg-type: warning
+  #   msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/).
+  # - msg-type: warning
+  #   msg-desc: Please have a face mask available for the duration of your visit, and if approached by any Home residents or their guests wear it whilst they are in your proximity.
 
 yare-open-ind: false
 yare-msg-ind: true
@@ -50,12 +53,12 @@ hib-messages:
   - msg-type: warning
     msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th June
 
-snp-open-ind: true
+snp-open-ind: false
 snp-msg-ind: true
-snp-msg-box-type: warning
+snp-msg-box-type: danger
 snp-messages:
-  - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/).
+  - msg-type: danger
+    msg-desc: <strong>Venue remains CLOSED until further notice</strong>, please see the relevant <a href="../news/news.html#NI106" class="alert-link">news item</a> for more information
 
 ndaa-open-ind: false
 ndaa-msg-ind: true
