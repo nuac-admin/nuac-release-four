@@ -51,7 +51,7 @@ labels:
             <!-- {% include c19-desc-alert.html %} -->
 
             <p>The following waters at Bridge Inn Fishery are available to NUAC members but <strong>access must be booked in advance as per booking instructions stated below.</strong></p>
-            <p>Please note that <strong>NUAC guests must purchase a Day Ticket</strong>. Day Tickets can be booked and paid for via Bridge Inn Fishery <a href="{{ page.ws-url }}" target="_blank">Bookings</a> (or purchased on site BEFORE fishing).</p>
+            <p>Please note that <strong>NUAC guests must purchase a Day Ticket</strong>. Day Tickets can be booked and paid for via Bridge Inn Fishery <a href="{{ page.ws-url }}" target="_blank">Bookings</a>.</p>
             <p>For further information on these lakes please refer to their <a href="{{ page.fb-url }}" target="_blank">Facebook page</a>.</p>
 
           </div> <!-- END OF col  -->
@@ -98,7 +98,7 @@ labels:
 
               <ol>
                 <li>NUAC member must have pre-booked their day's fishing as per booking instructions below.</li>
-                <li>Only the NUAC member is entitled to free fishing, guests must purchase a Day Ticket from the bailiff on the bank.</li>
+                <li>Only the NUAC member is entitled to free fishing, <strong>NUAC guests must book their visit</strong> beforehand via Bridge Inn Fishery <a href="{{ page.ws-url }}" target="_blank">Bookings</a>.</li>
                 <li>Members must carry their NUAC club permit at all times, and show it if requested.</li>
                 <li>Please display your NUAC car parking permit when you park your car.</li>
                 <li>Members must adhere to the fishery rules as stated below.</li>
@@ -143,9 +143,17 @@ labels:
                 <li>No drugs</li>
                 <li>No saving of swims without bailiff’s permission</li>
                 <li>Fishing licence must be shown on arrival</li>
-                <li>No under 16s</li>
+                <li>Under 16s must be accompanied by an adult</li>
               </ol>
             </div>
+            <div class="col-xs-12 col-md-6">
+              <h4><strong>Pike Fishing</strong></h4>
+              <ol>
+                <li>No lures, gags of any type</li>
+                <li>Live bait fish caught from our lake only</li>
+                <li>Dead bait is allowed</li>
+              </ol>
+    	      </div> <!-- END OF col  -->
             <div class="col-xs-12 col-md-6">
               <h4><strong>Pleasure Lake</strong> – Dawn to Dusk Only</h4>
               <ol>
