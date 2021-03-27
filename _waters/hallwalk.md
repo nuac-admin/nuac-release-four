@@ -93,7 +93,7 @@ labels:
           <li>NUAC member must have pre-booked day's fishing as per booking instructions below.</li>  
           <li>NUAC Guest tickets are not permitted (you must be a full member to access these lakes).</li>
           <li>Members must adhere to the <a href="{{ page.rules-url }}" target="_blank">fishery rules</a>.</li>
-          <li>Members must carry their NUAC club permit at all times, and show it if requested.</li>
+          <li>During your visit you are classed as a Hall Walk "Silver" Member, please present your NUAC membership card as proof of membership.</li>
           <li>Please display your NUAC car parking permit when you park your car.</li>
           <li>NUAC member can <strong>fish dawn to dusk</strong>, you are not permitted to night fish.</li>
         </ol>
@@ -113,8 +113,7 @@ labels:
             <ol>
               <li>2 advance bookings can be in place at any one time.</li>
               <li>If you are only planning a part day, please state the approximate period you would be on the water. For example if you were just going for the morning, we might be able to release the ticket to someone else who fancies going for the afternoon.</li>
-              <li>During your booking you are classed as a Hall Walk "Silver" Member, please present your NUAC membership card as proof of membership.</li>
-              <li>Please ensure you have read the <a href="{{ page.rules-url }}" target="_blank">fishery rules</a> before fishing.</li>
+              <li>Please ensure you have read the <a href="{{ page.rules-url }}" target="_blank">fishery rules</a> before booking.</li>
             </ol>
             <div class="row top-spacer">
              	<div class="col-xs-12">           

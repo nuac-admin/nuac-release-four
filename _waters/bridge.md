@@ -102,6 +102,8 @@ labels:
                 <li>Members must carry their NUAC club permit at all times, and show it if requested.</li>
                 <li>Please display your NUAC car parking permit when you park your car.</li>
                 <li>Members must adhere to the fishery rules as stated below.</li>
+                <li>You MUST have your BIF Permit, issued when your booking was confirmed, with you when you visit the fishery (either on your phone or printed off beforehand).</li>
+                <li>Please report to BIF tackle & bait shop BEFORE fishing (shop is sign posted).</li>
               </ol>
             </div>
           </div>
@@ -189,8 +191,7 @@ labels:
               <ol>
                 <li>Only 2 advance bookings can be in place at any one time for any member. Either two separate 24 hour periods or one consecutive 48 hour period.</li>
                 <li>Bookings must start or end at 7am or 7pm.</li>
-                <li>If asked for a ticket, please present your NUAC membership card.</li>
-                <li>Please ensure you have read the relevant fishery rules before fishing.</li>
+                <li>Please ensure you have read the relevant fishery rules before booking.</li>
               </ol>
 
               <div class="row top-spacer">
