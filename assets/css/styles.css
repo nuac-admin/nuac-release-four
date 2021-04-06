@@ -4099,6 +4099,34 @@ button.close {
   visibility: visible;
   opacity: 1; }
 
+.card {
+  position: relative; }
+
+.card-category {
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.card-description h2 {
+  font-size: 1.1em;
+  margin: .3em 0; }
+
+.card-description p {
+  font-size: 1em;
+  opacity: 0.7;
+  font-weight: lighter; }
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0; }
+  .card-link:hover {
+    opacity: 0.1; }
+
 .body-theme {
   background-color: #eeeeee;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#999), to(#000));
@@ -4132,14 +4160,11 @@ button.close {
 .top-spacer-5 {
   padding-top: 5px; }
 
-.committee-listing > * + * {
+.committee-listing > * {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem; }
 
-.committee-listing .row:first-child {
-  font-weight: bold; }
-
-.committee-listing .row:nth-child(2n) {
+.committee-listing .col-xs-12:nth-child(2n) {
   background-color: #eeeeee; }
 
 @media (max-width: 991px) {

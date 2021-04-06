@@ -45,18 +45,18 @@
 
 .committee-listing {
 
-    & > * + * {
+    & > * {
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
     }
 
 
-    .row {
+    .col-xs-12 {
     
-        &:first-child {
-            // background-color: red;
-            font-weight: bold;
-        }
+        // &:first-child {
+        //     // background-color: red;
+        //     font-weight: bold;
+        // }
     
         &:nth-child(2n) {
             // color: $navbar-light-color;
