@@ -1,14 +1,14 @@
-grove-open-ind: false
+grove-open-ind: true
 grove-msg-ind: true
-grove-msg-box-type: danger
+grove-msg-box-type: warning
 grove-messages:
-  - msg-type: danger
-    msg-desc: <strong>Venue remains CLOSED until further notice</strong>, please see the relevant <a href="../news/news.html#NI106" class="alert-link">news item</a> for more information
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/).
+  - msg-type: warning
+    msg-desc: Please have a face mask available for the duration of your visit, and if approached by any Home residents or their guests wear it whilst they are in your proximity.
 
-  # - msg-type: warning
-  #   msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/).
-  # - msg-type: warning
-  #   msg-desc: Please have a face mask available for the duration of your visit, and if approached by any Home residents or their guests wear it whilst they are in your proximity.
+  # - msg-type: danger
+  #   msg-desc: <strong>Venue remains CLOSED until further notice</strong>, please see the relevant <a href="../news/news.html#NI106" class="alert-link">news item</a> for more information
 
 yare-open-ind: false
 yare-msg-ind: true
