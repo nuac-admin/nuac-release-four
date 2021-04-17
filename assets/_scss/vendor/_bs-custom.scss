@@ -1,0 +1,30 @@
+// Put project overrides of Bootstrap Variables in this file
+// $btn-primary-color: #fff;
+
+// $brand-primary:     #809dff;
+// $brand-primary:     #ffc300;
+$brand-primary:       $brand-primary-nuac;
+
+$navbar-height: $navbarHeight;
+
+// $thumbnail-bg:              lighten(#000, 80%);
+$caption-colour:      $hdr-colour;
+// $thumbnail-caption-color:  #ffc300;
+
+// $btn-primary-bg:    #809dff;
+$btn-primary-bg:      lighten($brand-primary, 10%);
+// $btn-primary-border:  #6085ff; darken($btn-primary-bg, 5%) 
+
+// $navbar-default-color:  $brand-primary;
+// $navbar-default-bg: $brand-primary;
+
+// $navbar-default-brand-color: $brand-primary;
+// $screen-sm: 576px; //768px
+// $screen-md: 768px; //992px
+// $screen-lg: 992px; //1200px
+$label-color: $label-txt-color;
+$label-danger-bg: $label-red-bg;
+
+$alert-warning-text:             #686211 !default;  //#8a6d3b
+$alert-warning-bg:              #f7e288; //#f3f055;//#eef148; //#f0ad4e;// #fcf8e3 !default;
+$alert-warning-border:           darken(adjust-hue($alert-warning-bg, -10), 5%) !default;

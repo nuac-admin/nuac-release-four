@@ -85,20 +85,26 @@
 
 .alert-flex {
     display: flex;
+    // align-items: center;
+
 
     p {
         margin-bottom: 0px;
+        padding-top: .4rem;
     }
 
-    &  >  * {
-        margin-top: 5px;
-    }
+    // &  >  * + * {
+    //     margin-top: 5px;
+    // }
       
     & .indicator {
-        margin-right: 0.2em; 
-        padding: 0.2em;
+        margin-right: 0.4em;
+        line-height: 1.65em;
+        font-size: 1.2em;
+        // padding: 0.2em;
         // color: black;
         // background-color: yellow;
+        
     }
 }
 

@@ -23,5 +23,13 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuac-admin/nuac-release-four.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nuac-admin/nuac-release-four/issues"
+  },
+  "homepage": "https://github.com/nuac-admin/nuac-release-four#readme"
 }

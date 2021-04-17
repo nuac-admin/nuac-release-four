@@ -4183,12 +4183,12 @@ button.close {
   display: -ms-flexbox;
   display: flex; }
   .alert-flex p {
-    margin-bottom: 0px; }
-  .alert-flex > * {
-    margin-top: 5px; }
+    margin-bottom: 0px;
+    padding-top: .4rem; }
   .alert-flex .indicator {
-    margin-right: 0.2em;
-    padding: 0.2em; }
+    margin-right: 0.4em;
+    line-height: 1.65em;
+    font-size: 1.2em; }
 
 alert-flow > * {
   margin-top: 5px; }
