@@ -4340,13 +4340,6 @@ alert-flow > * {
   min-height: 800px; }
   .non-header > * + * {
     padding-top: 20px; }
-  .non-header ol {
-    margin: 0;
-    -webkit-padding-start: 3.25rem;
-            padding-inline-start: 3.25rem; }
-    .non-header ol > li {
-      margin-top: 0;
-      margin-bottom: 0.6em; }
 
 .no-banner > :first-child {
   padding-top: 20px; }
@@ -4363,6 +4356,17 @@ alert-flow > * {
   #water-desc h1, #water-desc h3, #water-rules h1, #water-rules h3, #water-map h1, #water-map h3, #image-gallery h1, #image-gallery h3, #media-gallery h1, #media-gallery h3, #water-booking h1, #water-booking h3, .NI-format h1, .NI-format h3, .info-format h1, .info-format h3 {
     margin-top: 10px;
     margin-bottom: 10px; }
+
+#water-desc ol, #water-rules ol, #water-map ol, #water-booking ol {
+  margin: 0;
+  -webkit-padding-start: 3.25rem;
+          padding-inline-start: 3.25rem; }
+  #water-desc ol > li, #water-rules ol > li, #water-map ol > li, #water-booking ol > li {
+    margin-top: 0;
+    margin-bottom: 0.6em; }
+
+.NI-format > h1, .NI-format h2, .NI-format h3, .NI-format h4 {
+  margin: 0 0 1rem 0; }
 
 .tab-content-ndaa {
   padding: 10px 0; }

@@ -7,15 +7,6 @@
         padding-top: 20px;
     }
 
-    ol {
-        margin: 0;
-        padding-inline-start: 3.25rem;
-       
-        & > li {
-            margin-top: 0;
-            margin-bottom:      0.6em;
-        }        
-    }
     
 }
 
@@ -41,9 +32,27 @@
 
 }
 
-// .NI-format>ul, ol {
-//         padding-inline-start: 1.75rem;
-//     }
+#water-desc, #water-rules, #water-map, #water-booking {
+
+    ol {
+        margin: 0;
+        padding-inline-start: 3.25rem;
+       
+        & > li {
+            margin-top: 0;
+            margin-bottom:      0.6em;
+        }        
+    }
+
+}
+
+
+.NI-format {
+    & > h1, h2, h3, h4 {
+        margin: 0 0 1rem 0;
+    }
+
+}
 
 .tab-content-ndaa {
     padding:    $direction-pad-T-B 0;
