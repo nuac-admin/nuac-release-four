@@ -72,6 +72,26 @@ $('#join').on('hide.bs.collapse', toggleChevron);
 $('#join').on('show.bs.collapse', toggleChevron);
 $('#news-current').on('hide.bs.collapse', toggleChevron);
 $('#news-current').on('show.bs.collapse', toggleChevron);
+$('#NI119').on('hide.bs.collapse', toggleChevron);
+$('#NI119').on('show.bs.collapse', toggleChevron);
+$('#NI118').on('hide.bs.collapse', toggleChevron);
+$('#NI118').on('show.bs.collapse', toggleChevron);
+$('#NI117').on('hide.bs.collapse', toggleChevron);
+$('#NI117').on('show.bs.collapse', toggleChevron);
+$('#NI116').on('hide.bs.collapse', toggleChevron);
+$('#NI116').on('show.bs.collapse', toggleChevron);
+$('#NI115').on('hide.bs.collapse', toggleChevron);
+$('#NI115').on('show.bs.collapse', toggleChevron);
+$('#NI114').on('hide.bs.collapse', toggleChevron);
+$('#NI114').on('show.bs.collapse', toggleChevron);
+$('#NI113').on('hide.bs.collapse', toggleChevron);
+$('#NI113').on('show.bs.collapse', toggleChevron);
+$('#NI112').on('hide.bs.collapse', toggleChevron);
+$('#NI112').on('show.bs.collapse', toggleChevron);
+$('#NI111').on('hide.bs.collapse', toggleChevron);
+$('#NI111').on('show.bs.collapse', toggleChevron);
+$('#NI110').on('hide.bs.collapse', toggleChevron);
+$('#NI110').on('show.bs.collapse', toggleChevron);
 $('#NI109').on('hide.bs.collapse', toggleChevron);
 $('#NI109').on('show.bs.collapse', toggleChevron);
 $('#NI108').on('hide.bs.collapse', toggleChevron);
@@ -210,21 +230,3 @@ $(document).ready(function(){
 $(document).ready(function () {
     location.hash && $(location.hash + '.collapse').collapse('show');
 });
-// function toggleChevron(e) {
-//     $(e.target)
-//         .prev('.btn-block')
-//         .find("i.indicator")
-//         .toggleClass('rotate-180');
-// };
-// $('[data-toggle="collapse"]').on('click', function(){
-//     $(this).attr('data-state', $(this).attr('data-state')=='close' ? 'open':'close');
-//     switch( $(this).attr('data-state') ) 
-//     {
-//       case 'open':
-//         $(this).find('.fas').addClass('fa-chevron-down').removeClass('fa-chevron-up');
-//       break;
-//       case 'close':
-//         $(this).find('.fas').addClass('fa-chevron-up').removeClass('fa-chevron-down');
-//       break;
-//     }
-//   });
