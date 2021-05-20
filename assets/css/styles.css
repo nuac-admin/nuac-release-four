@@ -4163,7 +4163,13 @@ button.close {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem; }
 
-.committee-listing .col-xs-12:nth-child(2n) {
+.committee-listing .col-xs-12:nth-child(odd) {
+  background-color: #eeeeee; }
+
+.officer-list .col-xs-12:nth-child(odd) {
+  background-color: white; }
+
+.officer-list .col-xs-12:nth-child(even) {
   background-color: #eeeeee; }
 
 @media (max-width: 991px) {

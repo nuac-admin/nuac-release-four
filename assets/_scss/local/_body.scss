@@ -58,12 +58,29 @@
         //     font-weight: bold;
         // }
     
-        &:nth-child(2n) {
+        &:nth-child(odd) {
             // color: $navbar-light-color;
             background-color: $gray-lighter;
           }
     
     }
+}
+
+.officer-list {
+    .col-xs-12 {
+        &:nth-child(odd) {
+            // color: $navbar-light-color;
+            background-color: white;
+          }
+    
+   
+        &:nth-child(even) {
+            // color: $navbar-light-color;
+            background-color: $gray-lighter;
+          }
+    
+    }
+
 }
 
 
