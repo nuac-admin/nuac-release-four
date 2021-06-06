@@ -81,6 +81,7 @@ labels:
             <p>We look to keep the boat at the end of the jetty, left hand side, it's usually the last but one. </p>
             <p>Committee Members will try to check the boat from time to time, if not using it themselves, but in the main we rely on members ensuring all oars and bailers are secured after use. They will "walk" and be unavailable for the next use, otherwise.</p>
             <p>Please ensure the padlock chain is through the ring in the bows, through the eyes on each oar handle, and through the handle of any bailers. To keep oars from rotting, ensure these are left across the benches, not in the bottom of the boat. The piece of carpet for bottom of boat should be secured under the middle seat using the bungee straps provided. For an example of the boat layout described here please see the relevant picture in the Image Gallery below.</p>
+            <p>You can use your own electric motor (As this broad is classed a <a href="https://en.wikipedia.org/wiki/Trinity_Broads">Site of Special Scientific Interest</a> petrol/diesel motors are prohibited).</p>
             <p>Padlock combination will be confirmed on booking (instructions in following section).</p>
             <p>Any feedback or issues regards the boat, please send an email to <a href="mailto:secretary@nuac.org.uk">secretary@nuac.org.uk</a>.</p>
             <p><b><u>When you use a NUAC boat / punt, please ensure that you have adequate personal buoyancy aids - your safety is your own responsibility.</u></b></p>
