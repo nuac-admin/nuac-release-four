@@ -84,6 +84,19 @@ labels:
             <p>You can use your own electric motor (As this broad is classed a <a href="https://en.wikipedia.org/wiki/Trinity_Broads">Site of Special Scientific Interest</a> petrol/diesel motors are prohibited).</p>
             <p>Padlock combination will be confirmed on booking (instructions in following section).</p>
             <p>Any feedback or issues regards the boat, please send an email to <a href="mailto:secretary@nuac.org.uk">secretary@nuac.org.uk</a>.</p>
+            <div class="row bottom-spacer">
+              <div class="col-xs-12">           
+                  <div class="alert alert-danger alert-flow">
+                    <p>Killer shrimp is present in Trinity Broad.  Killer shrimp is so called due to its voracious habits: eating or killing any of our native invertebrates small enough to be prey. Growing to 3cm long, adults will feed on fish eggs and fry as well.</p>
+                    <p>To minimise the spread of non-native species please follow the <a href="http://www.nonnativespecies.org/checkcleandry/biosecurity-for-anglers.cfm">Check, Clean, Dry</a> guidance:</p>
+                    <ul>
+                      <li><strong>Check</strong> your gear after leaving the water for mud, aquatic animals or plant material. Remove anything you find and leave it at the site.</li>
+                      <li><strong>Clean</strong> everything thoroughly as soon as you can, paying attention to nets, waders, and areas that are damp and hard to access. Use hot water if possible.</li>
+                      <li><strong>Dry</strong> everything for as long as possible before using elsewhere as some invasive plants and animals can survive for two weeks in damp conditions.</li>
+                    </ul>
+                  </div>
+              </div> <!-- END OF col  -->
+            </div> <!-- END OF row  -->
             <p><b><u>When you use a NUAC boat / punt, please ensure that you have adequate personal buoyancy aids - your safety is your own responsibility.</u></b></p>
           </div> <!-- END OF col  -->
         </div> <!-- END OF row  -->

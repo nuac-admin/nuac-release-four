@@ -52,6 +52,10 @@
         margin: 0 0 1rem 0;
     }
 
+    & > .row + .row {
+        padding-top: 1rem;
+    }
+
 }
 
 .tab-content-ndaa {
@@ -71,3 +75,24 @@
 .no-wrap {
     white-space: nowrap;
 }
+
+small {
+    color: $hdr-colour;
+}
+
+@media (max-width: $screen-xs) {
+    .news {
+        & .btn-block-txt {
+            font-size: 100%;
+    
+            & small {
+                font-size: 1em;
+            }
+        }
+    
+    }
+    
+}
+// .small, small {
+//     display: block;
+// }

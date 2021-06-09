@@ -47,6 +47,8 @@ fib-msg-box-type: warning
 fib-messages:
   - msg-type: warning
     msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th June
+  - msg-type: danger
+    msg-desc: Killer shrimp found in Trinity Broads please familiarise yourself with the **Check, Clean, Dry** [guidance](http://www.nonnativespecies.org/checkcleandry/biosecurity-for-anglers.cfm)
 
 hib-open-ind: false
 hib-msg-ind: true

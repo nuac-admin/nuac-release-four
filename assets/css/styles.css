@@ -3930,6 +3930,9 @@ button.close {
   color: #003cff;
   padding: 5px; }
 
+.navbar-toggle {
+  margin-right: 0; }
+
 .navbar-text {
   margin-top: 12.5px;
   margin-bottom: 17.5px; }
@@ -4374,6 +4377,9 @@ alert-flow > * {
 .NI-format > h1, .NI-format h2, .NI-format h3, .NI-format h4 {
   margin: 0 0 1rem 0; }
 
+.NI-format > .row + .row {
+  padding-top: 1rem; }
+
 .tab-content-ndaa {
   padding: 10px 0; }
 
@@ -4387,6 +4393,15 @@ alert-flow > * {
 
 .no-wrap {
   white-space: nowrap; }
+
+small {
+  color: #ffcc24; }
+
+@media (max-width: 480px) {
+  .news .btn-block-txt {
+    font-size: 100%; }
+    .news .btn-block-txt small {
+      font-size: 1em; } }
 
 .constitution ol {
   list-style-type: none;
