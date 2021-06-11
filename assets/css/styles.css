@@ -4397,6 +4397,9 @@ alert-flow > * {
 small {
   color: #ffcc24; }
 
+#water-map .alert {
+  margin-bottom: 10px; }
+
 @media (max-width: 480px) {
   .news .btn-block-txt {
     font-size: 100%; }

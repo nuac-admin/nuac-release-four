@@ -80,6 +80,10 @@ small {
     color: $hdr-colour;
 }
 
+#water-map .alert {
+    margin-bottom: 10px;
+}
+
 @media (max-width: $screen-xs) {
     .news {
         & .btn-block-txt {
@@ -93,6 +97,3 @@ small {
     }
     
 }
-// .small, small {
-//     display: block;
-// }

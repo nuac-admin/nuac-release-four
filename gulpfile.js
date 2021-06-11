@@ -83,9 +83,10 @@ gulp.task('copy-fa-fonts', function() {
     },
   });
   gulp.watch("assets/_scss/**/*.scss", gulp.series("sass"));
-  gulp.watch(["assets/js/**/*.js", "!assets/js/**/*.min.js", "!assets/js/main.js"], gulp.series("bundle-js"));
+  gulp.watch(["assets/js/**/*.js", "!assets/js/*.min.js", "!assets/js/main.js"], gulp.series("bundle-js"));
   gulp.watch(
     [
+      "assets/js/*.js",
       "*.md",
       "*.html",
       "_layouts/*.html",
@@ -103,7 +104,7 @@ gulp.task('copy-fa-fonts', function() {
 });
 // run "gulp images" to process images from assets/_src_img to /img folder to be used on the site
 gulp.task('compress-images', function() {
-  return gulp.src('assets/images/_src-images/**/*.+(png|jpg|jpeg|gif|svg)')
+  return gulp.src('assets/images/_src-images/*.+(png|jpg|jpeg|gif|svg)')
     .pipe(
       imagemin({
         interlaced: true,
