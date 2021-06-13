@@ -9,13 +9,17 @@ grove-messages:
 
   # - msg-type: danger
   #   msg-desc: <strong>Venue remains CLOSED until further notice</strong>, please see the relevant <a href="../news/news.html#NI106" class="alert-link">news item</a> for more information
+  #  - msg-type: warning
+  #  msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
 
-yare-open-ind: false
+yare-open-ind: true
 yare-msg-ind: true
 yare-msg-box-type: warning
 yare-messages:
   - msg-type: warning
-    msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th June
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
+  # - msg-type: warning
+  #   msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th June
 
 hw-open-ind: true
 hw-msg-ind: true
@@ -23,10 +27,8 @@ hw-msg-box-type: warning
 hw-messages:
   - msg-type: warning
     msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
-  - msg-type: warning
-    msg-desc: Fishery guidance available via Hall Walk Lakes [facebook page](https://www.facebook.com/bartleslodge)
-  - msg-type: danger
-    msg-desc: March 2021 - Please note NUAC access has changed. **No Night Fishing** and **Tom's Lake** is restricted to **Pike Fishing** [1st Oct - 1st Mar]
+  # - msg-type: warning
+  #   msg-desc: Fishery guidance available via Hall Walk Lakes [facebook page](https://www.facebook.com/bartleslodge)
 
 bif-open-ind: true
 bif-msg-ind: true
@@ -34,39 +36,51 @@ bif-msg-box-type: warning
 bif-messages:
   - msg-type: warning
     msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
-  - msg-type: warning
-    msg-desc: Fishery guidance available via Bridge Inn Fishery [facebook page](https://en-gb.facebook.com/The-Bridge-Inn-Fishery-164399460336159/)
-  - msg-type: danger
-    msg-desc: March 2021 - Please familiarise yourself with **New Booking Instructions**
-  - msg-type: danger
-    msg-desc: 1st April 2021 - Please report to BIF tackle shop BEFORE fishing
+  # - msg-type: warning
+  #   msg-desc: Fishery guidance available via Bridge Inn Fishery [facebook page](https://en-gb.facebook.com/The-Bridge-Inn-Fishery-164399460336159/)
+  # - msg-type: danger
+  #   msg-desc: March 2021 - Please familiarise yourself with **New Booking Instructions**
+  # - msg-type: danger
+  #   msg-desc: 1st April 2021 - Please report to BIF tackle shop BEFORE fishing
 
-fib-open-ind: false
+fib-open-ind: true
 fib-msg-ind: true
 fib-msg-box-type: warning
 fib-messages:
   - msg-type: warning
-    msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th June
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
+  - msg-type: warning
+    msg-desc: This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
   - msg-type: danger
     msg-desc: Killer shrimp found in Trinity Broads please familiarise yourself with the **Check, Clean, Dry** [guidance](http://www.nonnativespecies.org/checkcleandry/biosecurity-for-anglers.cfm)
 
-hib-open-ind: false
+hib-open-ind: true
 hib-msg-ind: true
 hib-msg-box-type: warning
 hib-messages:
   - msg-type: warning
-    msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th June
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
+  - msg-type: warning
+    msg-desc: This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
+  # - msg-type: warning
+  #   msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th June
 
-snp-open-ind: false
+snp-open-ind: true
 snp-msg-ind: true
-snp-msg-box-type: danger
+snp-msg-box-type: warning
 snp-messages:
-  - msg-type: danger
-    msg-desc: <strong>Venue remains CLOSED until further notice</strong>, please see the relevant <a href="../news/news.html#NI106" class="alert-link">news item</a> for more information
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
+  # - msg-type: danger
+  #   msg-desc: <strong>Venue remains CLOSED until further notice</strong>, please see the relevant <a href="../news/news.html#NI106" class="alert-link">news item</a> for more information
 
-ndaa-open-ind: false
+ndaa-open-ind: true
 ndaa-msg-ind: true
 ndaa-msg-box-type: warning
 ndaa-messages:
   - msg-type: warning
-    msg-desc: Venues closed due to River Close Season; re-opens Wednesday 16th June
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
+  - msg-type: warning
+    msg-desc: Decoy Broad Boats - This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
+  # - msg-type: warning
+  #   msg-desc: Venues closed due to River Close Season; re-opens Wednesday 16th June

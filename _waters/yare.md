@@ -82,7 +82,7 @@ labels:
         <p><strong>Any breach of the following rules will be taken very seriously by the committee and may result in expulsion from the club.</strong></p>
 
         <ol>
-          <li>Only the NUAC member is entitled to free fishing, other guests must purchase a Day/Season Ticket before visiting (see list below for outlets).</li>
+          <li>Only the NUAC member is entitled to free fishing, other guests must purchase a Day/Season Ticket (available from Bailiff on the bank).</li>
           <li>Members must present a current NUAC permit when requested to do so (GYNCAA employ two bailiffs).</li>
           <li>All gates must be kept closed at all times to prevent livestock escaping from the banks.</li>
           <li>After every session all members must clear the ground of litter even if that litter was not left by them. </li>
@@ -92,70 +92,6 @@ labels:
           <li>No dogs to be taken onto the banks by anglers.</li>
         </ol>
 
-        <div class="row">
-          <div class="col-xs-12">
-
-            <div class="alert alert-info">
-              <p>GYNCAA tickets can be purchased from the following outlets:</p>
-
-              <div class="row top-spacer">
-
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="thumbnail">
-                    <div class="caption">
-                      <h4>PW Angling</h4>
-                      <p>59 Long John Hill, <br>Norwich <br>NR1 2JJ <br>&nbsp;</p>
-                      <p><a class="btn btn-sm btn-info" href="http://www.pwangling.co.uk/" role="button" alt="PW Angling website"><i class="fas fa-arrow-circle-right"></i> Website</a></p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="thumbnail">
-                    <div class="caption">
-                      <h4>Angling Direct Norwich</h4>
-                      <p>279 Aylsham Road, <br>Norwich <br>NR3 2RE <br>&nbsp;</p>
-                      <p><a class="btn btn-sm btn-info" href="https://en-gb.facebook.com/anglingdirectnorwich/" role="button" alt="Angling Direct Norwich facebook"><i class="fas fa-arrow-circle-right"></i> Facebook</a></p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="thumbnail">
-                    <div class="caption">
-                      <h4>Wensum Valley Angling</h4>
-                      <p>Unit 3, Taverham Craft Centre, <br>Fir Covert Road, <br>Norwich <br>NR8 6HT</p>
-                      <p><a class="btn btn-sm btn-info" href="https://www.facebook.com/wensumvalleyangling/" role="button" alt="Wensum Valley Angling facebook"><i class="fas fa-arrow-circle-right"></i> Facebook</a></p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="thumbnail">
-                    <div class="caption">
-                      <h4>Loddon Bridge Stores</h4>
-                      <p>41 Bridge St, <br>Loddon, <br>Norwich <br>NR14 6NA</p>
-                      <p><a class="btn btn-sm btn-info" href="https://www.facebook.com/bridgestoresloddon/" role="button" alt="Loddon Bridge Stores facebook"><i class="fas fa-arrow-circle-right"></i> Facebook</a></p>
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                  <div class="thumbnail">
-                    <div class="caption">
-                      <h4>Angling Direct Beccles</h4>
-                      <p>Unit 4c Taylor Square, <br>Newgate, <br>Beccles <br>NR34 9QB</p>
-                      <p><a class="btn btn-sm btn-info" href="https://www.facebook.com/Angling-Direct-Beccles-773861542741813/" role="button" alt="Angling Direct Beccles facebook"><i class="fas fa-arrow-circle-right"></i> Facebook</a></p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-            </div> <!-- End of Alert  -->
-
-          </div> <!-- END OF col  -->
-        </div> <!-- END OF row  -->
 
       </div> <!-- END OF collapse  -->
     </div> <!-- END OF col  -->
