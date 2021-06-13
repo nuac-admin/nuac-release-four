@@ -203,22 +203,42 @@ labels:
          <div id="image-gallery" class="collapse in">
 
             <div class="row top-spacer">
-              <div class="col-sm-6 col-md-3">
+              <div class="col-sm-4 col-md-3">
                 <div class="thumbnail">
                   <a href="{{ base }}{{ site.data.site.image-folder }}trinity-boat.jpg" target="_blank">
-                    <img src="{{ base }}{{ site.data.site.image-folder }}trinity-boat.jpg" alt="[Image of Trinity Broads boat]" style="width:80%">
+                    <img src="{{ base }}{{ site.data.site.image-folder }}trinity-boat.jpg" alt="[Image of example boat layout]" style="width:80%">
                     <div class="caption" style="text-align:center">
-                      <p>Trinity Broads boat</p>
+                      <p>Example Boat Layout</p>
                     </div>
                   </a>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-3">
+              <div class="col-sm-4 col-md-3">
                 <div class="thumbnail">
                   <a href="{{ base }}{{ site.data.site.image-folder }}trinity-boatB.jpg" target="_blank">
                     <img src="{{ base }}{{ site.data.site.image-folder }}trinity-boatB.jpg" alt="[Image of Trinity Broads]" style="width:80%">
                     <div class="caption" style="text-align:center">
                       <p>Trinity Broads</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-3">
+                <div class="thumbnail">
+                  <a href="{{ base }}{{ site.data.site.image-folder }}trinity-at-dawn.jpg" target="_blank">
+                    <img src="{{ base }}{{ site.data.site.image-folder }}trinity-at-dawn.jpg" alt="[Image of Trinity Broads]" style="width:80%">
+                    <div class="caption" style="text-align:center">
+                      <p>Trinity Broads</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-3">
+                <div class="thumbnail">
+                  <a href="{{ base }}{{ site.data.site.image-folder }}trinity-boat-2021.jpg" target="_blank">
+                    <img src="{{ base }}{{ site.data.site.image-folder }}trinity-boat-2021.jpg" alt="[Image of 2021 Trinity Boat]" style="width:80%">
+                    <div class="caption" style="text-align:center">
+                      <p>2021 Trinity Boat</p>
                     </div>
                   </a>
                 </div>
