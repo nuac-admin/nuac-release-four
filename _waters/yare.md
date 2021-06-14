@@ -90,6 +90,7 @@ labels:
           <li>Vehicles must be parked sensibly without blocking access to fields or other entrances.</li>
           <li>Open matches and club bookings will take priority over pleasure angling at all times.   Notices are displayed to show which areas are booked, please keep these areas clear.  A list of 2021-22 matches, correct as of Feb 2021, can be viewed <a href="{{base}}{{site.data.site.docs-folder}}GYNCAA_FIXTURES.pdf" target="_blank">here</a>.</li>
           <li>No dogs to be taken onto the banks by anglers.</li>
+          <li>Please obey the speed limit when on farm tracks to river.</li>
         </ol>
 
 
@@ -125,12 +126,14 @@ labels:
             <div class="tab-content">
               <div id="access-one" class="tab-pane fade in active">
                 <p><br>Follow Ferry Road past Beauchamp Arms turn (Ferry Road becomes Norwich Road).
-                <br>Continue past Manor Farm on right and, as road bears right, take farm track on left.</p>
+                <br>Continue past Manor Farm on right and, as road bears right, take farm track on left.
+                <br>Please obey speed limit and drive slowly along track.</p>
               </div>
               <div id="access-two" class="tab-pane fade">
                 <p><br>Follow Ferry Road past Beauchamp Arms turn (Ferry Road becomes Norwich Road).
                 <br>Follow Norwich Road as it bears right (now Langley Green) travel a third of a mile
-                <br>Take track on left after farm buildings (signposted Monks Barn).</p>
+                <br>Take track on left after farm buildings (signposted Monks Barn).
+                <br>Please obey speed limit and drive slowly along track.</p>
               </div>
             </div>
 
