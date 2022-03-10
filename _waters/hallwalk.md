@@ -68,16 +68,6 @@ labels:
           </div> <!-- END OF col  -->
         </div> <!-- END OF row  -->
 
-        <div class="row">
-          <div class="col-sm-12 col-md-12">
-
-            <h3>Tom's Lake</h3>
-            <p>NUAC members have access to Tom’s Lake for Pike Fishing from {{ page.pike-dates }}.</p>
-            <p>This lake is the largest of the three on the complex at approx. 9 acres. A mature gravel pit containing many interesting features with islands, reed beds, gravel bars and lilies. It boasts great winter pike fishing with specimens weighing in at well over 20lb.</p>
-
-          </div> <!-- END OF col  -->
-        </div> <!-- END OF row  -->
-
       </div> <!-- END OF collapse  -->
     </div> <!-- END OF col  -->
   </div>
@@ -119,7 +109,7 @@ labels:
              	<div class="col-xs-12">           
                 <div class="alert alert-info">
                   <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.</p>
-                  <p>Please state your required date(s), time and venue e.g. Hall Walk Puppy/Long/Tom's.</p>
+                  <p>Please state your required date(s), time and venue e.g. Hall Walk Puppy/Long.</p>
                   <p>Please also provide a contact number so that we can speak to you if necessary.</p>
                   <p>Please provide at least <strong>24 hours notice (from the start of your booking)</strong>, we cannot guarantee your booking will be processed otherwise</p>
                   <p>A booking is not completed UNTIL you receive a confirmation email</p>

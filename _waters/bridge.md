@@ -51,7 +51,6 @@ labels:
             <!-- {% include c19-desc-alert.html %} -->
 
             <p>The following waters at Bridge Inn Fishery are available to NUAC members but <strong>access must be booked in advance as per booking instructions stated below.</strong></p>
-            <p>Please note that <strong>NUAC guests must purchase a Day Ticket</strong>. Day Tickets can be booked and paid for via Bridge Inn Fishery <a href="{{ page.ws-url }}" target="_blank">Bookings</a>.</p>
             <p>For further information on these lakes please refer to their <a href="{{ page.fb-url }}" target="_blank">Facebook page</a>.</p>
 
           </div> <!-- END OF col  -->
@@ -98,12 +97,12 @@ labels:
 
               <ol>
                 <li>NUAC member must have pre-booked their day's fishing as per booking instructions below.</li>
-                <li>Only the NUAC member is entitled to free fishing, <strong>NUAC guests must book their visit</strong> beforehand via Bridge Inn Fishery <a href="{{ page.ws-url }}" target="_blank">Bookings</a>.</li>
+                <li>NUAC Guest tickets are not permitted (you must be a full member to access these lakes).</li>
                 <li>Members must carry their NUAC club permit at all times, and show it if requested.</li>
                 <li>Please display your NUAC car parking permit when you park your car.</li>
                 <li>Members must adhere to the fishery rules as stated below.</li>
                 <li>You MUST have your BIF Permit, issued when your booking was confirmed, with you when you visit the fishery (either on your phone or printed off beforehand).</li>
-                <li>Please report to BIF tackle & bait shop BEFORE fishing (shop is sign posted).</li>
+                <li><s>Please report to BIF tackle & bait shop BEFORE fishing (shop is sign posted).</s></li>
               </ol>
             </div>
           </div>
@@ -124,14 +123,13 @@ labels:
                 <li>Minimum 12lb mainline</li>
                 <li>No fixed leads – all leads must be able to drop easily</li>
                 <li>Bait boats are allowed but must not be mistreated</li>
-                <li>Please use a minimum of 2 feet of rig tubing</li>
+                <li>Please use a minimum of 2 feet of rig tubing if not using a safe leader</li>
                 <li>Carp care must be used – no fishing if not in tackle box (available to buy at our tackle shop)</li>
                 <li>Cradle type unhooking mats to be used</li>
                 <li>Only fish at allocated swims</li>
                 <li>No removal of fish from our lakes dead or alive (you will be prosecuted and banned for life)</li>
                 <li>No harming of wildlife or shrubbery on our site</li>
                 <li>No fires</li>
-                <li>No nuts</li>
                 <li>Respect other anglers no loud music</li>
                 <li>Take your rubbish home with you</li>
                 <li>No keep nets</li>
@@ -139,6 +137,7 @@ labels:
                 <li>Whilst taking photos, no standing! Hold the fish over a carp mat whilst kneeling</li>
                 <li>Keep within your swim boundaries</li>
                 <li>No excessive baiting</li>
+                <li>No nuts</li>
                 <li>No lead core leaders</li>
                 <li>Minimum 42” landing net</li>
                 <li>Never leave rods unattended</li>
@@ -190,23 +189,23 @@ labels:
 
               <ol>
                 <li>Only 2 advance bookings can be in place at any one time for any member. Either two separate 24 hour periods or one consecutive 48 hour period.</li>
-                <li>Bookings must start or end at 7am or 7pm.</li>
+                <li>If you are only planning a part day, please state the approximate period you would be on the water. For example if you were just going for the morning, we might be able to release the ticket to someone else who fancies going for the afternoon.</li>
                 <li>Please ensure you have read the relevant fishery rules before booking.</li>
               </ol>
 
               <div class="row top-spacer">
-                    <div class="col-xs-12">           
-                        <div class="alert alert-danger alert-flow">
-                          <p>Check venue calendar for availability at Bridge Inn Fishery <a class="alert-link" href="{{ page.ws-url }}" target="_blank">Bookings</a></p>
-                          <p>Once you have ascertained days you require are available, please send an e-mail to <a class="alert-link" href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a></p>
-                          <p>Please state your required date(s), time and venue: BIF Main | BIF Pleasure | BIF River</p>
-                          <p>Please also provide a contact number so that we can speak to you if necessary</p>
-                          <p>Please provide at least <strong>24 hours notice (from the start of your booking)</strong>, we cannot guarantee your booking will be processed otherwise</p>
-                          <p>A booking is not completed UNTIL you receive a confirmation email</p>
-                          <p><i>Please note that there are only 2 tickets available per day</i></p>
-                          <p>Thank You</p>
-                        </div>
-                    </div> <!-- END OF col  -->
+                <div class="col-xs-12">
+                  <div class="alert alert-danger alert-flow">
+                    <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.
+                    </p>
+                    <p>Please state your required date(s), time and venue e.g. BIF Main/Pleasure/River.</p>
+                    <p>Please also provide a contact number so that we can speak to you if necessary.</p>
+                    <p>Please provide at least <strong>24 hours notice (from the start of your booking)</strong>, we cannot guarantee your booking will be processed otherwise</p>
+                    <p>A booking is not completed UNTIL you receive a confirmation email</p>
+                    <p><i>Please note that there are only 2 tickets available per day.</i></p>
+                    <p>Thank You.</p>
+                  </div>
+                </div> <!-- END OF col  -->
               </div> <!-- END OF row  -->
 
             </div> <!-- END OF col  -->
