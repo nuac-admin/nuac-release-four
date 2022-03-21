@@ -26,10 +26,6 @@ labels:
     label-tt-ind: false
     label-tt-type: null
     label-desc: No Guests
-  - label-type: info
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Day Ticket
 
 ---
 
@@ -187,16 +183,15 @@ labels:
             <div class="col-sm-12">
 
               <ol>
-                <li>Only 2 advance bookings can be in place at any one time for any member. Either two separate 24 hour periods or one consecutive 48 hour period.</li>
+							  <li>Only 2 advance bookings can be in place at any one time for any member. Either two separate days or one consecutive two-day period.</li>
                 <li>Whole day booking is from 08:00 on the first day to 08:00 on the following day. This enables overnight fishing on those venues where night fishing is allowed.</li>
-                <li>If after 2.00pm on the day of any booking, there is availability on the following day, members are then allowed to book the following day as well. This would enable two consecutive night's fishing.</li>
                 <li>If you are only planning a part day, please state the approximate period you would be on the water. For example if you were just going for the morning, we might be able to release the ticket to someone else who fancies going for the afternoon.</li>
                 <li>Please ensure you have read the relevant fishery rules before booking.</li>
               </ol>
 
               <div class="row top-spacer">
                 <div class="col-xs-12">
-                  <div class="alert alert-danger alert-flow">
+                  <div class="alert alert-info alert-flow">
                     <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.
                     </p>
                     <p>Please state your required date(s), time and venue e.g. BIF Main/Pleasure/River.</p>

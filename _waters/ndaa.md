@@ -92,14 +92,13 @@ labels:
 					<li>Only the NUAC member & one family member under 16 are entitled to free fishing, other guests must purchase a Membership Card <strong>before visiting</strong> (a list of NDAA Membership Card stockists can be found at <a href="{{ page.ws-url }}">ndaa.org.uk</a>).</li>
 					<li>Fishing with Livebait is not allowed on waters controlled by NDAA.</li>
 					<li>Maximum of 2 rods in use at any one time.</li>
-					<li>Night fishing allowed at St. Benets and Cold Harbour only.</li>
-					<li>Fishing dawn until dusk on Decoy Broad, River Bure at Decoy and Woodbastwick Staithe.</li>
+					<li>Fishing dawn until dusk only (No night fishing for NUAC members).</li>
 					<li>Rowing boats at Decoy Broad must be booked and paid for before fishing as per the booking instructions below.</li>
 					<li>Life jackets must be worn when using the rowing boats at Decoy Broad.</li>
 					<li>No mud weights or outboard motors allowed in boats.</li>
 					<li>No towing of fish in keepnets.</li>
 					<li>Report any boat damage to Stuart Mutch 07827 412376.</li>
-					<li>Club permit and rod licence must be carried at all times.</li>
+					<li>NUAC permit and rod licence must be carried at all times.</li>
 					<li>Only use desiginated access tracks & car parks as indicated in Maps below.</li>
 					<li>Please ensure gates are left as you find them.</li>
 					<li>Please keep noise to a minimum especially when travelling to and from the river.</li>
@@ -121,9 +120,7 @@ labels:
 						<ol>
 							<li>Only 2 advance bookings can be in place at any one time for any member. Either two separate days or one consecutive two-day period.</li>
 							<li>Whole day booking is from 08:00 on the first day to 08:00 on the following day. This enables overnight fishing on those venues where night fishing is allowed.</li>
-							<li>If after 2.00pm on the day of any booking, there is availability on the following day, members are then allowed to book the following day as well. This would enable two consecutive night's fishing.</li>
 							<li>If you are only planning a part day, please state the approximate period you would be on the water. For example if you were just going for the morning, we might be able to release the ticket to someone else who fancies going for the afternoon.</li>
-							<li>If asked for a ticket, please present your NUAC membership card.</li>
 							<li>Please ensure you have read the relevant fishery rules before fishing.</li>
 						</ol>
 						<div class="row">
