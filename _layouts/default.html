@@ -4,12 +4,28 @@
   {% include base.html %}
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Keywords" content="{{ page.keywords }}">
     {% if page.name contains 'index' %}
-    <meta name="Description" content="Norwich and District Angler's Association provides great fishing on the Norfolk Broads for all Anglers." />
+    <meta name="Description" content="Norwich Union Angling Club provides great fishing in and around Norfolk."/>
     {% endif %}
+    {% if page.og-url != nil %}
+    <meta property="og:url"                content="https://deploy-preview-14--nuac-cms-demo.netlify.app{{ page.og-url }}" />
+    {% endif %}
+    {% if page.og-type != nil %}
+    <meta property="og:type"               content="{{ page.og-type }}" />
+    {% endif %}
+    {% if page.og-title != nil %}
+    <meta property="og:title"              content="{{ page.og-title }}" />
+    {% endif %}
+    {% if page.og-desc != nil %}
+    <meta property="og:description"        content="{{ page.og-desc }}" />
+    {% endif %}
+    {% if page.og-img != nil %}
+    <meta property="og:image"              content="https://deploy-preview-14--nuac-cms-demo.netlify.app{{ site.data.site.image-folder }}{{ page.og-img }}" />
+    {% endif %}
+
   
     {% include favicon.html %}
    

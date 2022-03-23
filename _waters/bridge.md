@@ -96,10 +96,9 @@ labels:
               <ol>
                 <li>NUAC member must have pre-booked their day's fishing as per booking instructions below.</li>
                 <li>NUAC Guest tickets are not permitted (you must be a full member to access these lakes).</li>
-                <li>Members must carry their NUAC club permit at all times, and show it if requested.</li>
+                <li>Members must carry their NUAC membership card at all times, and show it if requested.</li>
                 <li>Please display your NUAC car parking permit when you park your car.</li>
                 <li>Members must adhere to the fishery rules as stated below.</li>
-                <li>You MUST have your BIF Permit, issued when your booking was confirmed, with you when you visit the fishery (either on your phone or printed off beforehand).</li>
               </ol>
             </div>
           </div>
