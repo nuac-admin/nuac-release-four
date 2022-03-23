@@ -10,6 +10,8 @@ location: Lenwade
 category: waters
 fb-url: https://en-gb.facebook.com/The-Bridge-Inn-Fishery-164399460336159/
 ws-url: https://www.ibookfishing.com/booking/bridge-inn-fisheries
+venue-list: BIF Main/Pleasure/River
+nbr-of-tickets: 2
 gmap-id: 1MnjnpVi4Ae4lqrqtIMvXPeKxRQU
 open-img: bridge-tile.jpg
 closed-img: bridge-closed-tile.jpg
@@ -182,25 +184,11 @@ labels:
           <div class="row">
             <div class="col-sm-12">
 
-              <ol>
-							  <li>Only 2 advance bookings can be in place at any one time for any member. Either two separate days or one consecutive two-day period.</li>
-                <li>Whole day booking is from 08:00 on the first day to 08:00 on the following day. This enables overnight fishing on those venues where night fishing is allowed.</li>
-                <li>If you are only planning a part day, please state the approximate period you would be on the water. For example if you were just going for the morning, we might be able to release the ticket to someone else who fancies going for the afternoon.</li>
-                <li>Please ensure you have read the relevant fishery rules before booking.</li>
-              </ol>
+              {% include booking-rules.html %}
 
-              <div class="row top-spacer">
+              <div class="row">
                 <div class="col-xs-12">
-                  <div class="alert alert-info alert-flow">
-                    <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.
-                    </p>
-                    <p>Please state your required date(s), time and venue e.g. BIF Main/Pleasure/River.</p>
-                    <p>Please also provide a contact number so that we can speak to you if necessary.</p>
-                    <p>Please provide at least <strong>24 hours notice (from the start of your booking)</strong>, we cannot guarantee your booking will be processed otherwise</p>
-                    <p>A booking is not completed UNTIL you receive a confirmation email</p>
-                    <p><i>Please note that there are only 2 tickets available per day.</i></p>
-                    <p>Thank You.</p>
-                  </div>
+                  {% include booking-instructions.html %}
                 </div> <!-- END OF col  -->
               </div> <!-- END OF row  -->
 

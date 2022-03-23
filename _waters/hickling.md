@@ -11,6 +11,7 @@ category: waters
 fb-url:
 ws-url:
 rules-url:
+# off-season: 1st Oct - 14th Mar
 gmap-id: 1WEu4PAfz_85nJvEZninWIcPaV5Q
 open-img: hickling-tile.jpg
 closed-img: hickling-closed-tile.jpg
@@ -83,7 +84,12 @@ labels:
                 <p>Please note that Whispering Reeds do not have a fleet licence for the use of outboards on their boats.</p>
                 <p>Please use an unhooking mat in the bottom of boats to protect fish from damage.</p>
                 <p><b><u>Please ensure that you have adequate personal buoyancy aids - your safety is your own responsibility.</u></b></p>
-                <div class="alert alert-info"><strong>To book</strong> please contact Whispering Reeds Boatyard on 01692 598314 during office hours.</div>
+                <div class="alert alert-info">
+                  <p><strong>To book</strong> please contact Whispering Reeds Boatyard on 01692 598314 during office hours.</p>
+                  {% if page.off-season != nil %}
+                    <p>From {{ page.off-season }} please provide at least 5 days notice.</p>
+                  {% endif %}
+                </div>
     
               </div> <!-- END OF col  -->
             </div> <!-- END OF row  -->

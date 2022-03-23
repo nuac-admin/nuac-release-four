@@ -1,0 +1,35 @@
+<div class="alert alert-info alert-flow">
+    <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.
+    </p>
+    <p>Please state your required date(s), time and venue e.g. {{ page.venue-list }}.</p>
+    <p>Please also provide a contact number so that we can speak to you if necessary.</p>
+    {% if page.file-txt == "ndaa" %}
+        <p>To book and pay for the hire of a boat at Decoy Broad please visit the following outlets (you will need the NDAA permit number provided when your e-mail booking is confirmed):</p>
+
+        <div class="row top-spacer-5">
+            <div class="col-xs-6 col-md-4">
+                <address>
+                    <strong>PW Angling</strong><br />
+                    59 Long John Hill,<br />
+                    Norwich<br />
+                    NR1 2JJ
+                </address>
+            </div>
+            <div class="col-xs-6 col-md-4">
+                <address>
+                    <strong>Angling Direct Norwich</strong><br />
+                    279 Aylsham Road,<br />
+                    Norwich<br />
+                    NR3 2RE
+                </address>
+            </div>
+        </div>
+    {% endif %}
+
+    <p>Please provide at least <strong>24 hours notice (from the start of your booking)</strong>, we cannot guarantee your booking will be processed otherwise</p>
+    <p>A booking is not completed UNTIL you receive a confirmation email</p>
+    {% if page.nbr-of-tickets != nil %}
+        <p><i>Please note that there are only {{ page.nbr-of-tickets }} tickets available per day.</i></p>
+    {% endif %}
+    <p>Thank You.</p>
+  </div>

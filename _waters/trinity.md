@@ -11,6 +11,7 @@ category: waters
 fb-url:
 ws-url:
 rules-url:
+venue-list: Filby Boat
 gmap-id: 1K2awRCH-vH1Tv8HvF6D1E-fimsw
 open-img: trinity-tile.jpg
 closed-img: trinity-closed-tile.jpg
@@ -112,23 +113,11 @@ labels:
       <div id="water-booking" class="collapse in">
 
         <div class="row">
-          <div class="col-sm-12 col-md-12">
-      	    <ol>
-              <li>Only 2 advance bookings can be in place at any one time for any member. Either two separate days or one consecutive two-day period.</li>
-              <li>Whole day booking is from 08:00 on the first day to 08:00 on the following day. This enables overnight fishing on those venues where night fishing is allowed.</li>
-              <li>If you are only planning a part day, please state the approximate period you would be on the water. For example if you were just going for the morning, we might be able to release the ticket to someone else who fancies going for the afternoon. </li>
-      	      <li>Please ensure you have read the relevant fishery rules before fishing.</li>
-      	    </ol>
-            <div class="row top-spacer">
-              <div class="col-xs-12">           
-                <div class="alert alert-info">
-                         <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.</p>
-                         <p>Please state your required date(s), time and venue e.g. Trinity.</p>
-                         <p>Please also provide a contact number so that we can speak to you if necessary.</p>
-                         <p>Please provide at least <strong>24 hours notice (from the start of your booking)</strong>, we cannot guarantee your booking will be processed otherwise</p>
-                         <p>A booking is not completed UNTIL you receive a confirmation email</p>
-                         <p>Thank You.</p>
-                </div>
+          <div class="col-xs-12">
+            {% include booking-rules.html %}
+            <div class="row">
+              <div class="col-xs-12">
+                {% include booking-instructions.html %}       
         		  </div> <!-- END OF col  -->
       	    </div> <!-- END OF row  -->
 

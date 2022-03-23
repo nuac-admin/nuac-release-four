@@ -12,6 +12,8 @@ fb-url: https://www.facebook.com/bartleslodge
 ws-url: http://www.hallwalkfishery.co.uk
 rules-url: http://hallwalkfishery.co.uk/rules/
 pike-dates: 1st October - 1st March
+venue-list: Hall Walk Puppy/Long
+nbr-of-tickets: 2
 gmap-id: 1mEyjTsQMxxW8TlG7kVSFpmrzifs
 open-img: hallwalk-tile.jpg
 closed-img: hallwalk-closed-tile.jpg
@@ -99,24 +101,11 @@ labels:
       <div id="water-booking" class="collapse in">
 
         <div class="row">
-          <div class="col-sm-12 col-md-12">
-            <ol>
-							<li>Only 2 advance bookings can be in place at any one time for any member. Either two separate days or one consecutive two-day period.</li>
-							<li>Whole day booking is from 08:00 on the first day to 08:00 on the following day. This enables overnight fishing on those venues where night fishing is allowed.</li>
-              <li>If you are only planning a part day, please state the approximate period you would be on the water. For example if you were just going for the morning, we might be able to release the ticket to someone else who fancies going for the afternoon.</li>
-              <li>Please ensure you have read the <a href="{{ page.rules-url }}" target="_blank">fishery rules</a> before booking.</li>
-            </ol>
-            <div class="row top-spacer">
-             	<div class="col-xs-12">           
-                <div class="alert alert-info">
-                  <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.</p>
-                  <p>Please state your required date(s), time and venue e.g. Hall Walk Puppy/Long.</p>
-                  <p>Please also provide a contact number so that we can speak to you if necessary.</p>
-                  <p>Please provide at least <strong>24 hours notice (from the start of your booking)</strong>, we cannot guarantee your booking will be processed otherwise</p>
-                  <p>A booking is not completed UNTIL you receive a confirmation email</p>
-                  <p><i>Please note that there are only 2 tickets available per day.</i></p>
-                  <p>Thank You.</p>
-                </div>
+          <div class="col-xs-12">
+            {% include booking-rules.html %}
+            <div class="row">
+             	<div class="col-xs-12">
+                {% include booking-instructions.html %}       
           		</div> <!-- END OF col  -->
             </div> <!-- END OF row  -->
 
