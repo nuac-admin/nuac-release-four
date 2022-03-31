@@ -11,7 +11,7 @@
     <meta name="Description" content="Norwich Union Angling Club provides great fishing in and around Norfolk."/>
     {% endif %}
     {% if page.og-url != nil %}
-    <meta property="og:url"                content="http://nuac.org.uk{{ page.og-url }}" />
+    <meta property="og:url"                content="{{ site.data.site.og-server }}/{{ page.og-url }}" />
     {% endif %}
     {% if page.og-type != nil %}
     <meta property="og:type"               content="{{ page.og-type }}" />
@@ -23,12 +23,8 @@
     <meta property="og:description"        content="{{ page.og-desc }}" />
     {% endif %}
     {% if page.og-img != nil %}
-    <meta property="og:image"              content="http://nuac.org.uk{{ site.data.site.image-folder }}{{ page.og-img }}" />
+    <meta property="og:image"              content="{{ site.data.site.og-server }}{{ site.data.site.image-folder }}{{ page.og-img }}" />
     {% endif %}
-    {% if page.og-url != nil %}
-    <meta property="fb:app_id"                content="966242223397117" />
-    {% endif %}
-
   
     {% include favicon.html %}
    
