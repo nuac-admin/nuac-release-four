@@ -19,7 +19,7 @@ yare-messages:
   - msg-type: warning
     msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
   # - msg-type: warning
-  #   msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th June
+  #   msg-desc: Venue closed due to River Close Season; re-opens Thursday 16th June
 
 hw-open-ind: true
 hw-msg-ind: true
@@ -63,7 +63,7 @@ hib-messages:
   - msg-type: warning
     msg-desc: This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
   # - msg-type: warning
-  #   msg-desc: Venue closed due to River Close Season; re-opens Wednesday 16th June
+  #   msg-desc: Venue closed due to River Close Season; re-opens Thursday 16th June
 
 snp-open-ind: true
 snp-msg-ind: true
@@ -83,4 +83,13 @@ ndaa-messages:
   - msg-type: warning
     msg-desc: Decoy Broad Boats - This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
   # - msg-type: warning
-  #   msg-desc: Venues closed due to River Close Season; re-opens Wednesday 16th June
+  #   msg-desc: Venues closed due to River Close Season; re-opens Thursday 16th June
+
+tm-open-ind: true
+tm-msg-ind: true
+tm-msg-box-type: warning
+tm-messages:
+  - msg-type: warning
+    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
+  # - msg-type: warning
+  #   msg-desc: Venue closed due to River Close Season; re-opens Thursday 16th June

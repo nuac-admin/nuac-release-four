@@ -229,6 +229,25 @@ keywords: norwich, norfolk, fishing club, angling club, coarse fishing, carp fis
       </div>
     </div>
 
+    <div class="thumbnail thumbnail-override text-center">
+      <a href="{{ base }}/waters/taverham.html">
+        <div class="caption-tile">
+          Taverham Mills
+        </div>
+        {% if site.data.water-msg.tm-open-ind == true %}
+        <img src="{{ base }}{{ site.data.site.image-folder }}taverham-tile.jpg" style="width:100%">
+        {% else %}
+        <img src="{{ base }}{{ site.data.site.image-folder }}taverham-closed-tile.jpg" style="width:100%">
+        {% endif %}
+      </a>
+      <div class="caption caption-footer">
+        <span class="label label-danger">Booking</span>
+        <span class="label label-warning">Display Car Permit</span>
+        <span class="label label-warning">No Guests</span>
+        <span class="label label-info">Open 16 Jun - 14 Mar</span>
+      </div>
+    </div>
+
   </section>
 
  

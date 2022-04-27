@@ -1,0 +1,191 @@
+---
+layout: default
+---
+<div class="container non-header">
+
+    {% include waterHdr.html %}
+  
+    {% include waterMsg.html %}
+
+    <div class="row">
+        <div class="col-xs-12">
+        <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-desc"><span class="pull-left">Description</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
+  
+        <div id="water-desc" class="collapse in">
+  
+          {% if page.desc-paras != nil %} 
+          {% for para in page.desc-paras %}
+          <div class="row">
+            <div class="col-xs-12">
+                {% if para.desc-hdr != nil %}
+                <h3>{{para.desc-hdr | markdownify}}</h3>
+                {% endif %}
+                {% if para.desc-para != nil %}
+                  {{para.desc-para | markdownify}}
+                {% endif %}
+            </div> <!-- END OF col  -->
+          </div> <!-- END OF row  -->
+          {% endfor %}
+          {% endif %}
+        </div> <!-- END OF collapse  -->
+  
+      </div> <!-- END OF col  -->
+    </div> <!-- END OF row  -->
+
+    {% if page.rules != nil %} 
+    <div class="row">
+        <div class="col-xs-12">
+        <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-rules"><span class="pull-left">Rules</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
+  
+        <div id="water-rules" class="collapse in">
+  
+            <div class="row">
+              <div class="col-xs-12">
+                {% for para in page.rules-hdr %}
+                {% if para.rule-hdr-para != nil %}
+                  {{para.rule-hdr-para | markdownify}}
+                {% endif %}
+                {% endfor %}
+
+                <ol>
+                    {% for rule in page.rules %}
+                    {% if rule.rule-desc != nil %}
+                    <li>{{rule.rule-desc | markdownify}}</li>
+                    {% endif %}
+                    {% endfor %}
+                </ol>
+              </div>
+            </div>
+            {% if page.fishery-rules != nil %} 
+            <div class="row">
+              <div class="col-xs-12">
+                <h3>Fishery Rules</h3>
+              </div>
+            </div>
+
+            <div class="row">
+                {% for group in page.fishery-rules %}
+                <div class="col-xs-12{% if group.fr-hdr-col != nil %} {{group.fr-hdr-col}}{% endif %}">
+                {% if group.fr-hdr-para != nil %}
+                  <h4>{{group.fr-hdr-para | markdownify}}</h4>
+                {% endif %}
+                {% if group.fr-rules != nil %}
+                  <ol>
+                      {% for rule in group.fr-rules %}
+                      {% if rule.fr-desc != nil %}
+                      <li>{{rule.fr-desc | markdownify}}</li>
+                      {% endif %}
+                      {% endfor %}    
+                  </ol>
+                {% endif %}
+                </div>
+              {% endfor %}
+            </div> <!-- END OF row  -->
+            {% endif %}
+  
+          </div> <!-- END OF collapse  -->
+  
+      </div> <!-- END OF col  -->
+    </div> <!-- END OF row  -->
+    {% endif %}
+  
+    {% if page.venue-list != nil %} 
+  	<div class="row">
+      <div class="col-xs-12">
+          <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-booking"><span class="pull-left">Booking</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
+  
+          <div id="water-booking" class="collapse in">
+  
+            <div class="row">
+              <div class="col-xs-12">
+  
+                {% include booking-rules.html %}
+  
+                <div class="row">
+                  <div class="col-xs-12">
+                    {% include booking-instructions.html %}
+                  </div> <!-- END OF col  -->
+                </div> <!-- END OF row  -->
+  
+              </div> <!-- END OF col  -->
+            </div> <!-- END OF row  -->
+  
+          </div> <!-- END OF collapse  -->
+  
+      </div> <!-- END OF col  -->
+    </div> <!-- END OF row  -->
+    {% endif %}
+    
+    {% if page.sat-nav != nil %} 
+    <div class="row">
+      <div class="col-xs-12">
+        <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#water-map"><span class="pull-left">Location</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
+  
+        <div id="water-map" class="collapse in">
+  
+            <div class="row">
+              <div class="col-xs-12 col-md-6">
+  
+                <h3>Directions to Venue</h3>
+                
+                <div class="alert alert-info">
+                  <strong>Sat Nav</strong>{% if page.sat-nav != nil %} {{page.sat-nav}}{% endif %}
+                </div>
+                {% for group in page.directions %}
+                <div class="col-xs-12{% if group.dir-hdr-col != nil %} {{group.dir-hdr-col}}{% endif %}">
+                  <div class="directions">
+                    {% if group.dir-hdr-para != nil %}
+                    {{group.dir-hdr-para | markdownify}}
+                  {% endif %}
+                  {% if group.dir-instructions != nil %}
+                    <ul>
+                      {% for item in group.dir-instructions %}
+                      {% if item.dir-text != nil %}
+                      <li>{{item.dir-text}}</li>
+                      {% endif %}
+                      {% endfor %}    
+                    </ul>
+                  {% endif %}
+                  </div>
+                </div>
+                {% endfor %}
+  
+              </div> <!-- END OF col  -->
+
+              {% if page.gmap-id != nil %} 
+              <div class="col-xs-12 col-md-6 hidden-xs">
+  
+                <h3>Maps</h3>
+  
+                <ul class="nav nav-tabs bottom-spacer-2">
+                  <li class="active"><a data-toggle="tab" href="#google-map">Google Map</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div id="google-map" class="tab-pane fade in active">
+                    <div class="embed-responsive embed-responsive-4by3">
+                      <iframe class="embed-responsive-item" src="https://www.google.com/maps/d/embed?mid={{page.gmap-id}}"></iframe>
+                    </div>
+                  </div>
+                </div>
+  
+              </div> <!-- END OF col  -->
+              {% endif %}
+            </div> <!-- END OF row  -->
+            
+            {% if page.gmap-id != nil %}   
+            <div class="row visible-xs hidden-sm hidden-md hidden-lg">
+              <div class="col-xs-12">
+                
+                <h3>Location Map</h3>
+                <p><a class="btn btn-lg btn-danger" href="https://drive.google.com/open?id={{page.gmap-id}}&usp=sharing" target="_blank"><i class="indicator fas fa-map-marker-alt fa-map-marker-alt-inverse"></i>&nbsp;Google Map</a></p>
+                
+              </div> <!-- END OF col  -->
+            </div> <!-- END OF row  -->
+            {% endif %}
+
+        </div> <!-- END OF collapse  -->
+      </div> <!-- END OF col  -->
+    </div> <!-- END OF row  -->
+    {% endif %}
+
+</div>  

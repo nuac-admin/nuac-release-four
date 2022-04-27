@@ -158,6 +158,29 @@
 {% endif %}
 {% endif %}
 
+{% if page.url contains 'taverham' %}
+{% if site.data.water-msg.tm-msg-ind == true %}
+<div class="row">
+  <div class="col-xs-12">
+    <div class="alert alert-{{ site.data.water-msg.tm-msg-box-type}}">
+      {% for item in site.data.water-msg.tm-messages %}
+      <span class="alert-flex">
+      {% case item.msg-type %}
+      {% when "danger" %}
+      <i class="indicator fas fa-exclamation-triangle"></i>{{ item.msg-desc | markdownify }}
+      {% when "warning" %}
+      <i class="indicator fas fa-exclamation-circle"></i>{{ item.msg-desc | markdownify }}
+      {% when "info" %}
+      <i class="indicator fas fa-info-circle"></i>{{ item.msg-desc | markdownify }}
+      {% endcase %}
+      </span>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endif %}
+
 {% if page.url contains 'trinity' %}
 {% if site.data.water-msg.fib-msg-ind == true %}
 <div class="row">
