@@ -4397,6 +4397,10 @@ alert-flow > * {
 small {
   color: #ffcc24; }
 
+mark {
+  background-color: #003cff;
+  color: #ffcc24; }
+
 #water-map .alert {
   margin-bottom: 10px; }
 
