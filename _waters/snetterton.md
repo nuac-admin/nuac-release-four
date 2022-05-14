@@ -78,7 +78,7 @@ labels:
           <li>Please use appropriate sized unhooking mat or carp cradle for chosen quarry.</li>
           <li>Please use groundbait in moderation.</li>
           <li>Members must carry their NUAC club permit at all times, and show it if requested.</li>
-          <li>Please display your NUAC car parking permit when you park your car.</li>
+          <li>Please display your NUAC car permit when you park your car.</li>
         </ol>
       
       </div> <!-- END OF collapse  -->
@@ -92,16 +92,10 @@ labels:
       <div id="water-booking" class="collapse in">
 
         <div class="row">
-         <div class="col-sm-12 col-md-12">
-            <div class="row top-spacer">
-             	<div class="col-xs-12 col-md-8">           
-                <div class="alert alert-info">
-                    <p>To book your Day Ticket, please phone Mr James Cooke on 07747 771086.</p>
-                    <p>Please provide Mr Cooke with your name, NUAC membership number, car make and registration number.</p>
-                    <p>Please be sure to display your NUAC parking sticker.</p>
-                    <p>Day Ticket payment of £10 should either be made to Mr Cooke if he calls round during your visit or left in anenvelope in the post box on the drive.</p>
-                    <p><i>Please note that there are only 2 tickets available per day.</i></p>
-                </div>
+         <div class="col-xs-12">
+            <div class="row">
+             	<div class="col-xs-12">           
+                  {% include booking-instructions.html %}       
         	    </div> <!-- END OF col  -->
       	    </div> <!-- END OF row  -->
           </div> <!-- END OF col  -->

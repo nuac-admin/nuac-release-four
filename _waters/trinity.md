@@ -89,7 +89,7 @@ labels:
               <div class="col-xs-12">           
                   <div class="alert alert-danger alert-flow">
                     <p>Killer shrimp is present in the Trinity Broads.  Killer shrimp is so called due to its voracious habits: eating or killing any of our native invertebrates small enough to be prey. Growing to 3cm long, adults will feed on fish eggs and fry as well.</p>
-                    <p>To minimise the spread of non-native species please follow the <a href="http://www.nonnativespecies.org/checkcleandry/biosecurity-for-anglers.cfm">Check, Clean, Dry</a> guidance:</p>
+                    <p>To minimise the spread of non-native species please follow the <a href="https://www.nonnativespecies.org/what-can-i-do/check-clean-dry/anglers/#maincontent">Check, Clean, Dry</a> guidance:</p>
                     <ul>
                       <li><strong>Check</strong> your gear after leaving the water for mud, aquatic animals or plant material. Remove anything you find and leave it at the site.</li>
                       <li><strong>Clean</strong> everything thoroughly as soon as you can, paying attention to nets, waders, and areas that are damp and hard to access. Use hot water if possible.</li>

@@ -1,35 +1,52 @@
 <div class="alert alert-info alert-flow">
-    <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.
-    </p>
-    <p>Please state your required date(s), time and venue e.g. {{ page.venue-list }}.</p>
-    <p>Please also provide a contact number so that we can speak to you if necessary.</p>
-    {% if page.file-txt == "ndaa" %}
-        <p>To book and pay for the hire of a boat at Decoy Broad please visit the following outlets (you will need the NDAA permit number provided when your e-mail booking is confirmed):</p>
+    {% if page.file-txt == "hickling" or page.file-txt == "snetterton" %}
+        {% if page.file-txt == "hickling" %}
+            <p><strong>To book</strong> please contact Whispering Reeds Boatyard on 01692 598314 during office hours.</p>
+            {% if page.off-season != nil %}
+            <p>From {{ page.off-season }} please provide at least 5 days notice.</p>
+            {% endif %}
+        {% else %}
+            <p>To book your Day Ticket, please phone Mr James Cooke on 07747 771086.</p>
+            <p>Please provide Mr Cooke with your name, NUAC membership number, car make and registration number.</p>
+            <p>Please be sure to display your NUAC car permit.</p>
+            <p>Day Ticket payment of £10 should either be made to Mr Cooke if he calls round during your visit or left in an envelope in the post box on the drive.</p>
+            <p><i>Please note that there are only 2 tickets available per day.</i></p>
+        {% endif %}
+    {% else %}
+        <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.</p>
+        <p>Please state your required date(s), time and venue e.g. {{ page.venue-list }}.</p>
+        <p>Please also provide a contact number so that we can speak to you if necessary.</p>
+        {% if page.file-txt == "ndaa" %}
+            <p>To book and pay for the hire of a boat at Decoy Broad please visit the following outlets (you will need the NDAA permit number provided when your e-mail booking is confirmed):</p>
 
-        <div class="row top-spacer-5">
-            <div class="col-xs-6 col-md-4">
-                <address>
-                    <strong>PW Angling</strong><br />
-                    59 Long John Hill,<br />
-                    Norwich<br />
-                    NR1 2JJ
-                </address>
+            <div class="row top-spacer-5">
+                <div class="col-xs-6 col-md-4">
+                    <address>
+                        <strong>PW Angling</strong><br />
+                        59 Long John Hill,<br />
+                        Norwich<br />
+                        NR1 2JJ
+                    </address>
+                </div>
+                <div class="col-xs-6 col-md-4">
+                    <address>
+                        <strong>Angling Direct Norwich</strong><br />
+                        279 Aylsham Road,<br />
+                        Norwich<br />
+                        NR3 2RE
+                    </address>
+                </div>
             </div>
-            <div class="col-xs-6 col-md-4">
-                <address>
-                    <strong>Angling Direct Norwich</strong><br />
-                    279 Aylsham Road,<br />
-                    Norwich<br />
-                    NR3 2RE
-                </address>
-            </div>
-        </div>
-    {% endif %}
+        {% endif %}
 
-    <p>Please provide at least <strong>24 hours notice (from the start of your booking)</strong>, we cannot guarantee your booking will be processed otherwise</p>
-    <p>A booking is not completed UNTIL you receive a confirmation email</p>
-    {% if page.nbr-of-tickets != nil %}
-        <p><i>Please note that there are only {{ page.nbr-of-tickets }} tickets available per day.</i></p>
+        <p>Please provide at least <strong>24 hours notice (from the start of your booking)</strong>, we cannot guarantee your booking will be processed otherwise</p>
+        <p>A booking is not completed UNTIL you receive a confirmation email</p>
+        {% if page.nbr-of-tickets != nil %}
+            <p><i>Please note that there are only {{ page.nbr-of-tickets }} tickets available per day.</i></p>
+        {% endif %}
+        {% if page.max-bookings != nil %}
+            <p><b>Bookings on this venue are limited to a maximum of {{ page.max-bookings }} per member.</b></p>
+        {% endif %}
+        <p>Thank You.</p>
     {% endif %}
-    <p>Thank You.</p>
   </div>

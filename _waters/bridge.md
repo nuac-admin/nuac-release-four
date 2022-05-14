@@ -12,6 +12,7 @@ fb-url: https://en-gb.facebook.com/The-Bridge-Inn-Fishery-164399460336159/
 ws-url: https://www.ibookfishing.com/booking/bridge-inn-fisheries
 venue-list: BIF Main/Pleasure/River
 nbr-of-tickets: 2
+max-bookings:
 gmap-id: 1MnjnpVi4Ae4lqrqtIMvXPeKxRQU
 open-img: bridge-tile.jpg
 closed-img: bridge-closed-tile.jpg

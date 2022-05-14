@@ -52,7 +52,7 @@ fib-messages:
   - msg-type: warning
     msg-desc: This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
   - msg-type: danger
-    msg-desc: Killer shrimp found in Trinity Broads please familiarise yourself with the **Check, Clean, Dry** [guidance](http://www.nonnativespecies.org/checkcleandry/biosecurity-for-anglers.cfm)
+    msg-desc: Killer shrimp found in Trinity Broads please familiarise yourself with the **Check, Clean, Dry** [guidance](https://www.nonnativespecies.org/what-can-i-do/check-clean-dry/#maincontent)
 
 hib-open-ind: true
 hib-msg-ind: true

@@ -11,7 +11,7 @@ category: waters
 fb-url:
 ws-url:
 rules-url:
-# off-season: 1st Oct - 14th Mar
+off-season: 1st Oct - 14th Mar
 gmap-id: 1WEu4PAfz_85nJvEZninWIcPaV5Q
 open-img: hickling-tile.jpg
 closed-img: hickling-closed-tile.jpg
@@ -79,17 +79,12 @@ labels:
           <div id="water-rules" class="collapse in">
             <div class="row">
               <div class="col-xs-12">
-                <p>Whispering Reeds boatyard at Hickling will make one rowing boat a day available free of charge to NUAC members.</p>
-                <p>They are happy to cater for early starts and they will supply life jackets on request.</p>
-                <p>Please note that Whispering Reeds do not have a fleet licence for the use of outboards on their boats.</p>
-                <p>Please use an unhooking mat in the bottom of boats to protect fish from damage.</p>
-                <p><b><u>Please ensure that you have adequate personal buoyancy aids - your safety is your own responsibility.</u></b></p>
-                <div class="alert alert-info">
-                  <p><strong>To book</strong> please contact Whispering Reeds Boatyard on 01692 598314 during office hours.</p>
-                  {% if page.off-season != nil %}
-                    <p>From {{ page.off-season }} please provide at least 5 days notice.</p>
-                  {% endif %}
-                </div>
+                {% include booking-rules.html %}
+                <div class="row">
+                  <div class="col-xs-12">
+                    {% include booking-instructions.html %}       
+                  </div> <!-- END OF col  -->
+                </div> <!-- END OF row  -->
     
               </div> <!-- END OF col  -->
             </div> <!-- END OF row  -->
