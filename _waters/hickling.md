@@ -11,7 +11,7 @@ category: waters
 fb-url:
 ws-url:
 rules-url:
-off-season: 1st Oct - 14th Mar
+off-season: 
 gmap-id: 1WEu4PAfz_85nJvEZninWIcPaV5Q
 open-img: hickling-tile.jpg
 closed-img: hickling-closed-tile.jpg
