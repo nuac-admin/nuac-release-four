@@ -4147,6 +4147,9 @@ button.close {
 .tooltip .tooltiptext {
   font-size: 0.8em; }
 
+.thumbnail img {
+  width: 100%; }
+
 .bottom-spacer {
   padding-bottom: 20px; }
 
@@ -4188,7 +4191,6 @@ button.close {
 
 .alert-flex {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
   .alert-flex p {
@@ -4279,20 +4281,17 @@ alert-flow > * {
 
 .col-layout {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   /* 1 */
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   /* 2 */
   margin: -0.5em;
   /* 5 (edit me!) */ }
 
 .col-layout > div {
   -webkit-box-flex: 1;
-  -webkit-flex: 1 1 18.7em;
       -ms-flex: 1 1 18.7em;
           flex: 1 1 18.7em;
   /* 3 (edit me!) */

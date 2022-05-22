@@ -12,29 +12,6 @@ fb-url:
 ws-url:
 rules-url:
 gmap-id: 1J2-FNrGWZX_qYXqlDnZeEBx3dbk
-open-img: yare-tile.jpg
-closed-img: yare-closed-tile.jpg
-labels:
-- label-type: warning
-  label-tt-ind: false
-  label-tt-type: null
-  label-desc: Display Car Permit
-- label-type: warning
-  label-tt-ind: false
-  label-tt-type: null
-  label-desc: No Guests
-- label-type: info
-  label-tt-ind: false
-  label-tt-type: null
-  label-desc: Day Ticket
-- label-type: info
-  label-tt-ind: true
-  label-tt-type: u16-boat
-  label-desc: Children Allowed
-- label-type: info
-  label-tt-ind: false
-  label-tt-type: null
-  label-desc: Open 16 Jun - 14 Mar
 ---
 
 <div class="container non-header">

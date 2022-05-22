@@ -1,29 +1,21 @@
-  <div class="row hdr-theme">
+{% for water in site.data.water-labels.waters %}
+{% if page.title contains {{water.name}} %}
+<div class="row hdr-theme">
     <div class="col-xs-12 col-sm-6">
-      <h1>{{ page.hdr }}</h1>
+      <h1>{{ water.heading }}</h1>
     </div>
     <div class="col-xs-12 col-sm-6 hdr-label-section text-sm-right mt-sm-12">
-      {% for item in page.labels %}
-        {% if item.label-tt-ind == true %}
-        <div class="tooltip">
-          <span class="label label-{{ item.label-type }}">{{item.label-desc}}</span>
-          {% case item.label-tt-type %}
-          {% when "u16" %}
-          <span class="tooltiptext tt-bottom">{{ site.data.tooltips.u16 }}</span>
-          {% when "u16-boat" %}
-          <span class="tooltiptext tt-bottom">{{ site.data.tooltips.u16 }} {{ site.data.tooltips.boat }}</span>
-          {% when "u16-decoy" %}
-          <span class="tooltiptext tt-bottom">{{ site.data.tooltips.u16 }} {{ site.data.tooltips.boat }} {{ site.data.tooltips.decoy }}</span>
-          {% when "charge" %}
-          <span class="tooltiptext tt-bottom">{{ site.data.tooltips.charge }}</span>
-          {% when "guest" %}
-          <span class="tooltiptext tt-bottom">{{ site.data.tooltips.guest }}</span>
-        {% endcase %}
-        </div>   
-        {% else %}
-        <span class="label label-{{ item.label-type }}">{{item.label-desc}}</span>
-        {% endif %}
+      {% for label in water.labels %}
+      {% if label.tt-desc != nil %}
+      <div class="tooltip">
+        <span class="label label-{{label.type}}">{{label.desc}}</span>
+        <span class="tooltiptext tt-bottom">{{label.tt-desc}}</span>
+      </div>
+      {% else %}
+      <span class="label label-{{label.type}}">{{label.desc}}</span>
+      {% endif %}
       {% endfor %}
-
     </div>
   </div>
+  {% endif %}
+  {% endfor %}

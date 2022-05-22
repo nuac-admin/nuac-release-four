@@ -13,34 +13,6 @@ ws-url:
 rules-url:
 off-season: 
 gmap-id: 1WEu4PAfz_85nJvEZninWIcPaV5Q
-open-img: hickling-tile.jpg
-closed-img: hickling-closed-tile.jpg
-labels:
-  - label-type: danger
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Booking
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Display Car Permit
-  - label-type: info
-    label-tt-ind: true
-    label-tt-type: guest
-    label-desc: Guests
-  - label-type: info
-    label-tt-ind: true
-    label-tt-type: u16-boat
-    label-desc: Children Allowed
-  - label-type: info
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Boat Fishing
-  - label-type: info
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Open 16 Jun - 14 Mar
-
 ---
 
 <div class="container non-header">
