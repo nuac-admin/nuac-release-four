@@ -14,22 +14,6 @@ venue-list: BIF Main/Pleasure/River
 nbr-of-tickets: 2
 max-bookings:
 gmap-id: 1MnjnpVi4Ae4lqrqtIMvXPeKxRQU
-open-img: bridge-tile.jpg
-closed-img: bridge-closed-tile.jpg
-labels:
-  - label-type: danger
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Booking
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Display Car Permit
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: No Guests
-
 ---
 
 <div class="container non-header">

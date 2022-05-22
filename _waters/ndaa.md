@@ -14,25 +14,6 @@ rules-url:
 venue-list: NDAA
 nbr-of-tickets: 4
 gmap-id: 
-open-img: ndaa-tile.jpg
-closed-img: ndaa-closed-tile.jpg
-labels:
-  - label-type: danger
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Booking
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: guest
-    label-desc: No Guests
-  - label-type: info
-    label-tt-ind: true
-    label-tt-type: u16-decoy
-    label-desc: Children Allowed
-  - label-type: info
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Open 16 Jun - 14 Mar
 ---
 	
 <div class="container non-header">

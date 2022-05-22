@@ -14,25 +14,6 @@ venue-list: TM River
 nbr-of-tickets: 2
 gmap-id: 18BouUmDPjL2nPWc6FeEBmm-PLBRiYQ-g
 sat-nav: NR8 6TA
-open-img: taverham-tile.jpg
-closed-img: taverham-closed-tile.jpg
-labels:
-  - label-type: danger
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Booking
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Display Car Permit
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: No Guests
-  - label-type: info
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Open 16 Jun - 14 Mar
 desc-paras:
   - desc-col:
     desc-hdr:

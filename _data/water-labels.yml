@@ -1,185 +1,178 @@
 waters:
-  name: The Grove
-  folder: 'waters/'
-  file: 'grove.html'
-  source: 'grove.md'
-  labels:
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Display Car Permit
-  - label-type: info
-    label-tt-ind: true
-    label-tt-type: guest
-    label-desc: Guests
-  - label-type: info
-    label-tt-ind: true
-    label-tt-type: u16
-    label-desc: Children Allowed
-  name: River Yare
-  folder: 'waters/'
-  file: 'yare.html'
-  source: 'yare.md'
-  labels:
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Display Car Permit
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: No Guests
-  - label-type: info
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Day Ticket
-  - label-type: info
-    label-tt-ind: true
-    label-tt-type: u16
-    label-desc: Children Allowed
-  - label-type: info
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Open 16 Jun - 14 Mar
-  name: Hall Walk
-  folder: 'waters/'
-  file: 'hallwalk.html'
-  source: 'hallwalk.md'
-  labels:
-  - label-type: danger
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Booking
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Display Car Permit
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: No Guests
-  name: Bridge Inn
-  folder: 'waters/'
-  file: 'bridge.html'
-  source: 'bridge.md'
-  labels:
-  - label-type: danger
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Booking
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Display Car Permit
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: No Guests
-  - label-type: info
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Day Ticket
-  name: Trinity Broads
-  folder: 'waters/'
-  file: 'trinity.html'
-  source: 'trinity.md'
-  labels:
-  - label-type: danger
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Booking
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Display Car Permit
-  - label-type: info
-    label-tt-ind: true
-    label-tt-type: guest
-    label-desc: Guests
-  - label-type: info
-    label-tt-ind: true
-    label-tt-type: u16-boat
-    label-desc: Children Allowed
-  - label-type: info
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Boat Fishing
-  - label-type: info
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Open 16 Jun - 14 Mar
-  name: Hickling Broad
-  folder: 'waters/'
-  file: 'hickling.html'
-  source: 'hickling.md'
-  labels:
-  - label-type: danger
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Booking
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Display Car Permit
-  - label-type: info
-    label-tt-ind: true
-    label-tt-type: guest
-    label-desc: Guests
-  - label-type: info
-    label-tt-ind: true
-    label-tt-type: u16-boat
-    label-desc: Children Allowed
-  - label-type: info
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Boat Fishing
-  - label-type: info
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Open 16 Jun - 14 Mar
-  name: Snetterton Pits
-  folder: 'waters/'
-  file: 'snetterton.html'
-  source: 'snetterton.md'
-  labels:
-  - label-type: danger
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Booking
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Display Car Permit
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: No Guests
-  - label-type: info
-    label-tt-ind: true
-    label-tt-type: Charge
-    label-desc: Day Ticket
-  name: Norwich & District AA
-  folder: 'waters/'
-  file: 'ndaa.html'
-  source: 'ndaa.md'
-  labels:
-  - label-type: danger
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Booking
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Display Car Permit
-  - label-type: info
-    label-tt-ind: true
-    label-tt-type: guest
-    label-desc: Guests
-  - label-type: info
-    label-tt-ind: true
-    label-tt-type: u16-decoy
-    label-desc: Children Allowed
-  - label-type: info
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Open 16 Jun - 14 Mar
+  - name: The Grove
+    heading: The Grove, East Carlton
+    filename: grove
+    status: open
+    open-img: grove-tile.jpg
+    closed-img: grove-closed-tile.jpg
+    labels:
+    - type: warning
+      desc: Display Car Permit
+      tt-desc: 
+    - type: info
+      desc: Guests
+      tt-desc: See Permit documentation for details
+    - type: info
+      desc: Children Allowed
+      tt-desc: Under 16s welcome to fish
+  - name: River Yare
+    heading: River Yare, Claxton-Langley
+    filename: yare
+    status: open
+    open-img: yare-tile.jpg
+    closed-img: yare-closed-tile.jpg
+    labels:
+    - type: warning
+      desc: Display Car Permit
+      tt-desc: 
+    - type: warning
+      desc: No Guests
+      tt-desc: 
+    - type: info
+      desc: Day Ticket
+      tt-desc: 
+    - type: info
+      desc: Children Allowed
+      tt-desc: Under 16s welcome to fish
+    - type: info
+      desc: Open 16 Jun - 14 Mar
+      tt-desc: 
+  - name: Hall Walk
+    heading: Hall Walk Lakes, Lenwade
+    filename: hallwalk
+    status: open
+    open-img: hallwalk-tile.jpg
+    closed-img: hallwalk-closed-tile.jpg
+    labels:
+    - type: danger
+      desc: Booking
+      tt-desc: 
+    - type: warning
+      desc: Display Car Permit
+      tt-desc: 
+    - type: warning
+      desc: No Guests
+      tt-desc: 
+  - name: Bridge Inn
+    heading: Bridge Inn Fishery, Lenwade
+    filename: bridge
+    status: open
+    open-img: bridge-tile.jpg
+    closed-img: bridge-closed-tile.jpg
+    labels:
+    - type: danger
+      desc: Booking
+      tt-desc: 
+    - type: warning
+      desc: Display Car Permit
+      tt-desc: 
+    - type: warning
+      desc: No Guests
+      tt-desc: 
+  - name: Trinity Broads
+    heading: Trinity Broads, Filby
+    filename: trinity
+    status: open
+    open-img: trinity-tile.jpg
+    closed-img: trinity-closed-tile.jpg
+    labels:
+    - type: danger
+      desc: Booking
+      tt-desc: 
+    - type: warning
+      desc: Display Car Permit
+      tt-desc: 
+    - type: info
+      desc: Guests
+      tt-desc: See Permit documentation for details
+    - type: info
+      desc: Children Allowed
+      tt-desc: Under 16s welcome to fish please ensure they wear a buoyancy aid
+    - type: info
+      desc: Boat Fishing
+      tt-desc: 
+    - type: info
+      desc: Open 16 Jun - 14 Mar
+      tt-desc: 
+  - name: Hickling Broad
+    heading: Hickling Broad, Hickling
+    filename: hickling
+    status: open
+    open-img: hickling-tile.jpg
+    closed-img: hickling-closed-tile.jpg
+    labels:
+    - type: danger
+      desc: Booking
+      tt-desc: 
+    - type: warning
+      desc: Display Car Permit
+      tt-desc: 
+    - type: info
+      desc: Guests
+      tt-desc: See Permit documentation for details
+    - type: info
+      desc: Children Allowed
+      tt-desc: Under 16s welcome to fish please ensure they wear a buoyancy aid
+    - type: info
+      desc: Boat Fishing
+      tt-desc: 
+    - type: info
+      desc: Open 16 Jun - 14 Mar
+      tt-desc: 
+  - name: Snetterton Pits
+    heading: Snetterton Pits, Snetterton
+    filename: snetterton
+    status: open
+    open-img: snetterton-tile.jpg
+    closed-img: snetterton-closed-tile.jpg
+    labels:
+    - type: danger
+      desc: Booking
+      tt-desc: 
+    - type: warning
+      desc: Display Car Permit
+      tt-desc: 
+    - type: warning
+      desc: No Guests
+      tt-desc: 
+    - type: info
+      desc: Day Ticket
+      tt-desc: Compulsory charge applies per booking
+  - name: Norwich & District AA
+    heading: Norwich and District AA
+    filename: ndaa
+    status: open
+    open-img: ndaa-tile.jpg
+    closed-img: ndaa-closed-tile.jpg
+    labels:
+    - type: danger
+      desc: Booking
+      tt-desc: 
+    - type: warning
+      desc: No Guests
+      tt-desc: 
+    - type: info
+      desc: Children Allowed
+      tt-desc: Under 16s welcome to fish please ensure they wear a buoyancy aid on Decoy Broad
+    - type: info
+      desc: Open 16 Jun - 14 Mar
+      tt-desc: 
+  - name: Taverham Mills
+    heading: River Wensum, Taverham Mills
+    filename: taverham
+    status: open
+    open-img: taverham-tile.jpg
+    closed-img: taverham-closed-tile.jpg
+    labels:
+    - type: danger
+      desc: Booking
+      tt-desc: 
+    - type: warning
+      desc: Display Car Permit
+      tt-desc: 
+    - type: warning
+      desc: No Guests
+      tt-desc: 
+    - type: info
+      desc: Open 16 Jun - 14 Mar
+      tt-desc: 

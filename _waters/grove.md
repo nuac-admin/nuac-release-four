@@ -9,22 +9,6 @@ file-txt: grove
 location: East Carlton
 category: waters
 gmap-id: 15HHmbiD0gDUb1L2TMg1GY4_Q1eM
-open-img: grove-tile.jpg
-closed-img: grove-closed-tile.jpg
-labels:
-- label-type: warning
-  label-tt-ind: false
-  label-tt-type: null
-  label-desc: Display Car Permit
-- label-type: info
-  label-tt-ind: true
-  label-tt-type: guest
-  label-desc: Guests
-- label-type: info
-  label-tt-ind: true
-  label-tt-type: u16
-  label-desc: Children Allowed
-
 ---
 
 <div class="container non-header">

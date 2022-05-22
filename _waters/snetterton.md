@@ -12,25 +12,6 @@ fb-url:
 ws-url:
 rules-url:
 gmap-id: 1AfdqHRzGvValLrWj5QoM5L1wjnU
-open-img: snetterton-tile.jpg
-closed-img: snetterton-closed-tile.jpg
-labels:
-  - label-type: danger
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Booking
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Display Car Permit
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: No Guests
-  - label-type: info
-    label-tt-ind: true
-    label-tt-type: charge
-    label-desc: Day Ticket
 ---
 
 <div class="container non-header">

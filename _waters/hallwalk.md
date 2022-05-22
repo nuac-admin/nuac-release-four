@@ -16,22 +16,6 @@ venue-list: Hall Walk Puppy/Long
 nbr-of-tickets: 2
 max-bookings: 
 gmap-id: 1mEyjTsQMxxW8TlG7kVSFpmrzifs
-open-img: hallwalk-tile.jpg
-closed-img: hallwalk-closed-tile.jpg
-labels:
-  - label-type: danger
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Booking
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: Display Car Permit
-  - label-type: warning
-    label-tt-ind: false
-    label-tt-type: null
-    label-desc: No Guests
-
 ---
 
 <div class="container non-header">

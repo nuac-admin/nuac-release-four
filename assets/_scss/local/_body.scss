@@ -23,9 +23,11 @@
     font-size: 0.8em;
 }
 
-// .thumbnail {
-//     // overflow: hidden;
-// }
+.thumbnail {
+  & img {
+      width: 100%;
+  }
+}
 
 .bottom-spacer {
     padding-bottom: 20px;
