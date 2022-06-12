@@ -8,8 +8,9 @@ menu-order: 2
 file-txt: yare
 location: Claxton-Langley
 category: waters
-fb-url:
-ws-url:
+fb-url: 
+ws-url: https://riveryarefishing.co.uk
+ws-fixtures-url: https://riveryarefishing.co.uk/fixtures/
 rules-url:
 gmap-id: 1J2-FNrGWZX_qYXqlDnZeEBx3dbk
 ---
@@ -31,19 +32,20 @@ gmap-id: 1J2-FNrGWZX_qYXqlDnZeEBx3dbk
         <p>The Yare at this stage of it's journey to the sea is a powerful tidal river;  be prepared for strong flow and depths of 12-20'.  On a high flood tide you may need 3oz of lead to hold bottom so a powerful 12-13' feeder rod will be required especially if you wish to fish over two-thirds of the way across the river.</p>
         <p>Main species are quality roach, with individual fish over 2lb not unheard of, skimmers, bream up to 8lb and perch.  There are also big carp and pike present although swim selection is key for these species.</p>
         <p>The fishing is at its best late summer through to end of September however large bags of bream and big roach are possible through the winter until the close of the river season assuming the conditions are favourable.</p>
+        <p>For more information about fishing this stretch of river please go to <a href="{{ page.ws-url }}">Fishing the River Yare</a>.</p>
 
         <div class="row hidden-print">
           <div class="col-xs-12 col-sm-6 col-md-3 top-spacer-5">
-            <a class="btn btn-lg btn-info btn-block" href="http://www.norfolk-broads.org/tides/tide_report.asp" target="_blank"><i class="fas fa-table" aria-hidden="true"></i>&nbsp;Tide Table</a>
+            <a class="btn btn-lg btn-info btn-block" href="http://www.norfolk-broads.org/tides/tide_report.asp"><i class="fas fa-table" aria-hidden="true"></i>&nbsp;Tide Table</a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 top-spacer-5">
-            <a class="btn btn-lg btn-warning btn-block" href="http://www.broads-authority.gov.uk/boating/navigating-the-broads/water-depths/river-yare" target="_blank"><i class="fas fa-map" aria-hidden="true"></i>&nbsp;Water Depth</a>
+            <a class="btn btn-lg btn-warning btn-block" href="http://www.broads-authority.gov.uk/boating/navigating-the-broads/water-depths/river-yare"><i class="fas fa-map" aria-hidden="true"></i>&nbsp;Water Depth</a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 top-spacer-5">
-            <a class="btn btn-lg btn-success btn-block" href="https://flood-warning-information.service.gov.uk/station/6214?direction=u" target="_blank"><i class="fas fa-chart-bar" aria-hidden="true"></i>&nbsp;River Level</a>
+            <a class="btn btn-lg btn-success btn-block" href="https://flood-warning-information.service.gov.uk/station/6214?direction=u"><i class="fas fa-chart-bar" aria-hidden="true"></i>&nbsp;River Level</a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 top-spacer-5">
-            <a class="btn btn-lg btn-danger btn-block" href="http://www.catchpro.co.uk" target="_blank"><i class="fas fa-thermometer-full" aria-hidden="true"></i>&nbsp;Water Temperature</a>
+            <a class="btn btn-lg btn-danger btn-block" href="http://www.catchpro.co.uk"><i class="fas fa-thermometer-full" aria-hidden="true"></i>&nbsp;Water Temperature</a>
           </div>
         </div> <!-- END OF row  -->
         
@@ -65,7 +67,7 @@ gmap-id: 1J2-FNrGWZX_qYXqlDnZeEBx3dbk
           <li>After every session all members must clear the ground of litter even if that litter was not left by them. </li>
           <li>All members are expected to be polite to other river and bank users at all times.</li>
           <li>Vehicles must be parked sensibly without blocking access to fields or other entrances.</li>
-          <li>Open matches and club bookings will take priority over pleasure angling at all times.   Notices are displayed to show which areas are booked, please keep these areas clear.  A list of 2021-22 matches, correct as of Oct 2021, can be viewed <a href="{{base}}{{site.data.site.docs-folder}}GYNCAA_FIXTURES.pdf" target="_blank">here</a>.</li>
+          <li>Open matches and club bookings will take priority over pleasure angling at all times.   Notices are displayed to show which areas are booked, please keep these areas clear.  A fixture list is available at <a href="{{ page.ws-fixtures-url }}">Fishing the River Yare</a>.</li>
           <li>No dogs to be taken onto the banks by anglers.</li>
           <li>Please obey the speed limit when on farm tracks to river.</li>
         </ol>
