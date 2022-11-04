@@ -14,7 +14,7 @@ rules-url: http://hallwalkfishery.co.uk/rules/
 pike-dates: 1st October - 1st March
 venue-list: Hall Walk Puppy/Long
 nbr-of-tickets: 2
-max-bookings: 
+max-bookings: 18
 gmap-id: 1mEyjTsQMxxW8TlG7kVSFpmrzifs
 ---
 
