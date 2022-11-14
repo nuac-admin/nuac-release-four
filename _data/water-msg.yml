@@ -27,8 +27,8 @@ hw-msg-box-type: warning
 hw-messages:
   - msg-type: warning
     msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
-  # - msg-type: warning
-  #   msg-desc: Fishery guidance available via Hall Walk Lakes [facebook page](https://www.facebook.com/bartleslodge)
+  - msg-type: info
+    msg-desc: Pike fishing permitted from Thursday 17th November 2022 [facebook post](https://www.facebook.com/hallwalkfishery/posts/pfbid0H8sSyRcu5agz6FbEDwLzSYGEN4LMRngmJuhoSUBDcupZ9FD5LXGzJNF4zWWJLUpRl)
 
 bif-open-ind: true
 bif-msg-ind: true

@@ -11,7 +11,7 @@ category: waters
 fb-url: https://www.facebook.com/bartleslodge
 ws-url: http://www.hallwalkfishery.co.uk
 rules-url: http://hallwalkfishery.co.uk/rules/
-pike-dates: 1st October - 1st March
+pike-dates: 17th November - 1st March
 venue-list: Hall Walk Puppy/Long
 nbr-of-tickets: 2
 max-bookings: 18
@@ -51,6 +51,16 @@ gmap-id: 1mEyjTsQMxxW8TlG7kVSFpmrzifs
             <h3>Long Lake</h3>
             <p>This 2.5 acre lake is the first lake to the left of the Hall Walk access track.  It has an island and two large reed beds at the far end of the lake and provides 15 swims, with depths between 3' - 6'.</p>
             <p>This is a true mixed fishery with an original stock of roach, rudd, pike, perch and a few tench & eels.  In February 2009 the existing stock was supplemented with approx 90 bream plus an additional 300 lbs of silver fish, another 20 tench and a further stocking of 430 small carp of around 14 oz.	</p>
+
+          </div> <!-- END OF col  -->
+        </div> <!-- END OF row  -->
+
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+
+            <h3>Tom's Lake</h3>
+            <p>NUAC members have access to Tom’s Lake for Pike Fishing from {{ page.pike-dates }}.</p>
+            <p>This lake is the largest of the three on the complex at approx. 9 acres. A mature gravel pit containing many interesting features with islands, reed beds, gravel bars and lilies. It boasts great winter pike fishing with specimens weighing in at well over 20lb.</p>
 
           </div> <!-- END OF col  -->
         </div> <!-- END OF row  -->
