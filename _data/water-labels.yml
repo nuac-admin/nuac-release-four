@@ -1,20 +1,20 @@
 waters:
-  - name: The Grove
-    heading: The Grove, East Carlton
-    filename: grove
-    status: open
-    open-img: grove-tile.jpg
-    closed-img: grove-closed-tile.jpg
-    labels:
-    - type: warning
-      desc: Display Car Permit
-      tt-desc: 
-    - type: info
-      desc: Guests
-      tt-desc: See Permit documentation for details
-    - type: info
-      desc: Children Allowed
-      tt-desc: Under 16s welcome to fish
+  # - name: The Grove
+  #   heading: The Grove, East Carlton
+  #   filename: grove
+  #   status: open
+  #   open-img: grove-tile.jpg
+  #   closed-img: grove-closed-tile.jpg
+  #   labels:
+  #   - type: warning
+  #     desc: Display Car Permit
+  #     tt-desc: 
+  #   - type: info
+  #     desc: Guests
+  #     tt-desc: See Permit documentation for details
+  #   - type: info
+  #     desc: Children Allowed
+  #     tt-desc: Under 16s welcome to fish
   - name: River Yare
     heading: River Yare, Claxton-Langley
     filename: yare
