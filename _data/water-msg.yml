@@ -3,6 +3,8 @@ grove-msg-ind: true
 grove-msg-box-type: warning
 grove-messages:
   - msg-type: warning
+    msg-desc: <strong>Access ceases dusk Tuesday 31 January</strong> for more information please see [News](http://nuac.org.uk/news/news.html).
+  - msg-type: warning
     msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/).
   - msg-type: warning
     msg-desc: Please have a face mask available for the duration of your visit, and if approached by any Home residents or their guests wear it whilst they are in your proximity.
