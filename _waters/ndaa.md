@@ -45,7 +45,7 @@ gmap-id:
 					<div class="col-xs-12 col-md-6">
 
 						<h3>Decoy Broad & River Bure, Woodbastwick</h3>
-						<p>NDAA have access to ten 13 foot rowing boats at Decoy Broad along with use of the river bank adjacent to the broad.  Access is via a self-opening/closing electronic gate, combination will be provided on booking.  The rowing boats can be hired at a cost of £6 per day and must be booked separately as per instructions below.</p>
+						<p>NDAA have access to ten 13 foot rowing boats at Decoy Broad along with use of the river bank adjacent to the broad.  Access is via a self-opening/closing electronic gate, combination will be provided on booking.  The rowing boats can be hired at a cost of £8 per day and must be booked separately as per instructions below.</p>
 
 						<h3>River Thurne, Cold Harbour </h3>
 						<p>Access to the right of car park through gate at top of flood bank.  Bank access stretches all the way downstream to Thurne mouth where the river joins the Bure.  Unfortunatey only 16 pegs are maintained with access via two pathways in front of a dyke which acts as a fish refuge from salt tides (access signposted on footpath on flood bank).</p>

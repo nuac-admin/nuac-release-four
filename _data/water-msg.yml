@@ -1,21 +1,20 @@
-grove-open-ind: true
-grove-msg-ind: true
-grove-msg-box-type: warning
-grove-messages:
-  - msg-type: warning
-    msg-desc: <strong>Access ceases dusk Tuesday 31 January</strong> for more information please see [News](http://nuac.org.uk/news/news.html).
-  - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/).
-  - msg-type: warning
-    msg-desc: Please have a face mask available for the duration of your visit, and if approached by any Home residents or their guests wear it whilst they are in your proximity.
-
+# grove-open-ind: true
+# grove-msg-ind: true
+# grove-msg-box-type: warning
+# grove-messages:
+#   - msg-type: warning
+#     msg-desc: <strong>Access ceases dusk Tuesday 31 January</strong> for more information please see [News](http://nuac.org.uk/news/news.html).
+#   - msg-type: warning
+#     msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/).
+#   - msg-type: warning
+#     msg-desc: Please have a face mask available for the duration of your visit, and if approached by any Home residents or their guests wear it whilst they are in your proximity.
   # - msg-type: danger
   #   msg-desc: <strong>Venue remains CLOSED until further notice</strong>, please see the relevant <a href="../news/news.html#NI106" class="alert-link">news item</a> for more information
   #  - msg-type: warning
   #  msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
 
 yare-open-ind: true
-yare-msg-ind: true
+yare-msg-ind: false
 yare-msg-box-type: warning
 yare-messages:
   - msg-type: warning
@@ -24,7 +23,7 @@ yare-messages:
   #   msg-desc: Venue closed due to River Close Season; re-opens Thursday 16th June
 
 hw-open-ind: true
-hw-msg-ind: true
+hw-msg-ind: false
 hw-msg-box-type: warning
 hw-messages:
   - msg-type: warning
@@ -33,7 +32,7 @@ hw-messages:
     msg-desc: Pike fishing permitted from Thursday 17th November 2022 [facebook post](https://www.facebook.com/hallwalkfishery/posts/pfbid0H8sSyRcu5agz6FbEDwLzSYGEN4LMRngmJuhoSUBDcupZ9FD5LXGzJNF4zWWJLUpRl)
 
 bif-open-ind: true
-bif-msg-ind: true
+bif-msg-ind: false
 bif-msg-box-type: warning
 bif-messages:
   - msg-type: warning
@@ -47,17 +46,17 @@ bif-messages:
 
 fib-open-ind: true
 fib-msg-ind: true
-fib-msg-box-type: warning
+fib-msg-box-type: danger
 fib-messages:
-  - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
-  - msg-type: warning
-    msg-desc: This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
+  # - msg-type: warning
+  #   msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
+  # - msg-type: warning
+  #   msg-desc: This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
   - msg-type: danger
-    msg-desc: Killer shrimp found in Trinity Broads please familiarise yourself with the **Check, Clean, Dry** [guidance](https://www.nonnativespecies.org/what-can-i-do/check-clean-dry/#maincontent)
+    msg-desc: Killer shrimp found in Trinity Broads please familiarise yourself with the **Check, Clean, Dry** [guidance](https://www.nonnativespecies.org/what-can-i-do/check-clean-dry/anglers/)
 
 hib-open-ind: true
-hib-msg-ind: true
+hib-msg-ind: false
 hib-msg-box-type: warning
 hib-messages:
   - msg-type: warning
@@ -68,7 +67,7 @@ hib-messages:
   #   msg-desc: Venue closed due to River Close Season; re-opens Thursday 16th June
 
 snp-open-ind: true
-snp-msg-ind: true
+snp-msg-ind: false
 snp-msg-box-type: warning
 snp-messages:
   - msg-type: warning
@@ -80,15 +79,17 @@ ndaa-open-ind: true
 ndaa-msg-ind: true
 ndaa-msg-box-type: warning
 ndaa-messages:
+  # - msg-type: warning
+  #   msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
   - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
-  - msg-type: warning
-    msg-desc: Decoy Broad Boats - This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
+    msg-desc: Decoy Broad Boats - please note boat fee for 2023-24 season will be £8 per day.
+  # - msg-type: warning
+  #   msg-desc: Decoy Broad Boats - This is a shared facility so remember to maintain strict hand hygiene after touching locks, oars etc.
   # - msg-type: warning
   #   msg-desc: Venues closed due to River Close Season; re-opens Thursday 16th June
 
 tm-open-ind: true
-tm-msg-ind: true
+tm-msg-ind: false
 tm-msg-box-type: warning
 tm-messages:
   - msg-type: warning

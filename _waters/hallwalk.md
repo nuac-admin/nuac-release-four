@@ -11,7 +11,7 @@ category: waters
 fb-url: https://www.facebook.com/bartleslodge
 ws-url: http://www.hallwalkfishery.co.uk
 rules-url: http://hallwalkfishery.co.uk/rules/
-pike-dates: 17th November - 1st March
+pike-dates: 1st October - 1st March
 venue-list: Hall Walk Puppy/Long
 nbr-of-tickets: 2
 max-bookings: 18
