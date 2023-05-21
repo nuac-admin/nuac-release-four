@@ -29,7 +29,7 @@ desc-paras:
     desc-para: This ¾ mile stretch of the beautiful River Wensum includes two weir pools as well as deep pools, shallow gravel runs, lilies, reeds and snaggy stretches. Anglers of all abilities can fish for chub, which are in large numbers weighing in at 3-5lb, dace, roach, perch, pike and possibly a small barbel.
   - desc-col: col-md-6
     desc-hdr: Costessey No.1 Lake
-    desc-para: This three-acre lake provides plenty of silver fish sport and is ideal for those new to the sport. Please fish from the marked swims only, 5 adjacent to the access road and 4 on the far bank. No pole fishing from peg 1 due to the overhead power lines. Along with the roach, rudd and perch there is a large shoal of bream (up to 12lb) and pike into double figures. Day tickets are available and must be purchased in advance from the Visitor Centre.
+    desc-para: This three-acre lake provides plenty of silver fish sport and is ideal for those new to the sport. Please fish from the marked swims only, 5 adjacent to the access road and 4 on the far bank. No pole fishing from peg 1 due to the overhead power lines. Along with the roach, rudd and perch there is a large shoal of bream (up to 12lb) and pike into double figures. Day tickets are available and must be purchased in advance either from the Visitor Centre or [online](https://anglianwaterparks.co.uk/bookings-permit/select-permit/8/168/coarse/new).
   - desc-col:
     desc-hdr:
     desc-para: Along with the tranquil setting, you might also spot wildlife including otters, kingfishers, waterfowl and barn owls.
@@ -38,7 +38,7 @@ rules-hdr:
     rule-hdr-para: NUAC access is by arrangement with Taverham Mills Fishery and as part of this arrangement the following rules **MUST** be followed;
 rules:
   - rule-desc: NUAC member must have pre-booked their day's fishing as per booking instructions below.
-  - rule-desc: NUAC Guest tickets are not permitted (Day tickets for Lake No.1 can be purchased in advance from the Visitor Centre).
+  - rule-desc: NUAC Guest tickets are not permitted (Day tickets for Costessey No.1 Lake can be purchased in advance from the Visitor Centre or [online](https://anglianwaterparks.co.uk/bookings-permit/select-permit/8/168/coarse/new)).
   - rule-desc: Members must carry their NUAC membership card and EA rod licence at all times, and show them upon request.
   - rule-desc: Please display your NUAC car parking permit when you park your car in the **designated** car parks (as indicated on the map below).
   - rule-desc: NUAC member is only entitled to fishing on the River Wensum and Costessey No.1 Lake, **no fishing on any other lakes** associated with Taverham Mills Fishery.
