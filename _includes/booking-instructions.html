@@ -43,7 +43,7 @@
         <p>A booking is not completed UNTIL you receive a confirmation email</p>
         {% if page.nbr-of-tickets != nil %}
             {% if page.file-txt == "taverham" %}
-            <p><i>Please note that there are {{ page.nbr-of-tickets }} tickets available per day; 2 on the Lake and 2 on the River.</i></p>
+            <p><i>Please note that there are {{ page.nbr-of-tickets }} tickets available per day; {{page.nbr-no1-tickets}} on the Lake and {{page.nbr-river-tickets}} on the River.</i></p>
             {% else %}       
             <p><i>Please note that there are only {{ page.nbr-of-tickets }} tickets available per day.</i></p>
             {% endif %}

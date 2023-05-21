@@ -12,25 +12,32 @@ fb-url:
 ws-url: 
 venue-list: TMF River, TMF No.1 Lake
 nbr-of-tickets: 4
+nbr-river-tickets: 2
+nbr-no1-tickets: 2
 gmap-id: 18BouUmDPjL2nPWc6FeEBmm-PLBRiYQ-g
 sat-nav: NR8 6TA
 desc-paras:
   - desc-col:
+    desc-col-pos:
     desc-hdr:
     desc-para: NUAC has an association with Taverham Mills Fishery which grants our members access to Costessey No.1 Lake and their stretch of the River Wensum. Please ensure that you familiarise yourself with the Rules before visiting. **Access must be booked in advance as per booking instructions stated below**.
   - desc-col:
+    desc-col-pos:
     desc-hdr:
     desc-para: Entry to the fishery is via a locked gate, you will be given the gate code when you book (please do not share, this code is regularly updated).
   - desc-col:
     desc-hdr:
     desc-para: The Visitor Centre has toilet facilities and provides refreshments (see [website](https://anglianwaterparks.co.uk/taverham-mill) for opening times).  There is also a tackle shop that caters for everything you need for a day's fishing including brands such as Korda, Solar, Nash, Gardner and Sticky Baits.
   - desc-col: col-md-6
+    desc-col-pos: start
     desc-hdr: River Wensum
     desc-para: This ¾ mile stretch of the beautiful River Wensum includes two weir pools as well as deep pools, shallow gravel runs, lilies, reeds and snaggy stretches. Anglers of all abilities can fish for chub, which are in large numbers weighing in at 3-5lb, dace, roach, perch, pike and possibly a small barbel.
   - desc-col: col-md-6
+    desc-col-pos: end
     desc-hdr: Costessey No.1 Lake
-    desc-para: This three-acre lake provides plenty of silver fish sport and is ideal for those new to the sport. Please fish from the marked swims only, 5 adjacent to the access road and 4 on the far bank. No pole fishing from peg 1 due to the overhead power lines. Along with the roach, rudd and perch there is a large shoal of bream (up to 12lb) and pike into double figures. Day tickets are available and must be purchased in advance either from the Visitor Centre or [online](https://anglianwaterparks.co.uk/bookings-permit/select-permit/8/168/coarse/new).
+    desc-para: This three-acre lake provides plenty of silver fish sport and is ideal for those new to the sport. Please fish from the marked swims only, 5 adjacent to the access road and 4 on the far bank. No pole fishing from peg 1 due to the overhead power lines. Along with the roach, rudd and perch there is a large shoal of bream (up to 12lb) and pike into double figures.
   - desc-col:
+    desc-col-pos:
     desc-hdr:
     desc-para: Along with the tranquil setting, you might also spot wildlife including otters, kingfishers, waterfowl and barn owls.
 rules-hdr:

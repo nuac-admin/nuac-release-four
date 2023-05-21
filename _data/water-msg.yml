@@ -89,10 +89,12 @@ ndaa-messages:
   #   msg-desc: Venues closed due to River Close Season; re-opens Thursday 16th June
 
 tm-open-ind: true
-tm-msg-ind: false
+tm-msg-ind: true
 tm-msg-box-type: warning
 tm-messages:
-  - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
+  # - msg-type: warning
+  #   msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
   # - msg-type: warning
   #   msg-desc: Venue closed due to River Close Season; re-opens Thursday 16th June
+  - msg-type: info
+    msg-desc: Costessey No.1 Lake available from 16 June 2023

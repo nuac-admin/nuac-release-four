@@ -13,11 +13,13 @@ layout: default
   
         <div id="water-desc" class="collapse in">
   
-          {% if page.desc-paras != nil %} 
-          {% for para in page.desc-paras %}
-          {% if para.desc-col != nil %} 
+        {% if page.desc-paras != nil %} 
+        {% for para in page.desc-paras %}
+          {% if para.desc-col != nil %}
           <!-- Add row once on first col -->
+          {% if para.desc-col-pos == "start" %}
           <div class="row">
+          {% endif %}
             <div class="col-xs-12 {{para.desc-col}}">
                 {% if para.desc-hdr != nil %}
                 <h3>{{para.desc-hdr | markdownify}}</h3>
@@ -27,7 +29,9 @@ layout: default
                 {% endif %}
             </div> <!-- END OF col  -->
           <!-- Close row once on first col -->
+          {% if para.desc-col-pos == "end" %}
           </div> <!-- END OF row  -->
+          {% endif %}
           {% else %}
           <div class="row">
             <div class="col-xs-12">
@@ -40,8 +44,8 @@ layout: default
             </div> <!-- END OF col  -->
           </div> <!-- END OF row  -->
           {% endif %}
-          {% endfor %}
-          {% endif %}
+        {% endfor %}
+        {% endif %}
         </div> <!-- END OF collapse  -->
   
       </div> <!-- END OF col  -->
