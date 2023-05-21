@@ -101,20 +101,8 @@ waters:
     open-img: hickling-tile.jpg
     closed-img: hickling-closed-tile.jpg
     labels:
-    - type: danger
-      desc: Booking
-      tt-desc: 
     - type: warning
       desc: Display Car Permit
-      tt-desc: 
-    - type: info
-      desc: Guests
-      tt-desc: See Permit documentation for details
-    - type: info
-      desc: Children Allowed
-      tt-desc: Under 16s welcome to fish please ensure they wear a buoyancy aid
-    - type: info
-      desc: Boat Fishing
       tt-desc: 
     - type: info
       desc: Open 16 Jun - 14 Mar
