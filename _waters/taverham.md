@@ -94,7 +94,11 @@ directions:
       - dir-text: From Norwich outer ring road follow the A1067, Drayton High Road, signposted for Fakenham.
       - dir-text: At Taverham bear left, after petrol station, onto Taverham Road.
       - dir-text: At roundabout, take first left for Costessey Road.
+      - dir-text: <strong>For Visitor Centre and River Wensum</strong>
       - dir-text: After 30 yards turn right onto private road signposted for Taverham Mills Water Park.
       - dir-text: Keep left on private road and park behind Visitor Centre in the designated Car Park.
+      - dir-text: <strong>For Costessey No.1 Lake</strong>
+      - dir-text: Follow Costessey Road for approximately 600 yards (a third of a mile).
+      - dir-text: After Wensum Self Storage, take next left onto gated road (access to Ski Pit syndicate car park immediately on right).
 ---
 
