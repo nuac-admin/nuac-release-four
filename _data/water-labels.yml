@@ -158,6 +158,6 @@ waters:
     - type: warning
       desc: Display Car Permit
       tt-desc: 
-    - type: info
-      desc: Day Ticket
-      tt-desc: Costessey No.1 Lake only
+    # - type: info
+    #   desc: Day Ticket
+    #   tt-desc: Costessey No.1 Lake only
