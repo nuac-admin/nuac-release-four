@@ -158,7 +158,7 @@ waters:
       desc: Open 16 Jun - 14 Mar
       tt-desc: 
   - name: Taverham Mills
-    heading: River Wensum, Taverham Mills
+    heading: Taverham Mills Fishery, Taverham Mills
     filename: taverham
     status: open
     open-img: taverham-tile.jpg
@@ -170,9 +170,6 @@ waters:
     - type: warning
       desc: Display Car Permit
       tt-desc: 
-    - type: warning
-      desc: No Guests
-      tt-desc: 
     - type: info
-      desc: Open 16 Jun - 14 Mar
-      tt-desc: 
+      desc: Day Ticket
+      tt-desc: Costessey No.1 Lake only

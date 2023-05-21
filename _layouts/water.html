@@ -15,6 +15,20 @@ layout: default
   
           {% if page.desc-paras != nil %} 
           {% for para in page.desc-paras %}
+          {% if para.desc-col != nil %} 
+          <!-- Add row once on first col -->
+          <div class="row">
+            <div class="col-xs-12 {{para.desc-col}}">
+                {% if para.desc-hdr != nil %}
+                <h3>{{para.desc-hdr | markdownify}}</h3>
+                {% endif %}
+                {% if para.desc-para != nil %}
+                  {{para.desc-para | markdownify}}
+                {% endif %}
+            </div> <!-- END OF col  -->
+          <!-- Close row once on first col -->
+          </div> <!-- END OF row  -->
+          {% else %}
           <div class="row">
             <div class="col-xs-12">
                 {% if para.desc-hdr != nil %}
@@ -25,6 +39,7 @@ layout: default
                 {% endif %}
             </div> <!-- END OF col  -->
           </div> <!-- END OF row  -->
+          {% endif %}
           {% endfor %}
           {% endif %}
         </div> <!-- END OF collapse  -->
