@@ -104,6 +104,9 @@ waters:
     - type: warning
       desc: Display Car Permit
       tt-desc: 
+    - type: warning
+      desc: No Guests
+      tt-desc: 
     - type: info
       desc: Open 16 Jun - 14 Mar
       tt-desc: 
