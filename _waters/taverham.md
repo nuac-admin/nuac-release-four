@@ -10,7 +10,7 @@ location: Taverham
 category: waters
 fb-url: 
 ws-url: 
-venue-list: TMF River, TMF No.1 Lake
+venue-list: TMF River, TMF Lake
 nbr-of-tickets: 4
 nbr-river-tickets: 2
 nbr-no1-tickets: 2
