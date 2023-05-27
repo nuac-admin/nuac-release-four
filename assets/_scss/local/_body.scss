@@ -29,6 +29,17 @@
   }
 }
 
+.md-img {
+    width: 60%;
+    &--right {
+        float: right;
+        margin: 3px 0px 3px 12px;
+    }
+    &--left {
+        float: left;
+        margin: 3px 12px 3px 0px;
+    }
+}
 .bottom-spacer {
     padding-bottom: 20px;
 }
@@ -85,10 +96,21 @@
 
 }
 
+// .info-format {
+//     & .btn-lg {
+//         width: 20rem;
+//     }
+
+// }
+
 
 @media (max-width: $screen-sm-max) {
     .name, .role, .contact {
         padding-bottom: 0.5em;
+    }
+    .md-img {
+        width: 100%;
+        margin: 0px 0px 10px 0px;
     }
 }
 

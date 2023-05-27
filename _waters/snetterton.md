@@ -134,7 +134,7 @@ gmap-id: 1AfdqHRzGvValLrWj5QoM5L1wjnU
           <div class="col-xs-12">
             
             <h3>Location Map</h3>
-            <p><a class="btn btn-lg btn-danger" href="https://drive.google.com/open?id=1AfdqHRzGvValLrWj5QoM5L1wjnU&usp=sharing" target="_blank"><i class="indicator fas fa-map-marker-alt fa-map-marker-alt-inverse"></i>&nbsp;Google Map</a></p>
+            <p><a class="btn btn-lg btn-danger" href="https://drive.google.com/open?id=1AfdqHRzGvValLrWj5QoM5L1wjnU&usp=sharing" target="_blank"><i class="indicator fas fa-map-marker-alt fa-map-marker-alt-inverse"></i>Google Map</a></p>
             
           </div> <!-- END OF col  -->
         </div> <!-- END OF row  -->

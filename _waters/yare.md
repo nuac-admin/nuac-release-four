@@ -36,16 +36,16 @@ gmap-id: 1J2-FNrGWZX_qYXqlDnZeEBx3dbk
 
         <div class="row hidden-print">
           <div class="col-xs-12 col-sm-6 col-md-3 top-spacer-5">
-            <a class="btn btn-lg btn-info btn-block" href="http://www.norfolk-broads.org/tides/tide_report.asp"><i class="fas fa-table" aria-hidden="true"></i>&nbsp;Tide Table</a>
+            <a class="btn btn-lg btn-info btn-block" href="http://www.norfolk-broads.org/tides/tide_report.asp"><i class="fas fa-table" aria-hidden="true"></i>Tide Table</a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 top-spacer-5">
-            <a class="btn btn-lg btn-warning btn-block" href="http://www.broads-authority.gov.uk/boating/navigating-the-broads/water-depths/river-yare"><i class="fas fa-map" aria-hidden="true"></i>&nbsp;Water Depth</a>
+            <a class="btn btn-lg btn-warning btn-block" href="http://www.broads-authority.gov.uk/boating/navigating-the-broads/water-depths/river-yare"><i class="fas fa-map" aria-hidden="true"></i>Water Depth</a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 top-spacer-5">
-            <a class="btn btn-lg btn-success btn-block" href="https://flood-warning-information.service.gov.uk/station/6214?direction=u"><i class="fas fa-chart-bar" aria-hidden="true"></i>&nbsp;River Level</a>
+            <a class="btn btn-lg btn-success btn-block" href="https://flood-warning-information.service.gov.uk/station/6214?direction=u"><i class="fas fa-chart-bar" aria-hidden="true"></i>River Level</a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-3 top-spacer-5">
-            <a class="btn btn-lg btn-danger btn-block" href="http://www.catchpro.co.uk"><i class="fas fa-thermometer-full" aria-hidden="true"></i>&nbsp;Water Temperature</a>
+            <a class="btn btn-lg btn-danger btn-block" href="http://www.catchpro.co.uk"><i class="fas fa-thermometer-full" aria-hidden="true"></i>Water Temperature</a>
           </div>
         </div> <!-- END OF row  -->
         
@@ -139,7 +139,7 @@ gmap-id: 1J2-FNrGWZX_qYXqlDnZeEBx3dbk
           <div class="col-xs-12">
 
             <h3>Location Map</h3>
-            <p><a class="btn btn-lg btn-danger" href="https://drive.google.com/open?id=1J2-FNrGWZX_qYXqlDnZeEBx3dbk&usp=sharing" target="_blank"><i class="indicator fas fa-map-marker-alt fa-map-marker-alt-inverse"></i>&nbsp;Google Map</a></p>
+            <p><a class="btn btn-lg btn-danger" href="https://drive.google.com/open?id=1J2-FNrGWZX_qYXqlDnZeEBx3dbk&usp=sharing" target="_blank"><i class="indicator fas fa-map-marker-alt fa-map-marker-alt-inverse"></i>Google Map</a></p>
 
           </div> <!-- END OF col  -->
         </div> <!-- END OF row  -->

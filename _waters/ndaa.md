@@ -250,13 +250,13 @@ gmap-id:
 					
 					<div class="row visible-xs hidden-sm hidden-md hidden-lg">
 						<div class="col-xs-12">
-							<a class="btn btn-lg btn-danger btn-block" href="https://drive.google.com/open?id=1QmcP_8oXyI0crizLQY61Qvxz8AivikDa&usp=sharing" target="_blank"><i class="indicator fas fa-map-marker-alt fa-map-marker-alt-inverse"></i>&nbsp;St. Benets Map</a>
+							<a class="btn btn-lg btn-danger btn-block" href="https://drive.google.com/open?id=1QmcP_8oXyI0crizLQY61Qvxz8AivikDa&usp=sharing" target="_blank"><i class="indicator fas fa-map-marker-alt fa-map-marker-alt-inverse"></i>St. Benets Map</a>
 							
-							<a class="btn btn-lg btn-success btn-block" href="https://drive.google.com/open?id=1El-TaW7l7pP4MRwX_0F0ud0cT5eD-THa&usp=sharing" target="_blank"><i class="indicator fas fa-map-marker-alt fa-map-marker-alt-inverse"></i>&nbsp;Decoy Broad Map</a>
+							<a class="btn btn-lg btn-success btn-block" href="https://drive.google.com/open?id=1El-TaW7l7pP4MRwX_0F0ud0cT5eD-THa&usp=sharing" target="_blank"><i class="indicator fas fa-map-marker-alt fa-map-marker-alt-inverse"></i>Decoy Broad Map</a>
 							
-							<a class="btn btn-lg btn-warning btn-block" href="https://drive.google.com/open?id=1vq3iaenz3mP1N_VqXEKdq-Y-4Uf9rDzt&usp=sharing" target="_blank"><i class="indicator fas fa-map-marker-alt fa-map-marker-alt-inverse"></i>&nbsp;Woodbastwick Map</a>
+							<a class="btn btn-lg btn-warning btn-block" href="https://drive.google.com/open?id=1vq3iaenz3mP1N_VqXEKdq-Y-4Uf9rDzt&usp=sharing" target="_blank"><i class="indicator fas fa-map-marker-alt fa-map-marker-alt-inverse"></i>Woodbastwick Map</a>
 							
-							<a class="btn btn-lg btn-info btn-block" href="https://drive.google.com/open?id=1uCOQ9K7yQlV7AxE7MRn1AVSLqDZqkb3L&usp=sharing" target="_blank"><i class="indicator fas fa-map-marker-alt fa-map-marker-alt-inverse"></i>&nbsp;Cold Harbour Map</a>
+							<a class="btn btn-lg btn-info btn-block" href="https://drive.google.com/open?id=1uCOQ9K7yQlV7AxE7MRn1AVSLqDZqkb3L&usp=sharing" target="_blank"><i class="indicator fas fa-map-marker-alt fa-map-marker-alt-inverse"></i>Cold Harbour Map</a>
 							
 						</div> <!-- END OF col  -->
 					</div> <!-- END OF row  -->

@@ -3829,8 +3829,14 @@ button.close {
 .fa-caret-up:before {
   content: "\f0d8"; }
 
+.fa-chart-bar:before {
+  content: "\f080"; }
+
 .fa-chevron-up:before {
   content: "\f077"; }
+
+.fa-crown:before {
+  content: "\f521"; }
 
 .fa-exclamation-circle:before {
   content: "\f06a"; }
@@ -3847,6 +3853,12 @@ button.close {
 .fa-instagram:before {
   content: "\f16d"; }
 
+.fa-map:before {
+  content: "\f279"; }
+
+.fa-map-marker-alt:before {
+  content: "\f3c5"; }
+
 .fa-mobile-alt:before {
   content: "\f3cd"; }
 
@@ -3855,6 +3867,12 @@ button.close {
 
 .fa-phone-alt:before {
   content: "\f879"; }
+
+.fa-table:before {
+  content: "\f0ce"; }
+
+.fa-thermometer-full:before {
+  content: "\f2c7"; }
 
 .fa-youtube-square:before {
   content: "\f431"; }
@@ -4150,6 +4168,15 @@ button.close {
 .thumbnail img {
   width: 100%; }
 
+.md-img {
+  width: 60%; }
+  .md-img--right {
+    float: right;
+    margin: 3px 0px 3px 12px; }
+  .md-img--left {
+    float: left;
+    margin: 3px 12px 3px 0px; }
+
 .bottom-spacer {
   padding-bottom: 20px; }
 
@@ -4180,7 +4207,10 @@ button.close {
 
 @media (max-width: 991px) {
   .name, .role, .contact {
-    padding-bottom: 0.5em; } }
+    padding-bottom: 0.5em; }
+  .md-img {
+    width: 100%;
+    margin: 0px 0px 10px 0px; } }
 
 @media (min-width: 768px) {
   .name, .role, .contact {
@@ -4364,6 +4394,8 @@ alert-flow > * {
   #water-desc h1, #water-desc h3, #water-rules h1, #water-rules h3, #water-map h1, #water-map h3, #image-gallery h1, #image-gallery h3, #media-gallery h1, #media-gallery h3, #water-booking h1, #water-booking h3, .NI-format h1, .NI-format h3, .info-format h1, .info-format h3 {
     margin-top: 10px;
     margin-bottom: 10px; }
+  #water-desc .fas, #water-rules .fas, #water-map .fas, #image-gallery .fas, #media-gallery .fas, #water-booking .fas, .NI-format .fas, .info-format .fas {
+    margin-right: .5em; }
 
 #water-desc ol, #water-rules ol, #water-map ol, #water-booking ol {
   margin: 0;

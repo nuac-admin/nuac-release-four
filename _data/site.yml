@@ -2,6 +2,7 @@ analytics-id: UA-23491265-1
 stylesheet: /assets/css/styles.min.css
 jsfile: /assets/js/main.min.js
 image-folder: /assets/images/
+news-folder: /news/
 docs-folder: /assets/docs/
 waters-folder: /waters/
 facebook-url: https://www.facebook.com/Norwich-Union-Angling-Club-222668947831657/
