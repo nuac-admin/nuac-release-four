@@ -1,8 +1,8 @@
 ---
 layout: info
 category: info
-title: Memorial Awards | NUAC
-menu: Memorial Awards
+title: Club Awards | NUAC
+menu: Club Awards
 menu-order: 3
 keywords: NUAC, Norwich Union Angling Club, fishing club, awards, mike hoyland, michael hoyland, simon clay
 sections:
