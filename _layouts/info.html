@@ -7,9 +7,9 @@ layout: default
     <div class="row">
         <div class="col-xs-12">
         {% if section.btn-title != nil %} 
-        <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#{{section.btn-hash}}"><span class="pull-left">{{section.btn-title}}</span><span class="pull-right"><i class="hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg"></i><i class="visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg"></i></span></button>
+        <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#{{section.btn-hash}}"><span class="pull-left">{{section.btn-title}}</span><span class="pull-right"><i class="indicator fas {% if section.btn-collapse != nil %}fa-caret-up fa-caret-up-inverse {% else %}fa-caret-down fa-caret-down-inverse {% endif %}fa-lg"></i></span></button>
   
-        <div id="{{section.btn-hash}}" class="info-format collapse in">
+        <div id="{{section.btn-hash}}" class="info-format collapse{% if section.btn-collapse != nil %} in{% endif %}">
         {% endif %}
   
         {% if section.paragraphs != nil %} 

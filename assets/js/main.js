@@ -217,11 +217,11 @@ $(document).ready(function(){
                 $("#water-map").removeClass("in");
             }
         });
-$(document).ready(function(){
-            if ($(window).width() < screenSm) {
-                $("#news-current").removeClass("in");
-            }
-        });
+// $(document).ready(function(){
+//             if ($(window).width() < screenSm) {
+//                 $("#news-current").removeClass("in");
+//             }
+//         });
 $(document).ready(function(){
             if ($(window).width() < screenSm) {
                 $("#water-booking").removeClass("in");

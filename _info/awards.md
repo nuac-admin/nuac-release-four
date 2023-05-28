@@ -6,6 +6,32 @@ menu: Memorial Awards
 menu-order: 3
 keywords: NUAC, Norwich Union Angling Club, fishing club, awards, mike hoyland, michael hoyland, simon clay
 sections:
+  - btn-title: Mike Hoyland Award
+    btn-hash: mike-hoyland-award
+    btn-collapse: no
+    paragraphs:
+      - col-pos:
+        col:
+        hdr:
+        img:
+        sentences:
+          - txt: In memory of our former Chairman, this award will be presented for the Most Unexpected Carp Capture in a season and nominees must have been fishing for another species or general fishing (to better understand this classification please read the section about Mike below). In many ways the story will be as important as the capture. Please send your nominations to the <a href="mailto:secretary@nuac.org.uk">Secretary</a>, winner(s) will be announced at the next AGM.
+  - btn-title: Simon Clay Award
+    btn-hash: simon-clay-award
+    btn-collapse: no
+    paragraphs:
+      - col-pos:
+        col:
+        hdr:
+        img:
+        sentences:
+          - txt: In memory of a long serving committee member and club stalwart, this award is for the best Broads catch or the best non-carp specimen from a NUAC water. Again, the story of the day is of great interest. Please send your nominations to the <a href="mailto:secretary@nuac.org.uk">Secretary</a>, winner(s) will be announced at the next AGM.
+        buttons:
+          - size: lg
+            style: info
+            icon: crown
+            txt: 2022 Award
+            target: 2022-sca-1.html
   - btn-title: Mike Hoyland
     btn-hash: mike-hoyland
     paragraphs:
@@ -25,17 +51,8 @@ sections:
           - txt: I hauled it up the bank, with some difficulty, and we then opened the net in amazement, staring at a 23lb carp (at that stage we didn't know there were any in there). I then had to run across the fields, jump into my car, rush home and back with a camera so we could get some snaps for a really chuffed Mike. 
           - txt: Pictures taken the fish was released back to swim away strongly. Further amusement was had eight months later at the Annual Dinner, when Mike picked up the Specimen Trophy for this capture – to the utter amazement of Martin Green, who rented us the fishing, and had been pestering us for months to sell him a large carp, not realising his stretch of the river held them all the time!
           - txt: The following season I met Mike at Costessey Mill, again for a chub session. We fished below the weir, with Mike legering some incredibly smelly meat balls under the weir apron. It was a slow session, although the conversation was good as always. We were just about to pack up, when Mike's rod shot off down the bank – followed by a diving catch from Mike, who managed to just grab it as it entered the water. Fifteen minutes later, I slid the net under a scale perfect 18lb common carp! He also caught a large carp whilst fishing a match on the river (Ed - and a 20lb+ mirror carp from the Waveney). It's strange, I fished many times with Mike at the Pines, and I don’t ever recall him catching a carp.
-  - btn-title: Mike Hoyland Award
-    btn-hash: mike-hoyland-award
-    paragraphs:
-      - col-pos:
-        col:
-        hdr:
-        img:
-        sentences:
-          - txt: For The Most Unexpected Carp Capture in a season. Nominees must have been fishing for another species or general fishing. In many ways the story will be as important as the capture. Please send your nominations to the <a href="mailto:secretary@nuac.org.uk">Secretary</a>, winner(s) will be announced at the next AGM.
   - btn-title: Simon Clay
-    btn-hash: simon-Clay
+    btn-hash: simon-clay
     paragraphs:
       - col-pos: 
         col:
@@ -47,20 +64,5 @@ sections:
           - txt: Simon was fortunate to fish all sorts of waters, in various countries, for all species, employing whatever method was required to catch something. Despite these varied opportunities and resulting experiences the Broads always remained close to his heart. It wasn't a surprise to hear that this was where he & his brother learnt to fish. If you were lucky Simon would regale you of tales about misty autumnal days, sat in a boat on the River Bure long trotting for roach when big nets of quality fish were common.
           - txt: Apart from competing with Simon in NUAC matches I was fortunate to share a few outings with him. We enjoyed a few successful outings to the Yare at Postwick where we were lucky to get amongst the bigger bream, with both of us landing fish over 6lb. On one late season trip we failed to raise a bite at Postwick and, rather than end our season early, we chanced our luck by travelling further downstream to Cantley. The river gods were on our side, we only managed a dozen fish between us but each was a vivid blue backed, silver flanked, red finned 1lb+ roach. Happy days indeed.
           - txt: So in honour of Simon we would love to hear about our members' (non-carp) successes fishing on the Broads or a club water; be it bumper nets of silvers, big roach or bream, a clonking perch or even a monster pike.
-  - btn-title: Simon Clay Award
-    btn-hash: simon-clay-award
-    paragraphs:
-      - col-pos:
-        col:
-        hdr:
-        img:
-        sentences:
-          - txt: Award for the best Broads catch or the best non-carp specimen from a NUAC water. Again, the story of the day is of great interest. Please send your nominations to the <a href="mailto:secretary@nuac.org.uk">Secretary</a>, winner(s) will be announced at the next AGM.
-        buttons:
-          - size: lg
-            style: info
-            icon: crown
-            txt: 2022 Award
-            target: 2022-sca-1.html
 ---
 
