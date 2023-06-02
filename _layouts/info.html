@@ -6,32 +6,86 @@ layout: default
     {% for section in page.sections %}
     <div class="row">
         <div class="col-xs-12">
-        {% if section.btn-title != nil %} 
-        <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#{{section.btn-hash}}"><span class="pull-left">{{section.btn-title}}</span><span class="pull-right"><i class="indicator fas {% if section.btn-collapse != nil %}fa-caret-up fa-caret-up-inverse {% else %}fa-caret-down fa-caret-down-inverse {% endif %}fa-lg"></i></span></button>
-  
-        <div id="{{section.btn-hash}}" class="info-format collapse{% if section.btn-collapse != nil %} in{% endif %}">
+        {% if section.btn-title != nil %}
+        {% if section.btn-collapse != nil %}
+          {% if section.btn-collapse == "open" %}
+            {% assign collapse_state = "collapse in" %}
+            {% assign icon_hidden_xs = "hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg" %}
+            {% assign icon_visible_xs = "visible-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg" %}
+          {% else %}  
+            {% assign collapse_state = "collapse" %}
+            {% assign icon_hidden_xs = "hidden-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg" %}
+            {% assign icon_visible_xs = "visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg" %}
+          {% endif %}
+        {% else %}
+          {% assign icon_hidden_xs = "hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg" %}
+          {% assign icon_visible_xs = "visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg" %}
+          {% assign collapse_state = "collapse in" %}
+        {% endif %}
+
+        <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#{{section.btn-hash}}"><span class="pull-left">{{section.btn-title}}</span><span class="pull-right"><i class="{{icon_hidden_xs}}"></i><i class="{{icon_visible_xs}}"></i></span></button>
+          
+          <!-- <i class="indicator fas {% if section.btn-collapse != nil %}fa-caret-up fa-caret-up-inverse {% else %}fa-caret-down fa-caret-down-inverse {% endif %}fa-lg"></i></span></button> -->
+
+          <!-- <div id="{{section.btn-hash}}" class="info-format collapse{% if section.btn-collapse != nil %} in{% endif %}"> -->
+          
+          <div id="{{section.btn-hash}}" class="info-format {{collapse_state}}">
         {% endif %}
   
         {% if section.paragraphs != nil %} 
         {% for para in section.paragraphs %}
           {% if para.col != nil %}
           <!-- Add row once on first col -->
-          {% if para.col-pos == "start" %}
+            {% if para.col-pos == "start" %}
           <div class="row">
-          {% endif %}
+            {% endif %}
             <div class="col-xs-12 {{para.col}}">
-                {% if para.hdr != nil %}
-                <h3>{{para.hdr | markdownify}}</h3>
-                {% endif %}
-                {% if para.img != nil %}
-                <img class="md-img" src="{{ base }}{{ site.data.site.image-folder }}{{para.img}}">
+            {% if para.hdr != nil %}
+              {% if para.hdr-lvl != nil %}
+              <h4>{{para.hdr}}</h4>
+              {% else%}
+              <h3>{{para.hdr}}</h3>
+              {% endif %}
+            {% endif %}
+            {% if para.img != nil %}
+              <img class="md-img" src="{{ base }}{{ site.data.site.image-folder }}{{para.img}}">
+            {% else %}
+              {% if para.list != nil %}
+              {% case para.list %}
+                {% when "ol" %}
+              <ol>
                 {% else %}
-                    {% for sentence in para.sentences %}
-                    {% if sentence.txt != nil %}
-                    {{sentence.txt | markdownify}}
-                    {% endif %}
-                    {% endfor %}
+              <ul>
+              {% endcase %}
+              {% endif %}
+              {% for sentence in para.sentences %}
+                {% if para.list != nil %}
+                <li>
                 {% endif %}
+                  {% if sentence.txt != nil %}
+                    {{sentence.txt | markdownify}}
+                  {% endif %}
+                {% if para.list != nil %}
+                </li>
+                {% endif %}
+              {% endfor %}
+              {% if para.list != nil %}
+                {% case para.list %}
+                  {% when "ol" %}
+              </ol>
+                  {% else %}
+              </ul>
+                {% endcase %}
+              {% endif %}
+            {% endif %}
+              {% for btn in para.buttons %}
+                {% if btn.txt != nil %}
+                <a class="btn{% if btn.size != nil %} btn-{{btn.size}}{% else %}xx{% endif %}{% if btn.style != nil %} btn-{{btn.style}}{% endif %}" href="{% if btn.target-typ == "news" %}{{ base }}{{ site.data.site.news-folder }}{% endif %}{{btn.target}}">{% if btn.icon != nil %}<i class="fas fa-{{btn.icon}}" aria-hidden="true"></i>{% endif %}{{btn.txt}}</a>
+                {% endif %}
+              {% endfor %}
+              {% if para.include != nil %}
+                {% include {{para.include}} %}
+              {% endif %}
             </div> <!-- END OF col  -->
           <!-- Close row once on first col -->
           {% if para.col-pos == "end" %}
@@ -40,27 +94,55 @@ layout: default
           {% else %}
           <div class="row">
             <div class="col-xs-12">
-                {% if para.hdr != nil %}
-                <h3>{{para.hdr | markdownify}}</h3>
+            {% if para.hdr != nil %}
+              {% if para.hdr-lvl != nil %}
+              <h4>{{para.hdr | markdownify}}</h4>
+              {% else%}
+              <h3>{{para.hdr | markdownify}}</h3>
+              {% endif %}
+            {% endif %}
+              {% if para.img != nil %}
+              <img class="md-img md-img--{{para.img-pos}}" src="{{ base }}{{ site.data.site.image-folder }}{{para.img}}" alt="{{para.img-alt}}">
+              {% endif %}
+              {% if para.list != nil %}
+                {% case para.list %}
+                  {% when "ol" %}
+              <ol>
+                  {% else %}
+              <ul>
+                {% endcase %}
+              {% endif %}
+              {% for sentence in para.sentences %}
+                {% if para.list != nil %}
+                <li>
                 {% endif %}
-                {% if para.img != nil %}
-                <img class="md-img md-img--{{para.img-pos}}" src="{{ base }}{{ site.data.site.image-folder }}{{para.img}}" alt="{{para.img-alt}}">
-                {% endif %}
-                {% for sentence in para.sentences %}
                 {% if sentence.txt != nil %}
                   {{sentence.txt | markdownify}}
                 {% endif %}
-                {% endfor %}
-                {% for btn in para.buttons %}
-                {% if btn.txt != nil %}
-                <a class="btn{% if btn.size != nil %} btn-{{btn.size}}{% else %}xx{% endif %}{% if btn.style != nil %} btn-{{btn.style}}{% endif %}" href="{{ base }}{{ site.data.site.news-folder }}{{btn.target}}">{% if btn.icon != nil %}<i class="fas fa-{{btn.icon}}" aria-hidden="true"></i>{% endif %}{{btn.txt}}</a>
+                  {% if para.list != nil %}
+                </li>
                 {% endif %}
-                {% endfor %}
+              {% endfor %}
+              {% if para.list != nil %}
+                {% case para.list %}
+                  {% when "ol" %}
+              </ol>
+                  {% else %}
+              </ul>
+                {% endcase %}
+              {% endif %}
+
+              {% for btn in para.buttons %}
+                {% if btn.txt != nil %}
+                <a class="btn{% if btn.size != nil %} btn-{{btn.size}}{% else %}xx{% endif %}{% if btn.style != nil %} btn-{{btn.style}}{% endif %}" href="{% if btn.target-typ == "news" %}{{ base }}{{ site.data.site.news-folder }}{% endif %}{{btn.target}}">{% if btn.icon != nil %}<i class="fas fa-{{btn.icon}}" aria-hidden="true"></i>{% endif %}{{btn.txt}}</a>
+                {% endif %}
+              {% endfor %}
             </div> <!-- END OF col  -->
           </div> <!-- END OF row  -->
           {% endif %}
         {% endfor %}
         {% endif %}
+
         {% if section.btn-title != nil %} 
         </div> <!-- END OF collapse  -->
         {% endif %}
@@ -69,5 +151,6 @@ layout: default
     </div> <!-- END OF row  -->
     {% endfor %}
     {% endif %}
+
 
 </div>  

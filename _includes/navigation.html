@@ -23,7 +23,9 @@
                 <a href="#" class="dropdown-toggle{% if page.category == 'waters' %} active{% endif %}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Waters<span class="caret"></span></a>
                    <ul class="dropdown-menu">
                     {% for item in site.waters %}
-                    <li{% if item.category == 'waters' %}{% if page.title contains item.menu %} class="active"{% endif %}{% endif %}><a href="{{base}}{{item.url}}">{{item.menu}}</a></li>
+                    {% if item.category == 'waters' %}
+                    <li{% if page.title contains item.menu %} class="active"{% endif %}><a href="{{base}}{{item.url}}">{{item.menu}}</a></li>
+                    {% endif %}
                     {% endfor %}  
                    </ul>
               </li>
@@ -32,7 +34,9 @@
                 <a href="#" class="dropdown-toggle{% if page.category == 'info' %} active{% endif %}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Info<span class="caret"></span></a>
                    <ul class="dropdown-menu">
                     {% for item in site.info %}
-                    <li{% if item.category == 'info' %}{% if page.title contains item.menu %} class="active"{% endif %}{% endif %}><a href="{{base}}{{item.url}}">{{item.menu}}</a></li>
+                    {% if item.category == 'info' %}
+                    <li{% if page.title contains item.menu %} class="active"{% endif %}><a href="{{base}}{{item.url}}">{{item.menu}}</a></li>
+                    {% endif %}
                     {% endfor %}  
                    </ul>
               </li>

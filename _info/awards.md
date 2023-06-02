@@ -8,7 +8,7 @@ keywords: NUAC, Norwich Union Angling Club, fishing club, awards, mike hoyland, 
 sections:
   - btn-title: Mike Hoyland Award
     btn-hash: mike-hoyland-award
-    btn-collapse: no
+    btn-collapse: open
     paragraphs:
       - col-pos:
         col:
@@ -18,7 +18,7 @@ sections:
           - txt: In memory of our former Chairman, this award will be presented for the Most Unexpected Carp Capture in a season and nominees must have been fishing for another species or general fishing (to better understand this classification please read the section about Mike below). In many ways the story will be as important as the capture. Please send your nominations to the <a href="mailto:secretary@nuac.org.uk">Secretary</a>, winner(s) will be announced at the next AGM.
   - btn-title: Simon Clay Award
     btn-hash: simon-clay-award
-    btn-collapse: no
+    btn-collapse: open
     paragraphs:
       - col-pos:
         col:
@@ -32,8 +32,10 @@ sections:
             icon: crown
             txt: 2022 Award
             target: 2022-sca-1.html
+            target-typ: news
   - btn-title: Mike Hoyland
     btn-hash: mike-hoyland
+    btn-collapse: closed
     paragraphs:
       - col-pos:
         col:
@@ -53,6 +55,7 @@ sections:
           - txt: The following season I met Mike at Costessey Mill, again for a chub session. We fished below the weir, with Mike legering some incredibly smelly meat balls under the weir apron. It was a slow session, although the conversation was good as always. We were just about to pack up, when Mike's rod shot off down the bank – followed by a diving catch from Mike, who managed to just grab it as it entered the water. Fifteen minutes later, I slid the net under a scale perfect 18lb common carp! He also caught a large carp whilst fishing a match on the river (Ed - and a 20lb+ mirror carp from the Waveney). It's strange, I fished many times with Mike at the Pines, and I don’t ever recall him catching a carp.
   - btn-title: Simon Clay
     btn-hash: simon-clay
+    btn-collapse: closed
     paragraphs:
       - col-pos: 
         col:
