@@ -21,7 +21,7 @@ sections:
         img-alt: Promotion of 10% discount at Wensum Valley Angling for NUAC members
         img-pos: right
         sentences:
-          - txt: The club are pleased to confirm that the our member discount at Wensum Valley Angling continues for another season.
+          - txt: The club are pleased to confirm that our member discount at Wensum Valley Angling continues for another season.
           - txt: Thanks as always to Daniel Brydon, Wensum  Valley Angling proprietor, for this generous offer; NUAC members are entitled to a **10% discount** on recommended retail price for fishing tackle & shelf life bait (excludes fresh bait eg. maggots, casters, worms..), you just need to show your NUAC permit when paying.
           - txt: If you haven't visited the shop before you'll find it caters for all your angling needs from specimen carp through to match fishing and everything in between. They stock products by **Matrix, Guru, Daiwa, Sonubaits, Fox, Preston Innovations, Avid, Dynamite Baits, Sensas, Free Spirit, Korum, Nash, ESP, MAP Drennan, Korda, RidgeMonkey, Trakker** and more. They also supply fresh maggots, worms and turn their own casters.
           - txt: For more information please check out Wensum Valley Angling on [Facebook](https://www.facebook.com/wensumvalleyangling/).

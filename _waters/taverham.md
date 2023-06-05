@@ -101,6 +101,8 @@ sections:
         list: ol
         sentences:
           - txt: If you are unsure of any rules and regulations, please speak to an AW Staff Member first.
+          - txt: <b>Pike fishing from October 1st until March 1st.</b>
+          - txt: Wire traces or leaders with a diameter of 0.7mm or greater must be used, with semi-barbed trebles allowed. Braided mainline may be used for pike.
           - txt: River and Costessey No.1 Lake Permit holders are allowed a maximum of 2 Rods.
           - txt: Dawn to Dusk fishing only.
           - txt: No rods to be left unattended.
