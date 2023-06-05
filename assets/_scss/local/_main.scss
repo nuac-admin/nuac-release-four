@@ -107,7 +107,7 @@ mark {
 
     & a {
         text-decoration: none;
-        background-color: $brand-primary-nuac;
+        background-color: #3363FF;
         border-radius: 6px;
         color: $section-bg-colour;
         padding: 10px 16px;
@@ -115,6 +115,7 @@ mark {
 
     & a:active {
         border-color: #0034db;
+        background-color: $brand-primary-nuac;
     }
 
     & a:hover {
@@ -131,7 +132,6 @@ mark {
     // }
     & > p:nth-child(3) {
         padding-top: 1rem;
-        background-color: lightyellow;
     }
 
     & .btn {

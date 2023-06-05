@@ -12,12 +12,20 @@ keywords: norwich, norfolk, fishing club, angling club, coarse fishing, carp fis
     </div>
   </div>
   
-  <div class="row">
-    <div class="col-xs-12">
-      <div class="alert alert-info" role="alert">
-        <span><strong>28/4/2023 AGM Invite</strong>, please see the relevant <a href="{{ base }}/news/news.html" class="alert-link">news item</a> for more information.</span>
-      </div>
-    </div> 
+  <div>
+    {% for item in site.news %}
+      {% if item.category == "news" %}
+        {% assign news_title = item.og-title %}
+        {% assign news_date = item.news-date %}
+        {% assign news_desc = item.og-desc %}
+        {% assign news_url = item.url %}
+      {% endif %}
+    {% endfor %}
+    <section class="news-item-card">
+      <h3>{{ news_title }} <span class="pull-right no-wrap"><small>{{ news_date }}</small></span></h3>
+      <p>{{ news_desc }}</p>
+      <p><a href="{{ news_url }}">Continue reading<i class="indicator fas fa-caret-right fa-caret-right-inverse fa-lg"></i></a></p>
+    </section>
   </div>
 
   <section class="col-layout">

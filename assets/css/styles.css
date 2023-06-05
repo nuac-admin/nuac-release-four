@@ -4450,20 +4450,20 @@ mark {
     margin-left: .5em; }
   .news-item-card a {
     text-decoration: none;
-    background-color: #003cff;
+    background-color: #3363FF;
     border-radius: 6px;
     color: #ffffff;
     padding: 10px 16px; }
   .news-item-card a:active {
-    border-color: #0034db; }
+    border-color: #0034db;
+    background-color: #003cff; }
   .news-item-card a:hover {
     background-color: #0034db;
     border-color: #002499; }
   .news-item-card a:active, .news-item-card a:hover {
     outline: 0; }
   .news-item-card > p:nth-child(3) {
-    padding-top: 1rem;
-    background-color: lightyellow; }
+    padding-top: 1rem; }
   .news-item-card .btn {
     text-align: left; }
 
