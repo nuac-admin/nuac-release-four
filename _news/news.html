@@ -1,0 +1,30 @@
+---
+layout: default
+category: 
+title: News | NUAC
+keywords: NUAC, Norwich Union Angling Club, fishing club, news, 2017, 2018, 2019, 2020, 2021, norfolk
+menu: News
+menu-order: 20000101
+---
+<div class="container non-header index-bg-colour">
+
+  <article>
+    <div class="row hdr-theme">
+      <div class="col-xs-12">
+        <h1>Club News</h1>
+      </div>
+    </div>
+    <div>
+      {% for item in site.news reversed %}
+      {% if item.category == "news" %}
+      <section class="news-item-card">
+        <h3>{{ item.og-title }} <span class="pull-right no-wrap"><small>{{ item.news-date }}</small></span></h3>
+        <p>{{item.og-desc}}</p>
+        <p><a href="{{ item.url }}">Continue reading<i class="indicator fas fa-caret-right fa-caret-right-inverse fa-lg"></i></a></p>
+      </section>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </article>
+
+</div>

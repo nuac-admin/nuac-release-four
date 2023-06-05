@@ -67,5 +67,8 @@ collections:
   info:
     sort_by: menu-order
     output: true
+  news:
+    sort_by: menu-order
+    output: true
 
 permalink: /:categories/:title:output_ext

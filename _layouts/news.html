@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="container non-header no-banner">
+<div class="container non-header">
     {% if page.sections != nil %} 
     {% for section in page.sections %}
     <div class="row">
@@ -29,7 +29,15 @@ layout: default
 
           <!-- <div id="{{section.btn-hash}}" class="info-format collapse{% if section.btn-collapse != nil %} in{% endif %}"> -->
           
-          <div id="{{section.btn-hash}}" class="info-format {{collapse_state}}">
+          <div id="{{section.btn-hash}}" class="NI-format {{collapse_state}}">
+        {% else %}
+          <div class="row news-item-hdr hdr-theme">
+            <div class="col-xs-12">
+              <h1>{{ page.og-title }} <span class="pull-right no-wrap"><small>{{ page.news-date }}</small></span></h1>
+            </div>
+          </div>
+
+          <div class="NI-format">
         {% endif %}
   
         {% if section.paragraphs != nil %} 
@@ -143,9 +151,7 @@ layout: default
         {% endfor %}
         {% endif %}
 
-        {% if section.btn-title != nil %} 
-        </div> <!-- END OF collapse  -->
-        {% endif %}
+        </div> <!-- END OF collapse / NI-format  -->
   
       </div> <!-- END OF col  -->
     </div> <!-- END OF row  -->

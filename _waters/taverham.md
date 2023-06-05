@@ -20,7 +20,7 @@ sections:
         hdr:
         img:
         sentences:
-          - txt: NUAC has an association with Taverham Mills Fishery which grants our members access to Costessey No.1 Lake and their stretch of the River Wensum. Please ensure that you familiarise yourself with the Rules before visiting. **Access must be booked in advance as per booking instructions stated below**.
+          - txt: NUAC has an association with Taverham Mills Fishery which grants our members access to Costessey No.1 Lake and their stretch of the River Wensum. Please ensure that you familiarise yourself with the Rules before visiting. **Access must be booked in advance as per [booking instructions](#water-booking) stated below**.
           - txt: Entry to the River and Lake is via a locked gate, you will be given the gate code when you book (please do not share, this code is regularly updated).
           - txt: The Visitor Centre has toilet facilities and provides refreshments (see [website](https://anglianwaterparks.co.uk/taverham-mill) for opening times).  There is also a tackle shop that caters for everything you need for a day's fishing including brands such as Korda, Solar, Nash, Gardner and Sticky Baits.
       - col-pos: 
@@ -38,6 +38,7 @@ sections:
         img-alt: Costessey No.1 Lake at Tvareham Mills
         img-pos: left
         sentences:
+          - txt: <strong>Available to book from Friday 16 June 2023</strong>
           - txt: This three-acre lake provides plenty of silver fish sport and is ideal for those new to fishing. Please fish from the marked swims only, 5 adjacent to the access road and 4 on the far bank. No pole fishing from peg 1 due to the overhead power lines. Along with the roach, rudd and perch there is a large shoal of bream (up to 12lb) and pike into double figures.         
   - btn-title: Rules
     btn-hash: water-rules
@@ -53,7 +54,7 @@ sections:
         hdr:
         list: ol
         sentences:
-          - txt: NUAC member must have pre-booked their day's fishing as per booking instructions below.
+          - txt: NUAC member must have pre-booked their day's fishing as per [booking instructions](#water-booking) below.
           - txt: NUAC Guest tickets are not permitted (Day tickets for Costessey No.1 Lake can be purchased in advance from the Visitor Centre or [online](https://anglianwaterparks.co.uk/bookings-permit/select-permit/8/168/coarse/new)).
           - txt: Members must carry their NUAC membership card and EA rod licence at all times, and show them upon request.
           - txt: Please display your NUAC car parking permit when you park your car in the **designated** car parks (as indicated on the map below).

@@ -3826,6 +3826,9 @@ button.close {
 .fa-caret-down:before {
   content: "\f0d7"; }
 
+.fa-caret-right:before {
+  content: "\f0da"; }
+
 .fa-caret-up:before {
   content: "\f0d8"; }
 
@@ -4244,6 +4247,8 @@ alert-flow > * {
     font-weight: 700;
     margin-top: 0.7rem;
     margin-bottom: 0.8rem; }
+    .hdr-theme h1 small {
+      color: white; }
 
 .hdr-img {
   margin-top: 12px;
@@ -4434,6 +4439,33 @@ mark {
 
 #water-map .alert {
   margin-bottom: 10px; }
+
+.news-item-card {
+  padding: 1em;
+  margin-bottom: 1em;
+  background-color: #ffffff; }
+  .news-item-card h3 {
+    margin-top: .1em; }
+  .news-item-card .fas {
+    margin-left: .5em; }
+  .news-item-card a {
+    text-decoration: none;
+    background-color: #003cff;
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 10px 16px; }
+  .news-item-card a:active {
+    border-color: #0034db; }
+  .news-item-card a:hover {
+    background-color: #0034db;
+    border-color: #002499; }
+  .news-item-card a:active, .news-item-card a:hover {
+    outline: 0; }
+  .news-item-card > p:nth-child(3) {
+    padding-top: 1rem;
+    background-color: lightyellow; }
+  .news-item-card .btn {
+    text-align: left; }
 
 @media (max-width: 480px) {
   .news .btn-block-txt {

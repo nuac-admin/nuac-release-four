@@ -92,6 +92,53 @@ mark {
     margin-bottom: 10px;
 }
 
+.news-item-card {
+    padding: 1em;
+    margin-bottom: 1em;
+    // color: $dark; //$navbar-light-color;
+    background-color: $section-bg-colour;
+  
+    & h3 {
+        margin-top: .1em;
+    }
+    & .fas {
+        margin-left: .5em;
+    }
+
+    & a {
+        text-decoration: none;
+        background-color: $brand-primary-nuac;
+        border-radius: 6px;
+        color: $section-bg-colour;
+        padding: 10px 16px;
+    }
+
+    & a:active {
+        border-color: #0034db;
+    }
+
+    & a:hover {
+        background-color: #0034db;
+        border-color: #002499;
+    }
+
+    & a:active, a:hover {
+        outline: 0;
+    }
+    // &:nth-child(2n) {
+    //   // color: $navbar-light-color;
+    //   background-color: $body-bg-colour;
+    // }
+    & > p:nth-child(3) {
+        padding-top: 1rem;
+        background-color: lightyellow;
+    }
+
+    & .btn {
+        text-align: left;
+    }
+}
+
 @media (max-width: $screen-xs) {
     .news {
         & .btn-block-txt {
