@@ -93,6 +93,7 @@ mark {
 }
 
 .news-item-card {
+    position: relative;
     padding: 1em;
     margin-bottom: 1em;
     // color: $dark; //$navbar-light-color;
@@ -106,6 +107,7 @@ mark {
     }
 
     & a {
+        display: inline-block;
         text-decoration: none;
         background-color: #3363FF;
         border-radius: 6px;
@@ -131,10 +133,10 @@ mark {
     //   background-color: $body-bg-colour;
     // }
 
-    & > p:nth-child(3) {
-        padding-top: 1rem;
-        // background-color: lightyellow;
-    }
+    // & > p:nth-child(3) {
+    //     padding-top: 1rem;
+    //     // background-color: lightyellow;
+    // }
 
     & .btn {
         text-align: left;

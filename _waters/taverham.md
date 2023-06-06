@@ -87,7 +87,7 @@ sections:
           - txt: Micro Barbed / barbed hooks preferred.
           - txt: Particles bought from the onsite tackle shop **ONLY**.
           - txt: Keep noise to a minimum.
-          - txt: Be considerate to other users of the reserve, including the wildlife..
+          - txt: Be considerate to other users of the reserve, including the wildlife.
           - txt: No bait boats.
           - txt: No drones.
           - txt: No tree climbing.
@@ -100,13 +100,13 @@ sections:
         hdr: Pike Fishing
         list: ol
         sentences:
-          - txt: If you are unsure of any rules and regulations, please speak to an AW Staff Member first.
-          - txt: <b>Pike fishing from October 1st until March 1st.</b>
-          - txt: Wire traces or leaders with a diameter of 0.7mm or greater must be used, with semi-barbed trebles allowed. Braided mainline may be used for pike.
-          - txt: River and Costessey No.1 Lake Permit holders are allowed a maximum of 2 Rods.
-          - txt: Dawn to Dusk fishing only.
-          - txt: No rods to be left unattended.
-          - txt: Anglers are expected to look after their catch to the highest standards, whether large or small. Fish care to be used where required.
+          - txt: Pike fishing on the river from 1st October – 14th March.
+          - txt: Pike fishing on Costessey No.1 Lake from 1st October – 1st March.
+          - txt: No Live Baiting.
+          - txt: Wire traces or leaders with a minimum diameter of 0.7mm must be used.
+          - txt: Braided Mainline is acceptable for **Pike only**.
+          - txt: Semi Barbed Trebles.
+          - txt: 36” Landing Net or Pike Spoon to be used.
   - btn-title: Bookings
     btn-hash: water-booking
     paragraphs:

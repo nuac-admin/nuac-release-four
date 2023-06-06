@@ -4441,6 +4441,7 @@ mark {
   margin-bottom: 10px; }
 
 .news-item-card {
+  position: relative;
   padding: 1em;
   margin-bottom: 1em;
   background-color: #ffffff; }
@@ -4449,6 +4450,7 @@ mark {
   .news-item-card .fas {
     margin-left: .5em; }
   .news-item-card a {
+    display: inline-block;
     text-decoration: none;
     background-color: #3363FF;
     border-radius: 6px;
@@ -4462,8 +4464,6 @@ mark {
     border-color: #002499; }
   .news-item-card a:active, .news-item-card a:hover {
     outline: 0; }
-  .news-item-card > p:nth-child(3) {
-    padding-top: 1rem; }
   .news-item-card .btn {
     text-align: left; }
 
