@@ -143,6 +143,10 @@ mark {
     }
 }
 
+.news-latest {
+    background-color: $alert-info-bg;
+}
+
 @media (max-width: $screen-xs) {
     .news {
         & .btn-block-txt {

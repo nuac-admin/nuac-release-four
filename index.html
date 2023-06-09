@@ -21,7 +21,11 @@ keywords: norwich, norfolk, fishing club, angling club, coarse fishing, carp fis
         {% assign news_url = item.url %}
       {% endif %}
     {% endfor %}
-    <section class="news-item-card">
+      <div class="hdr-theme">
+        <h4>Latest Club News</h4>
+      </div>
+
+    <section class="news-item-card news-latest">
       <h3>{{ news_title }} <span class="pull-right no-wrap"><small>{{ news_date }}</small></span></h3>
       <p>{{ news_desc }}</p>
       <p><span class="no-wrap"><a href="{{ news_url }}">Continue reading<i class="indicator fas fa-caret-right fa-caret-right-inverse fa-lg"></i></a></span>

@@ -40,8 +40,10 @@ sections:
       - col-pos:
         col:
         hdr: Recollections of fishing with Mike by Paul Scarff
-        img: mh-upton-2003.jpg
-        img-alt: Mike playing a tench at Upton
+        img: mh-upton-1200.jpg
+        img-sm: mh-upton-400.jpg 400w
+        img-md: mh-upton-800.jpg 800w
+        img-alt: Mike at Upton
         img-pos: left
         sentences:
           - txt: One thing you could never say about fishing with Mike was that it was dull. He was the best company, and during times when bites were thin on the ground, his stories from his youth kept you royally entertained, as did his antics if any "wildlife" came near (especially cows!). He also had the inane ability to pull in specimen carp when least expected, especially from rivers.
@@ -60,8 +62,11 @@ sections:
       - col-pos: 
         col:
         hdr: Recollections of fishing with Simon by Jason Brewster
-        img: sc-postwick-2011.jpg
-        img-alt: Simon fishing at Postwick
+        # img: sc-postwick-2011.jpg
+        img: sc-hf-1200.jpg
+        img-sm: sc-hf-400.jpg 400w
+        img-md: sc-hf-800.jpg 800w
+        img-alt: Simon at Holly Farm
         img-pos: right
         sentences:
           - txt: Simon was fortunate to fish all sorts of waters, in various countries, for all species, employing whatever method was required to catch something. Despite these varied opportunities and resulting experiences the Broads always remained close to his heart. It wasn't a surprise to hear that this was where he & his brother learnt to fish. If you were lucky Simon would regale you of tales about misty autumnal days, sat in a boat on the River Bure long trotting for roach when big nets of quality fish were common.

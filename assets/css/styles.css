@@ -4249,6 +4249,9 @@ alert-flow > * {
     margin-bottom: 0.8rem; }
     .hdr-theme h1 small {
       color: white; }
+  .hdr-theme h4 {
+    font-weight: 700;
+    padding: .7em 1em; }
 
 .hdr-img {
   margin-top: 12px;
@@ -4466,6 +4469,9 @@ mark {
     outline: 0; }
   .news-item-card .btn {
     text-align: left; }
+
+.news-latest {
+  background-color: #d9edf7; }
 
 @media (max-width: 480px) {
   .news .btn-block-txt {
