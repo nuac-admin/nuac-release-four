@@ -6,9 +6,9 @@ menu: Club Awards
 menu-order: 3
 keywords: NUAC, Norwich Union Angling Club, fishing club, awards, mike hoyland, michael hoyland, simon clay
 sections:
-  - btn-title: Mike Hoyland Award
-    btn-hash: mike-hoyland-award
-    btn-collapse: open
+  - sctn-title: Mike Hoyland Award
+    sctn-hash: mike-hoyland-award
+    sctn-collapse: open
     paragraphs:
       - col-pos:
         col:
@@ -16,9 +16,9 @@ sections:
         img:
         sentences:
           - txt: In memory of our former Chairman, this award will be presented for the Most Unexpected Carp Capture in a season and nominees must have been fishing for another species or general fishing (to better understand this classification please read the section about Mike below). In many ways the story will be as important as the capture. Please send your nominations to the <a href="mailto:secretary@nuac.org.uk">Secretary</a>, winner(s) will be announced at the next AGM.
-  - btn-title: Simon Clay Award
-    btn-hash: simon-clay-award
-    btn-collapse: open
+  - sctn-title: Simon Clay Award
+    sctn-hash: simon-clay-award
+    sctn-collapse: open
     paragraphs:
       - col-pos:
         col:
@@ -33,9 +33,9 @@ sections:
             txt: 2022 Award
             target: 2022-sca-1.html
             target-typ: news
-  - btn-title: Mike Hoyland
-    btn-hash: mike-hoyland
-    btn-collapse: closed
+  - sctn-title: Mike Hoyland
+    sctn-hash: mike-hoyland
+    sctn-collapse: closed
     paragraphs:
       - col-pos:
         col:
@@ -55,9 +55,9 @@ sections:
           - txt: I hauled it up the bank, with some difficulty, and we then opened the net in amazement, staring at a 23lb carp (at that stage we didn't know there were any in there). I then had to run across the fields, jump into my car, rush home and back with a camera so we could get some snaps for a really chuffed Mike. 
           - txt: Pictures taken the fish was released back to swim away strongly. Further amusement was had eight months later at the Annual Dinner, when Mike picked up the Specimen Trophy for this capture – to the utter amazement of Martin Green, who rented us the fishing, and had been pestering us for months to sell him a large carp, not realising his stretch of the river held them all the time!
           - txt: The following season I met Mike at Costessey Mill, again for a chub session. We fished below the weir, with Mike legering some incredibly smelly meat balls under the weir apron. It was a slow session, although the conversation was good as always. We were just about to pack up, when Mike's rod shot off down the bank – followed by a diving catch from Mike, who managed to just grab it as it entered the water. Fifteen minutes later, I slid the net under a scale perfect 18lb common carp! He also caught a large carp whilst fishing a match on the river (Ed - and a 20lb+ mirror carp from the Waveney). It's strange, I fished many times with Mike at the Pines, and I don’t ever recall him catching a carp.
-  - btn-title: Simon Clay
-    btn-hash: simon-clay
-    btn-collapse: closed
+  - sctn-title: Simon Clay
+    sctn-hash: simon-clay
+    sctn-collapse: closed
     paragraphs:
       - col-pos: 
         col:

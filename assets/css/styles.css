@@ -4396,14 +4396,33 @@ alert-flow > * {
 .pad-r-5 {
   padding-right: 5px; }
 
-#water-desc, #water-rules, #water-map, #image-gallery, #media-gallery, #water-booking, .NI-format, .info-format {
+#water-desc, #water-rules, #water-map, #image-gallery, #media-gallery, #water-booking, .NI-format {
   padding: 10px 16px;
   background-color: #ffffff; }
-  #water-desc h1, #water-desc h3, #water-rules h1, #water-rules h3, #water-map h1, #water-map h3, #image-gallery h1, #image-gallery h3, #media-gallery h1, #media-gallery h3, #water-booking h1, #water-booking h3, .NI-format h1, .NI-format h3, .info-format h1, .info-format h3 {
+  #water-desc h1, #water-desc h3, #water-rules h1, #water-rules h3, #water-map h1, #water-map h3, #image-gallery h1, #image-gallery h3, #media-gallery h1, #media-gallery h3, #water-booking h1, #water-booking h3, .NI-format h1, .NI-format h3 {
     margin-top: 10px;
     margin-bottom: 10px; }
-  #water-desc .fas, #water-rules .fas, #water-map .fas, #image-gallery .fas, #media-gallery .fas, #water-booking .fas, .NI-format .fas, .info-format .fas {
+  #water-desc .fas, #water-rules .fas, #water-map .fas, #image-gallery .fas, #media-gallery .fas, #water-booking .fas, .NI-format .fas {
     margin-right: .5em; }
+
+.info-format {
+  padding: 0px 16px 10px;
+  background-color: #ffffff; }
+  .info-format h1, .info-format h2, .info-format h3 {
+    margin: 0; }
+  .info-format h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-size: 150%;
+    background-color: #003cff;
+    color: #ffcc24;
+    margin-left: -16px;
+    margin-right: -16px;
+    padding: 10px 16px; }
+  .info-format .fas {
+    margin-right: .5em; }
+  .info-format > * + * {
+    margin-top: 10px; }
 
 #water-desc ol, #water-rules ol, #water-map ol, #water-booking ol {
   margin: 0;

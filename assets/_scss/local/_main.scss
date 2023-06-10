@@ -21,7 +21,7 @@
     padding-right: 5px;
 }
 
-#water-desc, #water-rules, #water-map, #image-gallery, #media-gallery, #water-booking, .NI-format, .info-format {
+#water-desc, #water-rules, #water-map, #image-gallery, #media-gallery, #water-booking, .NI-format {
     padding: $section-pad-T-B $section-pad-L-R;
     background-color: $section-bg-colour;
 
@@ -31,6 +31,34 @@
     }
     & .fas {
         margin-right: .5em;
+    }
+
+}
+
+.info-format {
+    padding: 0px $section-pad-L-R 10px;
+    background-color: $section-bg-colour;
+
+    & h1, h2, h3 {
+        margin: 0;
+    }
+    & h2 {
+        font-size: 1rem;
+        font-weight: 400;
+        font-size: 150%;
+        background-color: $brand-primary-nuac;
+        color: $hdr-colour;
+        margin-left: -16px;
+        margin-right: -16px;
+        padding: $section-pad-T-B $section-pad-L-R;
+
+    }
+    & .fas {
+        margin-right: .5em;
+    }
+
+    & > * + * {
+        margin-top: 10px;
     }
 
 }
