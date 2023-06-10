@@ -4250,6 +4250,8 @@ alert-flow > * {
     .hdr-theme h1 small {
       color: white; }
   .hdr-theme h4 {
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: 700;
     padding: .7em 1em; }
 
