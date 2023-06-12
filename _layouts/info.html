@@ -7,26 +7,9 @@ layout: default
     <div class="row">
         <div class="col-xs-12">
         {% if section.sctn-title != nil %}
-          {% if section.sctn-collapse != nil %}
-            {% if section.sctn-collapse == "open" %}
-              {% assign collapse_state = "collapse in" %}
-              {% assign icon_hidden_xs = "hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg" %}
-              {% assign icon_visible_xs = "visible-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg" %}
-            {% else %}  
-              {% assign collapse_state = "collapse" %}
-              {% assign icon_hidden_xs = "hidden-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg" %}
-              {% assign icon_visible_xs = "visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg" %}
-            {% endif %}
-          {% else %}
-            {% assign icon_hidden_xs = "hidden-xs indicator fas fa-caret-up fa-caret-up-inverse fa-lg" %}
-            {% assign icon_visible_xs = "visible-xs indicator fas fa-caret-down fa-caret-down-inverse fa-lg" %}
-            {% assign collapse_state = "collapse in" %}
-          {% endif %}
-
-        <!-- <button type="button" class="btn btn-primary btn-lg btn-block btn-block-txt" data-toggle="collapse" data-target="#{{section.sctn-hash}}"><span class="pull-left">{{section.sctn-title}}</span><span class="pull-right"><i class="{{icon_hidden_xs}}"></i><i class="{{icon_visible_xs}}"></i></span></button> -->
-          <div id="{{section.sctn-hash}}" class="info-format">
+          <div id="{{section.sctn-hash}}" class="info-format flow">
             <h2>{{section.sctn-title}}</h2>
-            {% endif %}
+        {% endif %}
   
         {% if section.paragraphs != nil %} 
         {% for para in section.paragraphs %}

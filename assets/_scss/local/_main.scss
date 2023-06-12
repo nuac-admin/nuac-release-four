@@ -53,14 +53,24 @@
         padding: $section-pad-T-B $section-pad-L-R;
 
     }
+
+    & h3 {
+        margin-bottom: 10px;
+    }
     & .fas {
         margin-right: .5em;
     }
 
+}
+
+.flow {
     & > * + * {
         margin-top: 10px;
     }
 
+    &  p:last-child {
+        margin-bottom: 0px;
+    }
 }
 
 #water-desc, #water-rules, #water-map, #water-booking {

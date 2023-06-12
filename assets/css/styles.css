@@ -4421,10 +4421,16 @@ alert-flow > * {
     margin-left: -16px;
     margin-right: -16px;
     padding: 10px 16px; }
+  .info-format h3 {
+    margin-bottom: 10px; }
   .info-format .fas {
     margin-right: .5em; }
-  .info-format > * + * {
-    margin-top: 10px; }
+
+.flow > * + * {
+  margin-top: 10px; }
+
+.flow p:last-child {
+  margin-bottom: 0px; }
 
 #water-desc ol, #water-rules ol, #water-map ol, #water-booking ol {
   margin: 0;
