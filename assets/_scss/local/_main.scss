@@ -63,6 +63,38 @@
 
 }
 
+.water-format {
+    padding: 0px $section-pad-L-R 10px!important;
+    background-color: $section-bg-colour;
+
+    & h1, h2, h3 {
+        margin: 0;
+    }
+    & h2 {
+        font-size: 1rem;
+        font-weight: 400;
+        font-size: 150%;
+        background-color: $brand-primary-nuac;
+        color: $hdr-colour;
+        margin-left: -16px;
+        margin-right: -16px;
+        padding: $section-pad-T-B $section-pad-L-R;
+
+    }
+
+    & h3 {
+        margin-bottom: 10px;
+    }
+    & .fas {
+        margin-right: .5em;
+    }
+
+    & p:first-child {
+        margin-top: 10px;
+    }
+
+}
+
 .flow {
     & > * + * {
         margin-top: 10px;
@@ -133,8 +165,6 @@ mark {
 .news-item-card {
     position: relative;
     padding: 1em;
-    margin-bottom: 1em;
-    // color: $dark; //$navbar-light-color;
     background-color: $section-bg-colour;
   
     & h3 {

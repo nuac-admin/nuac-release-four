@@ -12,8 +12,8 @@ nbr-of-tickets: 4
 nbr-river-tickets: 2
 nbr-no1-tickets: 2
 sections:
-  - btn-title: Description
-    btn-hash: water-desc
+  - sctn-title: Description
+    sctn-hash: water-desc
     paragraphs:
       - col-pos:
         col:
@@ -40,8 +40,8 @@ sections:
         sentences:
           - txt: <strong>Available to book from Friday 16 June 2023</strong>
           - txt: This three-acre lake provides plenty of silver fish sport and is ideal for those new to fishing. Please fish from the marked swims only, 5 adjacent to the access road and 4 on the far bank. No pole fishing from peg 1 due to the overhead power lines. Along with the roach, rudd and perch there is a large shoal of bream (up to 12lb) and pike into double figures.         
-  - btn-title: Rules
-    btn-hash: water-rules
+  - sctn-title: Rules
+    sctn-hash: water-rules
     paragraphs:
       - col-pos:
         col:
@@ -107,8 +107,8 @@ sections:
           - txt: Braided Mainline is acceptable for **Pike only**.
           - txt: Semi Barbed Trebles.
           - txt: 36” Landing Net or Pike Spoon to be used.
-  - btn-title: Bookings
-    btn-hash: water-booking
+  - sctn-title: Bookings
+    sctn-hash: water-booking
     paragraphs:
       - col-pos: start
         col: col-md-6
@@ -122,8 +122,8 @@ sections:
         include: booking-instructions.html
         img:
         sentences:
-  - btn-title: Directions
-    btn-hash: water-map
+  - sctn-title: Directions
+    sctn-hash: water-map
     paragraphs:
       - col-pos: start
         col: col-md-6

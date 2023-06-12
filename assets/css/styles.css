@@ -4426,6 +4426,27 @@ alert-flow > * {
   .info-format .fas {
     margin-right: .5em; }
 
+.water-format {
+  padding: 0px 16px 10px !important;
+  background-color: #ffffff; }
+  .water-format h1, .water-format h2, .water-format h3 {
+    margin: 0; }
+  .water-format h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-size: 150%;
+    background-color: #003cff;
+    color: #ffcc24;
+    margin-left: -16px;
+    margin-right: -16px;
+    padding: 10px 16px; }
+  .water-format h3 {
+    margin-bottom: 10px; }
+  .water-format .fas {
+    margin-right: .5em; }
+  .water-format p:first-child {
+    margin-top: 10px; }
+
 .flow > * + * {
   margin-top: 10px; }
 
@@ -4473,7 +4494,6 @@ mark {
 .news-item-card {
   position: relative;
   padding: 1em;
-  margin-bottom: 1em;
   background-color: #ffffff; }
   .news-item-card h3 {
     margin-top: .1em; }
