@@ -4444,7 +4444,7 @@ alert-flow > * {
     margin-bottom: 10px; }
   .water-format .fas {
     margin-right: .5em; }
-  .water-format p:first-child {
+  .water-format .col-xs-12 > p:first-child {
     margin-top: 10px; }
 
 .flow > * + * {
@@ -4496,6 +4496,8 @@ mark {
   padding: 1em;
   background-color: #ffffff; }
   .news-item-card h3 {
+    font-size: 1rem;
+    font-size: 150%;
     margin-top: .1em; }
   .news-item-card .fas {
     margin-left: .5em; }

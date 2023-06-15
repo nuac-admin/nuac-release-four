@@ -14,7 +14,7 @@ layout: default
         {% if section.sctn-title != nil %}
         <div id="{{section.sctn-hash}}" class="water-format">
           <h2>{{section.sctn-title}}</h2>
-      {% endif %}
+        {% endif %}
   
         {% if section.paragraphs != nil %} 
         {% for para in section.paragraphs %}
@@ -115,11 +115,15 @@ layout: default
           <div class="row">
             <div class="col-xs-12">
             {% if para.hdr != nil %}
-              {% if para.hdr-lvl != nil %}
-              <h4>{{para.hdr | markdownify}}</h4>
+              {% if para.list != nil %}
+                {{para.hdr | markdownify}}
               {% else%}
-              <h3>{{para.hdr | markdownify}}</h3>
-              {% endif %}
+                {% if para.hdr-lvl != nil %}
+                <h4>{{para.hdr | markdownify}}</h4>
+                {% else%}
+                <h3>{{para.hdr | markdownify}}</h3>
+                {% endif %}
+              {% endif %}              
             {% endif %}
               {% if para.img != nil %}
               <img class="md-img md-img--{{para.img-pos}}" src="{{ base }}{{ site.data.site.image-folder }}{{para.img}}" alt="{{para.img-alt}}">

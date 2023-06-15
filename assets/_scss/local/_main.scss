@@ -89,7 +89,7 @@
         margin-right: .5em;
     }
 
-    & p:first-child {
+    & .col-xs-12 > p:first-child {
         margin-top: 10px;
     }
 
@@ -168,6 +168,8 @@ mark {
     background-color: $section-bg-colour;
   
     & h3 {
+        font-size: 1rem;
+        font-size: 150%;
         margin-top: .1em;
     }
     & .fas {

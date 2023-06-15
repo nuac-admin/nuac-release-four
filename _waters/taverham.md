@@ -45,13 +45,7 @@ sections:
     paragraphs:
       - col-pos:
         col:
-        hdr:
-        img:
-        sentences:
-          - txt: NUAC access is by arrangement with Taverham Mills Fishery and as part of this arrangement the following rules **MUST** be followed; 
-      - col-pos:
-        col:
-        hdr:
+        hdr: NUAC access is by arrangement with Taverham Mills Fishery and as part of this arrangement the following rules **MUST** be followed;
         list: ol
         sentences:
           - txt: NUAC member must have pre-booked their day's fishing as per [booking instructions](#water-booking) below.
