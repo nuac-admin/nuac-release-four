@@ -95,7 +95,7 @@ sections:
         list: ol
         sentences:
           - txt: Pike fishing on the river from 1st October – 14th March.
-          - txt: Pike fishing on Costessey No.1 Lake from 1st October – 1st March.
+          - txt: Pike fishing on Costessey No.1 Lake from 1st October – 31st March.
           - txt: No Live Baiting.
           - txt: Wire traces or leaders with a minimum diameter of 0.7mm must be used.
           - txt: Braided Mainline is acceptable for **Pike only**.
