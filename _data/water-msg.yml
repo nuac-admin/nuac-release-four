@@ -44,6 +44,13 @@ bif-messages:
   # - msg-type: danger
   #   msg-desc: 1st April 2021 - Please report to BIF tackle shop BEFORE fishing
 
+bw-open-ind: true
+bw-msg-ind: true
+bw-msg-box-type: warning
+bw-messages:
+  - msg-type: info
+    msg-desc: Available to book from Sunday 16 June 2024
+
 fib-open-ind: true
 fib-msg-ind: true
 fib-msg-box-type: danger
@@ -89,7 +96,7 @@ ndaa-messages:
   #   msg-desc: Venues closed due to River Close Season; re-opens Thursday 16th June
 
 tm-open-ind: true
-tm-msg-ind: true
+tm-msg-ind: false
 tm-msg-box-type: warning
 tm-messages:
   # - msg-type: warning

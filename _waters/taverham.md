@@ -38,7 +38,7 @@ sections:
         img-alt: Costessey No.1 Lake at Tvareham Mills
         img-pos: left
         sentences:
-          - txt: <strong>Available to book from Friday 16 June 2023</strong>
+          # - txt: <strong>Available to book from Friday 16 June 2023</strong>
           - txt: This three-acre lake provides plenty of silver fish sport and is ideal for those new to fishing. Please fish from the marked swims only, 5 adjacent to the access road and 4 on the far bank. No pole fishing from peg 1 due to the overhead power lines. Along with the roach, rudd and perch there is a large shoal of bream (up to 12lb) and pike into double figures.         
   - sctn-title: Rules
     sctn-hash: water-rules

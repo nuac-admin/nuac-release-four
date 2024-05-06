@@ -20,7 +20,7 @@ sections:
         sentences:
           - txt: NUAC has an association with Bigwood Fisheries which grants our members access to both lakes at this fishery. Please ensure that you familiarise yourself with the Rules before visiting. **Access must be booked in advance as per [booking instructions](#water-booking) stated below**.
           - txt: Entry to the fishery is via a locked gate, you will be given the gate code when you book (please do not share, this code is regularly updated).
-          - txt: For further information on these lakes, please refer to the [Bigwood Fisheries](https://www.bigwoodfisheries.co.uk/).
+          - txt: For further information on these lakes, please refer to [Bigwood Fisheries](https://www.bigwoodfisheries.co.uk/).
   - sctn-title: Rules
     sctn-hash: water-rules
     paragraphs:
@@ -30,8 +30,8 @@ sections:
         list: ol
         sentences:
           - txt: NUAC member must have pre-booked their day's fishing as per [booking instructions](#water-booking) below.
-          - txt: NUAC Guest tickets are not permitted (Membership and Day tickets for Bigwood Fisheries are available, for more information please refer to the fishery's [website](https://www.bigwoodfisheries.co.uk/MEMBERSHIP)).
-          - txt: Members must carry their NUAC membership card and EA rod licence at all times, and show them upon request.
+          - txt: NUAC Guest tickets are not permitted (Membership and Day tickets for Bigwood Fisheries are [available](https://www.bigwoodfisheries.co.uk/MEMBERSHIP)).
+          - txt: Please ensure that you have your NUAC membership card when fishing; **Bigwood's bailiffs will ask anyone who cannot produce a card to leave the site**.
           - txt: Please display your NUAC car parking permit when you park your car.
           - txt: Members must adhere to the fishery rules as stated below;
       - col-pos:
@@ -108,11 +108,11 @@ sections:
             desc: Located near Witton, about 7 miles E from the centre of Norwich.
             sentences:
               - txt: From Norwich take the A47 for Great Yarmouth.
-              - txt: 0.6 of a mile after the new Postwick hub turn left onto Church Road (sign-posted to Gt Plumstead).
-              - txt: 0.4 of a mile down Church Road, take a right turn into Witton Lane (sign-posted to Witton).
-              - txt: 0.7 of a mile down Witton Lane, there is a T-junction where Witton Lane dog-legs to the left - ignore the narrow lane to the right.
-              - txt: Carry on down Witton Lane for a further 0.5 of a mile and the entrance to the fishery is through a wooden gate on the right, after some fields and just inside a small wood.
-              - txt: The gate has a 'police aware' notice on it and is likely to be padlocked - the code for the lock should have been given to you when you booked your visit.
+              - txt: After the Postwick hub turn left, sign-posted to Gt Plumstead, onto Church Road.
+              - txt: Take the next right into Witton Lane (sign-posted to Witton).
+              - txt: At the T-junction turn left onto Witton Lane.
+              - txt: Follow Witton Lane for a 0.5 of a mile after open fields you will see the start of a wood, the entrance to the fishery is on the right through a wooden gate.
+              - txt: The gate has a 'police aware' notice on it and is likely to be padlocked - you will be given the code for the lock when you book your visit.
       - col-pos: End
         col: col-md-6 hidden-xs
         hdr: Maps
