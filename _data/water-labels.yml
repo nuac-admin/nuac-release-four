@@ -56,7 +56,7 @@ waters:
   - name: Bridge Inn
     heading: Bridge Inn Fishery, Lenwade
     filename: bridge
-    status: open
+    status: closed
     open-img: bridge-tile.jpg
     closed-img: bridge-closed-tile.jpg
     labels:
@@ -164,3 +164,20 @@ waters:
     # - type: info
     #   desc: Day Ticket
     #   tt-desc: Costessey No.1 Lake only
+  - name: Bigwood
+    heading: Bigwood Fisheries, Witton
+    filename: bigwood
+    status: open
+    open-img: bigwood-tile.jpg
+    closed-img: bigwood-closed-tile.jpg
+    labels:
+    - type: danger
+      desc: Booking
+      tt-desc: 
+    - type: warning
+      desc: Display Car Permit
+      tt-desc: 
+    - type: warning
+      desc: No Guests
+      tt-desc: 
+
