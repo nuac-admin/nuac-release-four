@@ -32,17 +32,17 @@ hw-messages:
     msg-desc: Pike fishing permitted from Thursday 17th November 2022 [facebook post](https://www.facebook.com/hallwalkfishery/posts/pfbid0H8sSyRcu5agz6FbEDwLzSYGEN4LMRngmJuhoSUBDcupZ9FD5LXGzJNF4zWWJLUpRl)
 
 bif-open-ind: true
-bif-msg-ind: false
-bif-msg-box-type: warning
+bif-msg-ind: true
+bif-msg-box-type: danger
 bif-messages:
-  - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
+  # - msg-type: warning
+  #   msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
   # - msg-type: warning
   #   msg-desc: Fishery guidance available via Bridge Inn Fishery [facebook page](https://en-gb.facebook.com/The-Bridge-Inn-Fishery-164399460336159/)
   # - msg-type: danger
   #   msg-desc: March 2021 - Please familiarise yourself with **New Booking Instructions**
-  # - msg-type: danger
-  #   msg-desc: 1st April 2021 - Please report to BIF tackle shop BEFORE fishing
+  - msg-type: danger
+    msg-desc: Fishery closed until further notice
 
 bw-open-ind: true
 bw-msg-ind: true
