@@ -35,7 +35,7 @@ sections:
         col: 
         hdr: Costessey No.1 Lake
         img: tmf-lake-no1.jpg
-        img-alt: Costessey No.1 Lake at Tvareham Mills
+        img-alt: Costessey No.1 Lake at Taverham Mills
         img-pos: left
         sentences:
           # - txt: <strong>Available to book from Friday 16 June 2023</strong>
