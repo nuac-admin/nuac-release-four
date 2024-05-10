@@ -36,7 +36,7 @@ sections:
         img-alt: Big Lake at Bigwood Fisheries
         img-pos: left
         sentences:
-          - txt: This mixed coarse lake has been stocked with Roach, Rudd, Bream, Tench, several large Carp, Gudgeon and contains natural stock with a good head of large Pike well into double figures, with fish just shy of twenty being reported, Perch and a wonderful unknown element as to what this old estate lake truly contains.         
+          - txt: This mixed coarse lake has been stocked with Roach, Rudd, Bream, Tench, several large Carp and Gudgeon to complement the existing natural stock that included a good head of large Pike into double figures, with fish just shy of twenty being reported, and Perch. This provides a wonderful unknown element as to what this old estate lake truly contains.         
   - sctn-title: Rules
     sctn-hash: water-rules
     paragraphs:
