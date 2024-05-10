@@ -40,8 +40,8 @@ sections:
         col:
         hdr: 
         sentences:
-          - txt: The deadline for raising proposed changes to The Constitution, Nominations for Officers of The Club, New Committee Members, and confirmation of attendance is no later than **midnight Tuesday 30th April**.
-          - txt: Nominations & Proposers must be in attendance on the evening.
+          - txt: The deadline for Proposing changes to The Constitution and Nominations for Officers or Committee Members is no later than **midnight Tuesday 30th April**.
+          - txt: Nominators & Proposers must be in attendance on the evening.
           - txt: In the interest of helping to ensure we keep to time, advance notification of Any Other Business you wish to raise would be much appreciated. Of course, you will still be able to raise AOB on the night.
           - txt: Nominations for the Mike Hoyland and Simon Clay [awards](../info/awards.html) are still welcome. 
           - txt: <u>Mike Hoyland Award</u><br>This will be awarded for The Most Unexpected Carp Capture in a season.  Nominees must have been fishing for another species or general fishing.
