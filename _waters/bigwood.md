@@ -9,6 +9,7 @@ file-txt: bigwood
 location: Witton
 venue-list: Bigwood
 nbr-of-tickets: 2
+max-bookings: 15
 sections:
   - sctn-title: Description
     sctn-hash: water-desc
