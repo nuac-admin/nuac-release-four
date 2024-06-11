@@ -68,7 +68,7 @@ gmap-id: 1J2-FNrGWZX_qYXqlDnZeEBx3dbk
           <li>After every session all members must clear the ground of litter even if that litter was not left by them.</li>
           <li>All members are expected to be polite to other river and bank users at all times.</li>
           <li>Vehicles must be parked sensibly without blocking access to fields or other entrances.</li>
-          <li>Open matches and club bookings will take priority over pleasure angling at all times.   Notices are displayed to show which areas are booked, please keep these areas clear.  For reference here is the <a href="{{ base }}{{ site.data.site.docs-folder }}GYNCAA_FIXTURES.pdf">2023 fixture list</a> or visit <a href="{{ page.ws-fixtures-url }}">Fishing the River Yare</a>.</li>
+          <li>Open matches and club bookings will take priority over pleasure angling at all times.   Notices are displayed to show which areas are booked, please keep these areas clear.  For reference here is the <a href="{{ base }}{{ site.data.site.docs-folder }}GYNCAA_FIXTURES.pdf">2024 fixture list</a> or visit <a href="{{ page.ws-fixtures-url }}">Fishing the River Yare</a>.</li>
           <li>No dogs to be taken onto the banks by anglers.</li>
           <li>Please obey the speed limit when on farm tracks to river.</li>
         </ol>

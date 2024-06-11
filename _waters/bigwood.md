@@ -4,7 +4,7 @@ category: waters
 title: Bigwood Fisheries | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, waters, bigwood fisheries, bigwood, witton, norfolk
 menu: Bigwood
-menu-order: 10
+menu-order: 4
 file-txt: bigwood
 location: Witton
 venue-list: Bigwood

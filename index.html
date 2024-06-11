@@ -15,10 +15,18 @@ keywords: norwich, norfolk, fishing club, angling club, coarse fishing, carp fis
   <div>
     {% for item in site.news %}
       {% if item.category == "news" %}
+        {% if item.og-title != nil %}
         {% assign news_title = item.og-title %}
+        {% endif %}
+        {% if item.og-title != nil %}
         {% assign news_date = item.news-date %}
+        {% endif %}
+        {% if item.og-desc != nil %}
         {% assign news_desc = item.og-desc %}
+        {% endif %}
+        {% if item.og-title != nil %}
         {% assign news_url = item.url %}
+        {% endif %}
       {% endif %}
     {% endfor %}
       <div class="hdr-theme">
