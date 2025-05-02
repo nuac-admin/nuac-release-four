@@ -8,7 +8,7 @@ menu-order: 20250502
 og-url: news/2025-agm-invite.html
 og-type: website
 og-title: AGM Invite
-og-desc: Annual General Meeting, Tuesday 27th May at The Worlds End, Mulbarton
+og-desc: Annual General Meeting, Tuesday 27th May 2025 at The Worlds End, Mulbarton
 og-img: news-fb-img.jpg
 sections:
   - btn-title: 

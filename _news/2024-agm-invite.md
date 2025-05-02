@@ -8,7 +8,7 @@ menu-order: 20240423
 og-url: news/2024-agm-invite.html
 og-type: website
 og-title: AGM Invite
-og-desc: Annual General Meeting, Tuesday 14th May at The Worlds End, Mulbarton
+og-desc: Annual General Meeting, Tuesday 14th May 2024 at The Worlds End, Mulbarton
 og-img: news-fb-img.jpg
 sections:
   - btn-title: 
