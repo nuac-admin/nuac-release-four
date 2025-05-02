@@ -3,8 +3,8 @@ layout: news
 category: news
 title: 2024-25 AGM Invite | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, news, agm invite
-news-date: 20 April 2025
-menu-order: 20250420
+news-date: 2 May 2025
+menu-order: 20250502
 og-url: news/2025-agm-invite.html
 og-type: website
 og-title: AGM Invite
@@ -22,7 +22,7 @@ sections:
         hdr: Tuesday 27th May
         hdr-lvl: x
         sentences:
-          - txt: Meeting starts at **7.30pm** (end no later than 9pm) at [The Worlds End](https://theworldsendpub.co.uk) Public House, Mulbarton, NR14 8JT.
+          - txt: Meeting starts at **7.30pm** at [The Worlds End](https://theworldsendpub.co.uk) Public House, Mulbarton, NR14 8JT.
       - col-pos:
         col:
         hdr: Agenda
@@ -32,7 +32,7 @@ sections:
           - txt: Adoption of previous [minutes](../assets/docs/2023-AGM-Minutes.pdf)
           - txt: Review of 2024-25
           - txt: 2024-25 Accounts
-          - txt: Changes to the [constitution](../info/constitution.html) - applicable if any changes received before Wed 7 May
+          - txt: Changes to the [constitution](../info/constitution.html) - applicable if any changes received before Wed 14 May
           - txt: Election of officers
           - txt: Election of committee
           - txt: Any Other Business
