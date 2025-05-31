@@ -23,13 +23,15 @@ yare-messages:
   #   msg-desc: Venue closed due to River Close Season; re-opens Thursday 16th June
 
 hw-open-ind: true
-hw-msg-ind: false
-hw-msg-box-type: warning
+hw-msg-ind: true
+hw-msg-box-type: info
 hw-messages:
-  - msg-type: warning
-    msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
   - msg-type: info
-    msg-desc: Pike fishing permitted from Thursday 17th November 2022 [facebook post](https://www.facebook.com/hallwalkfishery/posts/pfbid0H8sSyRcu5agz6FbEDwLzSYGEN4LMRngmJuhoSUBDcupZ9FD5LXGzJNF4zWWJLUpRl)
+    msg-desc: The maximum booking limit for 2025/26 will be **10 bookings per member**
+  - msg-type: info
+    msg-desc: Please note NUAC access to this fishery ends **at dusk on 31 March 2026**
+  # - msg-type: info
+  #   msg-desc: Pike fishing permitted from Thursday 17th November 2022 [facebook post](https://www.facebook.com/hallwalkfishery/posts/pfbid0H8sSyRcu5agz6FbEDwLzSYGEN4LMRngmJuhoSUBDcupZ9FD5LXGzJNF4zWWJLUpRl)
 
 bif-open-ind: true
 bif-msg-ind: true
@@ -45,7 +47,7 @@ bif-messages:
     msg-desc: Fishery closed until further notice
 
 bw-open-ind: true
-bw-msg-ind: true
+bw-msg-ind: false
 bw-msg-box-type: warning
 bw-messages:
   - msg-type: info
@@ -83,7 +85,7 @@ snp-messages:
   #   msg-desc: <strong>Venue remains CLOSED until further notice</strong>, please see the relevant <a href="../news/news.html#NI106" class="alert-link">news item</a> for more information
 
 ndaa-open-ind: true
-ndaa-msg-ind: true
+ndaa-msg-ind: false
 ndaa-msg-box-type: warning
 ndaa-messages:
   # - msg-type: warning
