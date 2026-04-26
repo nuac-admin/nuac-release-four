@@ -36,30 +36,34 @@ gmap-id:
 
       	<div class="row">
         	<div class="col-xs-12 col-md-6">
-						<h3>Rivers Ant & Bure, St. Benets </h3>
-						<p>Access to rivers Ant & Bure is available via St. Benets, parking in the designated visitor car park only.</p>
-						<p>Follow the track to the right of the Abbey to gain access to the River Ant (NDAA access from Ant mouth upstream to the first bend). Access to the River Bure runs downstream from Ant mouth all the way downstream to Thurne mouth. Unfortunately bank access is difficult if not impossible beyond the field where the abbey remains are located. This leaves roughly 40 pegs with easy bank access from in front of the disused wind pump downstream to the field boundary.</p>	<p>The Bure throws up lots of skimmers & bream throughout the season.  Roach are also present in large numbers in the summer and autumn but migrate upstream once larger tides arrive in early October.  Boat traffic is very heavy during the summer holidays and can make fishing the feeder across to the far bank almost impossible.  Once boat traffic drops in October the river colour also diminishes and fishing early and late in the day may be the only way to attract bites in the colder months.</p>
+						<h3>River Bure, St. Benets </h3>
+						<p>Access to River Bure is available via St. Benets, parking in the designated visitor car park only.</p>
+						<p>Easy bank access from in front of the Abbey remains/disused wind pump downstream to the field boundary.</p>	
+						<p>The Bure throws up lots of skimmers & bream throughout the season.  Roach are also present in large numbers in the summer and autumn but migrate upstream once larger tides arrive in early October.  Boat traffic is very heavy during the summer holidays and can make fishing the feeder across to the far bank almost impossible.  Once boat traffic drops in October the river colour also diminishes and fishing early and late in the day may be the only way to attract bites in the colder months.</p>
 						<p>Noted pegs are the first 5 in front of the wind pump, the pegs opposite the willow just upstream of the cattle drink, the pegs near the "black sign" and the end pegs just before the field boundary.</p>
 
 					</div> <!-- END OF col  -->
 					<div class="col-xs-12 col-md-6">
 
-						<h3>Decoy Broad & River Bure, Woodbastwick</h3>
-						<p>NDAA have access to ten 13 foot rowing boats at Decoy Broad along with use of the river bank adjacent to the broad.  Access is via a self-opening/closing electronic gate, combination will be provided on booking.  The rowing boats can be hired at a cost of £8 per day and must be booked separately as per instructions below.</p>
+						<!-- <h3>Decoy Broad & River Bure, Woodbastwick</h3>
+						<p>NDAA have access to ten 13 foot rowing boats at Decoy Broad along with use of the river bank adjacent to the broad.  Access is via a self-opening/closing electronic gate, combination will be provided on booking.  The rowing boats can be hired at a cost of £8 per day and must be booked separately as per instructions below.</p> -->
 
 						<h3>River Thurne, Cold Harbour </h3>
 						<p>Access to the right of car park through gate at top of flood bank.  Bank access stretches all the way downstream to Thurne mouth where the river joins the Bure.  Unfortunatey only 16 pegs are maintained with access via two pathways in front of a dyke which acts as a fish refuge from salt tides (access signposted on footpath on flood bank).</p>
 						<p>Note that fishing pattern here follows that of the Bure with summer & autumn providing the most consistent sport.  Although the roach migrate upstream once the first salt tides arrive at the end of September there are plenty of skimmers & bream to be caught throughout the season conditions permitting.</p>
 
+						<h3>River Bure, Woodbastwick Staithe </h3>
+						<p>NDAA have exclusive use of fishing platforms and areas downstream of Woodbastwick staithe (south bank of the river opposite Horning Ferry).</p>
+
 					</div> <!-- END OF col  -->
   	  	</div> <!-- END OF row  -->
 				
-				<div class="row">
+				<!-- <div class="row">
 	  			<div class="col-xs-12">
 						<h3>River Bure, Woodbastwick Staithe </h3>
 						<p>NDAA have exclusive use of fishing platforms and areas downstream of Woodbastwick staithe (south bank of the river opposite Horning Ferry).</p>
 					</div>
-				</div>
+				</div> -->
 
 	  	</div> <!-- END OF collapse  -->
     </div> <!-- END OF col  -->
@@ -74,13 +78,14 @@ gmap-id:
 				<ol>
 					<li>Only the NUAC member & one family member under 16 are entitled to free fishing, other guests must purchase a Membership Card <strong>before visiting</strong> (a list of NDAA Membership Card stockists can be found at <a href="{{ page.ws-url }}">ndaa.org.uk</a>).</li>
 					<li>Fishing with Livebait is not allowed on waters controlled by NDAA.</li>
+					<li>No pike fishing before 1st October.</li>
 					<li>Maximum of 2 rods in use at any one time.</li>
-					<li>Fishing dawn until dusk only (No night fishing for NUAC members).</li>
-					<li>Rowing boats at Decoy Broad must be booked and paid for before fishing as per the booking instructions below.</li>
+					<li>Fishing dawn until dusk only (No night fishing).</li>
+					<!-- <li>Rowing boats at Decoy Broad must be booked and paid for before fishing as per the booking instructions below.</li>
 					<li>Life jackets must be worn when using the rowing boats at Decoy Broad.</li>
 					<li>No mud weights or outboard motors allowed in boats.</li>
 					<li>No towing of fish in keepnets.</li>
-					<li>Report any boat damage to Stuart Mutch 07827 412376.</li>
+					<li>Report any boat damage to Stuart Mutch 07827 412376.</li> -->
 					<li>NUAC permit and rod licence must be carried at all times.</li>
 					<li>Only use desiginated access tracks & car parks as indicated in Maps below.</li>
 					<li>Please ensure gates are left as you find them.</li>
@@ -127,7 +132,7 @@ gmap-id:
 						
 						<ul class="nav nav-tabs">
 							<li class="active"><a data-toggle="tab" href="#st-benets-dir">St. Benets</a></li>
-							<li><a data-toggle="tab" href="#decoy-dir">Decoy Broad</a></li>
+							<!-- <li><a data-toggle="tab" href="#decoy-dir">Decoy Broad</a></li> -->
 							<li><a data-toggle="tab" href="#woodbastwick-dir">Woodbastwick</a></li>
 							<li><a data-toggle="tab" href="#cold-harbour-dir">Cold Harbour</a></li>
 						</ul>
@@ -145,7 +150,7 @@ gmap-id:
 									<br>After half mile turn right into St. Benets Road.
 									<br>Follow concrete track for two-thirds of a mile.  Once track reverts to gravel (farm buildings on your left) you will find visitor car park signposted on left.</p>
 							</div>
-							<div id="decoy-dir" class="tab-pane fade">
+							<!-- <div id="decoy-dir" class="tab-pane fade">
 
 								<div class="alert alert-info">
 									<strong>Sat Nav</strong> 52.694944, 1.443975
@@ -161,7 +166,7 @@ gmap-id:
 									<br>Approx 0.25 mile you will come to some cottages in front of you, turn left to gate (use key code to open/close electronic gate if necessary).
 									<br>Follow private road for approx 0.5 mile then turn right (<strong>do not </strong> continue straight to "Barn").
 									<br>Follow track until you reach the NDAA car park.</p>
-							</div>
+							</div> -->
 							<div id="woodbastwick-dir" class="tab-pane fade">
 
 								<div class="alert alert-info">
@@ -200,7 +205,7 @@ gmap-id:
 							
 							<ul class="nav nav-tabs bottom-spacer-2">
 								<li class="active"><a data-toggle="tab" href="#st-benets-map">St. Benets</a></li>
-								<li><a data-toggle="tab" href="#decoy-map">Decoy Broad</a></li>
+								<!-- <li><a data-toggle="tab" href="#decoy-map">Decoy Broad</a></li> -->
 								<li><a data-toggle="tab" href="#woodbastwick-map">Woodbastwick</a></li>
 								<li><a data-toggle="tab" href="#cold-harbour-map">Cold Harbour</a></li>
 							</ul>
@@ -214,13 +219,13 @@ gmap-id:
 									</div>
 								</div>
 
-								<div id="decoy-map" class="tab-pane fade">
+								<!-- <div id="decoy-map" class="tab-pane fade">
 									<div class="embed-responsive embed-responsive-4by3">
 										<div class="googlemap">
 											<iframe class="embed-responsive-item" src="https://www.google.com/maps/d/u/2/embed?mid=1El-TaW7l7pP4MRwX_0F0ud0cT5eD-THa"></iframe>
 										</div>
 									</div>
-								</div>
+								</div> -->
 
 								<div id="woodbastwick-map" class="tab-pane fade">
 									<div class="embed-responsive embed-responsive-4by3">

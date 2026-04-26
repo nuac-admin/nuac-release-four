@@ -37,22 +37,22 @@ waters:
     - type: info
       desc: Open 16 Jun - 14 Mar
       tt-desc: 
-  - name: Hall Walk
-    heading: Hall Walk Lakes, Lenwade
-    filename: hallwalk
-    status: open
-    open-img: hallwalk-tile.jpg
-    closed-img: hallwalk-closed-tile.jpg
-    labels:
-    - type: danger
-      desc: Booking
-      tt-desc: 
-    - type: warning
-      desc: Display Car Permit
-      tt-desc: 
-    - type: warning
-      desc: No Guests
-      tt-desc: 
+  # - name: Hall Walk
+  #   heading: Hall Walk Lakes, Lenwade
+  #   filename: hallwalk
+  #   status: open
+  #   open-img: hallwalk-tile.jpg
+  #   closed-img: hallwalk-closed-tile.jpg
+  #   labels:
+  #   - type: danger
+  #     desc: Booking
+  #     tt-desc: 
+  #   - type: warning
+  #     desc: Display Car Permit
+  #     tt-desc: 
+  #   - type: warning
+  #     desc: No Guests
+  #     tt-desc: 
   # - name: Bridge Inn
   #   heading: Bridge Inn Fishery, Lenwade
   #   filename: bridge
