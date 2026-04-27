@@ -4,7 +4,7 @@ title: Trinity Broads | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, waters, trinity broads, ormesby broad, rollesby broad, lily broad, ormesby little broad, filby broad, norfolk
 menu: Trinity Broads
 hdr: Trinity Broads, Filby
-menu-order: 5
+menu-order: 7
 file-txt: trinity
 location: Filby
 category: waters

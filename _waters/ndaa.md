@@ -4,7 +4,7 @@ title: Norwich & District AA | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, waters, ndaa, NDAA, norwich & district, st benets, cold harbour, horning, decoy broad, woodbastwick staithe, norfolk
 menu: Norwich & District AA
 hdr: Norwich and District AA
-menu-order: 8
+menu-order: 10
 file-txt: ndaa
 location: null
 category: waters

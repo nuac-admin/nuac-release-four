@@ -35,7 +35,7 @@ waters:
       desc: Children Allowed
       tt-desc: Under 16s welcome to fish
     - type: info
-      desc: Open 16 Jun - 14 Mar
+      desc: Access 16 Jun - 30 Sep
       tt-desc: 
   # - name: Hall Walk
   #   heading: Hall Walk Lakes, Lenwade
@@ -43,22 +43,6 @@ waters:
   #   status: open
   #   open-img: hallwalk-tile.jpg
   #   closed-img: hallwalk-closed-tile.jpg
-  #   labels:
-  #   - type: danger
-  #     desc: Booking
-  #     tt-desc: 
-  #   - type: warning
-  #     desc: Display Car Permit
-  #     tt-desc: 
-  #   - type: warning
-  #     desc: No Guests
-  #     tt-desc: 
-  # - name: Bridge Inn
-  #   heading: Bridge Inn Fishery, Lenwade
-  #   filename: bridge
-  #   status: closed
-  #   open-img: bridge-tile.jpg
-  #   closed-img: bridge-closed-tile.jpg
   #   labels:
   #   - type: danger
   #     desc: Booking
@@ -85,6 +69,38 @@ waters:
     - type: warning
       desc: No Guests
       tt-desc: 
+  - name: Bridge Inn
+    heading: Bridge Inn Fishery, Lenwade
+    filename: bridge
+    status: open
+    open-img: bridge-tile.jpg
+    closed-img: bridge-closed-tile.jpg
+    labels:
+    - type: danger
+      desc: Booking
+      tt-desc: 
+    - type: warning
+      desc: Display Car Permit
+      tt-desc: 
+    - type: warning
+      desc: No Guests
+      tt-desc: 
+  - name: Taverham Mills
+    heading: Taverham Mills Fishery, Taverham Mills
+    filename: taverham
+    status: open
+    open-img: taverham-tile.jpg
+    closed-img: taverham-closed-tile.jpg
+    labels:
+    - type: danger
+      desc: Booking
+      tt-desc: 
+    - type: warning
+      desc: Display Car Permit
+      tt-desc: 
+    # - type: info
+    #   desc: Day Ticket
+    #   tt-desc: Costessey No.1 Lake only
   - name: Trinity Broads
     heading: Trinity Broads, Filby
     filename: trinity
@@ -160,23 +176,7 @@ waters:
       tt-desc: 
     - type: info
       desc: Children Allowed
-      tt-desc: Under 16s welcome to fish please ensure they wear a buoyancy aid on Decoy Broad
+      tt-desc: Under 16s welcome to fish
     - type: info
       desc: Open 16 Jun - 14 Mar
       tt-desc: 
-  - name: Taverham Mills
-    heading: Taverham Mills Fishery, Taverham Mills
-    filename: taverham
-    status: open
-    open-img: taverham-tile.jpg
-    closed-img: taverham-closed-tile.jpg
-    labels:
-    - type: danger
-      desc: Booking
-      tt-desc: 
-    - type: warning
-      desc: Display Car Permit
-      tt-desc: 
-    # - type: info
-    #   desc: Day Ticket
-    #   tt-desc: Costessey No.1 Lake only

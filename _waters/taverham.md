@@ -4,7 +4,7 @@ category: waters
 title: Taverham Mills Fishery | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, waters, river wensum, costessey no.1 lake, taverham mills fishery, taverham, norfolk
 menu: Taverham Mills
-menu-order: 9
+menu-order: 5
 file-txt: taverham
 location: Taverham
 venue-list: TMF River, TMF Lake

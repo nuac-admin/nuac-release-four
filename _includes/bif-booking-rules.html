@@ -1,0 +1,12 @@
+        <ol>
+            <li>A booking on Bridge Inn Fishery equates to a discrete 7am to 7pm day or 7pm to 7am overnight booking; Any request crossing between 7am to 7pm and 7pm to 7am, even in part, will be treated as 2 bookings (i.e. a 24hr booking).</li>
+            <li>Members are restricted to a total of FOUR 24hr bookings on Bridge Inn Fishery (where a 24 hour booking equates to consecutive 7am to 7pm day and 7pm to 7am overnight bookings).</li>
+            <li>Advanced bookings are restricted (equating to 48 hours) can be in place at any one time for any member. Either two separate days or one consecutive two-day period.
+                <i>Anyone making a consecutive two-day booking cannot return to the same venue within 24 hours.</i>
+            </li>
+            {% if page.rules-url != nil %}
+                <li>Please ensure you have read the <a href="{{ page.rules-url }}" target="_blank">fishery rules</a> before booking.</li>
+            {% else %}
+                <li>Please ensure you have read the relevant fishery rules before booking.</li>
+            {% endif %}
+        </ol>

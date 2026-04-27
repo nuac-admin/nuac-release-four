@@ -4,7 +4,7 @@ title: Hickling Broad | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, waters, hickling broad, whispering reeds boatyard, norfolk
 menu: Hickling Broad
 hdr: Hickling Broad, Hickling
-menu-order: 6
+menu-order: 8
 file-txt: hickling
 location: Hickling
 category: waters

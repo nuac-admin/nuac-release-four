@@ -35,7 +35,7 @@ hw-messages:
 
 bif-open-ind: true
 bif-msg-ind: true
-bif-msg-box-type: danger
+bif-msg-box-type: warning
 bif-messages:
   # - msg-type: warning
   #   msg-desc: <strong>COVID-19 restrictions apply</strong> please follow [Angling Trust guidance](https://anglingtrust.net/covid-19/)
@@ -43,8 +43,8 @@ bif-messages:
   #   msg-desc: Fishery guidance available via Bridge Inn Fishery [facebook page](https://en-gb.facebook.com/The-Bridge-Inn-Fishery-164399460336159/)
   # - msg-type: danger
   #   msg-desc: March 2021 - Please familiarise yourself with **New Booking Instructions**
-  - msg-type: danger
-    msg-desc: Fishery closed until further notice
+  - msg-type: info
+    msg-desc: Access to fishery coming soon...
 
 bw-open-ind: true
 bw-msg-ind: false

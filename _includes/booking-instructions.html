@@ -45,11 +45,19 @@
             {% if page.file-txt == "taverham" %}
             <p><i>Please note that there are {{ page.nbr-of-tickets }} tickets available per day; {{page.nbr-no1-tickets}} on the Lake and {{page.nbr-river-tickets}} on the River.</i></p>
             {% else %}       
-            <p><i>Please note that there are only {{ page.nbr-of-tickets }} tickets available per day.</i></p>
+                {% if page.file-txt == "bridge" %}
+                <p><i>Please note that there are {{ page.nbr-of-tickets }} tickets available per day; {{page.nbr-main-tickets}} on the Main Lake and {{page.nbr-other-tickets}} on the Match Lake or River.</i></p>
+                {% else %}       
+                <p><i>Please note that there are only {{ page.nbr-of-tickets }} tickets available per day.</i></p>
+                {% endif %}
             {% endif %}
         {% endif %}
         {% if page.max-bookings != nil %}
+            {% if page.max-bookings-main != nil %}
+                <p><b>Bookings on this fishery are limited to a maximum of {{ page.max-bookings }} per member; with a maximum of {{ page.max-bookings-main }} solely on the Main Lake and a maximum of {{ page.max-bookings-other }} solely on the Match Lake or River.</b></p>
+            {% else %}
             <p><b>Bookings on this venue are limited to a maximum of {{ page.max-bookings }} per member.</b></p>
+            {% endif %}
         {% endif %}
         <p>Thank You.</p>
     {% endif %}

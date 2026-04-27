@@ -4,7 +4,7 @@ title: Snetterton Pits | NUAC
 keywords: NUAC, Norwich Union Angling Club, fishing club, waters, snetterton pits, snetterton, norfolk
 menu: Snetterton Pits
 hdr: Snetterton Pits, Snetterton
-menu-order: 7
+menu-order: 9
 file-txt: snetterton
 location: Snetterton
 category: waters
