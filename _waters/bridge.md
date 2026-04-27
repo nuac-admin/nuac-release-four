@@ -11,7 +11,7 @@ venue-list: BIF Main, BIF Match, BIF River
 nbr-of-tickets: 4
 nbr-main-tickets: 2
 nbr-other-tickets: 2
-max-bookings-main: 15
+max-bookings-main:
 max-bookings-other: 15
 max-bookings: 22
 nbr-of-adv-bkgs: 4
