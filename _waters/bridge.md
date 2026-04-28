@@ -8,14 +8,14 @@ menu-order: 4
 file-txt: bridge
 location: Lenwade
 venue-list: BIF Main, BIF Match, BIF River
+rules-url: https://www.gocatch.fish/profile/7f783d37-5f64-40cf-bb6d-4578cd8923a2#rules
 nbr-of-tickets: 4
 nbr-main-tickets: 2
 nbr-other-tickets: 2
-max-bookings-main:
+max-bookings-main: 15
 max-bookings-other: 15
 max-bookings: 22
-nbr-of-adv-bkgs: 4
-nbr-of-bkgs-per-24hrs: 2
+max-bookings-overnight: 4
 sections:
   - sctn-title: Description
     sctn-hash: water-desc
@@ -25,7 +25,7 @@ sections:
         hdr:
         img:
         sentences:
-          - txt: NUAC has an association with Bridge Inn Fishery which grants our members access to Main Lake, Match Lake and their stretch of the River Wensum. Please ensure that you familiarise yourself with the Rules before visiting. **Access must be booked in advance as per [booking instructions](#water-booking) stated below**.
+          - txt: NUAC has an association with Bridge Inn Fishery which grants our members access to Main Lake, Match Lake and a stretch of the River Wensum. Please ensure that you familiarise yourself with the Rules before visiting. **Access must be booked in advance as per [booking instructions](#water-booking) stated below**.
           - txt: Entry to the fishery is via a locked gate, you will be given the gate code when you book (please do not share, this code is regularly updated).
           - txt: For further information about this fishery please refer The Bridge Inn Fishery [website](https://www.gocatch.fish/profile/7f783d37-5f64-40cf-bb6d-4578cd8923a2).
       - col-pos: 
@@ -43,7 +43,7 @@ sections:
         # img-alt: Match Lake at Bridge Inn Fishery
         # img-pos: left
         sentences:
-          - txt: A small pleasure lake with 15 pegs, heavily stocked with a mix of roach, rudd, skimmers, perch, carp, tench and even a few crucians. With depths of only 3ft max this makes it ideal for youngsters to learn our sport.
+          - txt: A small pleasure lake with 8 pegs, heavily stocked with a mix of roach, rudd, skimmers, perch, carp, tench and even a few crucians. With depths of only 3ft max this makes it ideal for youngsters to learn our sport.
       - col-pos: 
         col: 
         hdr: River Wensum
@@ -75,11 +75,10 @@ sections:
         col: 
         list: ol
         sentences:
-          - txt: All anglers must be in possession of a **Fish Care Kit** to treat damaged and wounded fish.
+          - txt: Please ensure you have the **prerequisite equipment** such as Fish Care Kit, correct sized landing net, carp cradle etc...
+          - txt: Please pay close attention to the rules regarding **permitted baits**. 
           - txt: Fishing from 7am until 7pm on both the Match Lake and River.
           - txt: Pike fishing on the Main Lake and River from 1 October to 14 March inclusive (No pike fishing on the Match Lake).
-          - txt: Please note ALL particle baits, with the exception of sweetcorn, hemp and carp pellets, are banned. Fishery carp pellets are available on-site.
-          - txt: NO trout pellets, peas, beans, nuts or maize, high oil Halibut/Trout Pellets - if unsure what you have wait to check with a Bailiff. 
           - txt: If you are unsure of any rules and regulations, please speak to a Fishery Bailiff BEFOREHAND.
   - sctn-title: Bookings
     sctn-hash: water-booking
@@ -96,6 +95,27 @@ sections:
         include: booking-instructions.html
         img:
         sentences:
+      - col-pos:
+        col:
+        hdr: Booking Restrictions
+        img:
+        sentences: 
+          - txt: The following restrictions relate to the number of **sessions** accrued by a Member. A session equates to a 12hr visit to any of the BIF waters. Members can book Day (12hr) or Overnight (24hr) visits to BIF. When a Member books an overnight visit this equates to TWO sessions.
+      - col-pos: start
+        col: 
+        list: ol
+        sentences:
+          - txt: Maximum of 15 sessions on the Main Lake
+          - txt: Maximum of 4 Overnight (24hr) bookings (where each Overnight equates to TWO sessions)
+          - txt: Maximum of 15 sessions across both Match Lake and River
+          - txt: Maximum of 22 sessions across all BIF venues
+      - col-pos: end
+        col: 
+        hdr: 
+        img:
+        sentences:
+          - txt: Example 1 - You choose to use ALL 4 Overnight bookings (wich equates to 8 sessions); Restriction 1 means you have a maximum of 7 sessions remaining on Main Lake.
+          - txt: Example 2 - You choose to use ALL 15 sessions on Main Lake; Restriction 4 means you only have 7 sessions remaining for use across both Match Lake and River.
   - sctn-title: Directions
     sctn-hash: water-map
     paragraphs:

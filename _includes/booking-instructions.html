@@ -14,7 +14,11 @@
         {% endif %}
     {% else %}
         <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.</p>
-        <p>Please state your required date(s), time and venue e.g. {{ page.venue-list }}.</p>
+        {% if page.file-txt == "bridge" %}
+        <p>Please state your required date(s), venue e.g. {{ page.venue-list }} and type of booking: Day (12hr), available on all BIF venues or Overnight (24hr), only permitted on BIF Main Lake.</p>
+        {% else %}
+        <p>Please state your required date(s), time and venue e.g. {{ page.venue-list }}.</p>        
+        {% endif %}
         <p>Please also provide a contact number so that we can speak to you if necessary.</p>
         <!-- {% if page.file-txt == "ndaa" %}
             <p>To book and pay for the hire of a boat at Decoy Broad please visit the following outlets (you will need the NDAA permit number provided when your e-mail booking is confirmed):</p>
@@ -53,8 +57,8 @@
             {% endif %}
         {% endif %}
         {% if page.max-bookings != nil %}
-            {% if page.max-bookings-main != nil %}
-                <p><b>Bookings on this fishery are limited to a maximum of {{ page.max-bookings }} per member; with a maximum of {{ page.max-bookings-main }} solely on the Main Lake and a maximum of {{ page.max-bookings-other }} solely on the Match Lake or River.</b></p>
+            {% if page.file-txt == "bridge" %}
+            <p>A number of restrictions apply to bookings on this fishery, please see the <b>booking restrictions</b> listed below.</p>
             {% else %}
             <p><b>Bookings on this venue are limited to a maximum of {{ page.max-bookings }} per member.</b></p>
             {% endif %}
