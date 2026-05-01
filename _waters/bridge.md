@@ -27,7 +27,7 @@ sections:
         sentences:
           - txt: NUAC has an association with Bridge Inn Fishery which grants our members access to Main Lake, Match Lake and a stretch of the River Wensum. Please ensure that you familiarise yourself with the Rules before visiting. **Access must be booked in advance as per [booking instructions](#water-booking) stated below**.
           - txt: Entry to the fishery is via a locked gate, you will be given the gate code when you book (please do not share, this code is regularly updated).
-          - txt: For further information about this fishery please refer The Bridge Inn Fishery [website](https://www.gocatch.fish/profile/7f783d37-5f64-40cf-bb6d-4578cd8923a2).
+          - txt: For further information about this fishery please refer to the Bridge Inn Fishery [website](https://www.gocatch.fish/profile/7f783d37-5f64-40cf-bb6d-4578cd8923a2).
       - col-pos: 
         col: 
         hdr: Main Lake
@@ -64,7 +64,7 @@ sections:
           - txt: NUAC Guest tickets are not permitted.
           - txt: Members must carry their NUAC membership card and show it to the Bailiff upon request. **You will be asked to leave the fishery if you do not present a NUAC membership card**.
           - txt: Please display your NUAC car parking permit when you park your car.
-          - txt: Members must adhere to the fishery rules as stated below
+          - txt: Members must adhere to the fishery rules as stated below.
       - col-pos:
         col:
         hdr: Fishery Rules
@@ -114,7 +114,7 @@ sections:
         hdr: 
         img:
         sentences:
-          - txt: Example 1 - You choose to use ALL 4 Overnight bookings (wich equates to 8 sessions); Restriction 1 means you have a maximum of 7 sessions remaining on Main Lake.
+          - txt: Example 1 - You choose to use ALL 4 Overnight bookings (which equates to 8 sessions); Restriction 1 means you have a maximum of 7 sessions remaining on Main Lake.
           - txt: Example 2 - You choose to use ALL 15 sessions on Main Lake; Restriction 4 means you only have 7 sessions remaining for use across both Match Lake and River.
   - sctn-title: Directions
     sctn-hash: water-map

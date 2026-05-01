@@ -15,7 +15,7 @@
     {% else %}
         <p>To book your place, please send an e-mail to <a href="mailto:bookings@nuac.org.uk">bookings@nuac.org.uk</a>.</p>
         {% if page.file-txt == "bridge" %}
-        <p>Please state your required date(s), venue e.g. {{ page.venue-list }} and type of booking: Day (12hr), available on all BIF venues or Overnight (24hr), only permitted on BIF Main Lake.</p>
+        <p>Please state your required date(s), venue e.g. {{ page.venue-list }} and type of booking: Day (12hr), available on all BIF venues, or Overnight (24hr), only permitted on BIF Main Lake.</p>
         {% else %}
         <p>Please state your required date(s), time and venue e.g. {{ page.venue-list }}.</p>        
         {% endif %}
@@ -58,7 +58,7 @@
         {% endif %}
         {% if page.max-bookings != nil %}
             {% if page.file-txt == "bridge" %}
-            <p>A number of restrictions apply to bookings on this fishery, please see the <b>booking restrictions</b> listed below.</p>
+            <p>Bookings per member are limited by venue and type, please see the <b>booking restrictions</b> below for more information.</p>
             {% else %}
             <p><b>Bookings on this venue are limited to a maximum of {{ page.max-bookings }} per member.</b></p>
             {% endif %}
