@@ -44,7 +44,7 @@ bif-messages:
   # - msg-type: danger
   #   msg-desc: March 2021 - Please familiarise yourself with **New Booking Instructions**
   - msg-type: info
-    msg-desc: Access to fishery will be announced via email very soon
+    msg-desc: 14 May 2026 - Members can now book this fishery
 
 bw-open-ind: true
 bw-msg-ind: false
