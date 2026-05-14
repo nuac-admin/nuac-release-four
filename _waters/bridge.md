@@ -30,15 +30,15 @@ sections:
           - txt: For further information about this fishery please refer to the Bridge Inn Fishery [website](https://www.gocatch.fish/profile/7f783d37-5f64-40cf-bb6d-4578cd8923a2).
       - col-pos: 
         col: 
-        hdr: Main Lake
+        hdr: Main/Specimen Lake
         # img: bif-main-lake.jpg
         # img-alt: Main Lake at Bridge Inn Fishery
         # img-pos: left
         sentences:
-          - txt: This is a mature gravel pit of approximately 5 acres in size with 20 swims and is full of features such as an island, gravel bars & lilies all of which offer the perfect environment for our fish. There are 200 to 250 carp, the average is 19lb, a good head of twenties, and some go over the magical 30lb mark.
+          - txt: This is a mature gravel pit of approximately 5 acres in size with 13 swims and is full of features such as an island, gravel bars & lilies all of which offer the perfect environment for our fish. There are 200 to 250 carp, the average is 19lb, a good head of twenties, and some go over the magical 30lb mark.
       - col-pos: 
         col: 
-        hdr: Match Lake
+        hdr: Match/Pleasure Lake
         # img: bif-match-lake.jpg
         # img-alt: Match Lake at Bridge Inn Fishery
         # img-pos: left
